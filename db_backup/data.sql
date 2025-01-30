@@ -47,3 +47,93 @@ SELECT pg_catalog.setval('sa.trail_id_0_seq', 3, true);
 -- PostgreSQL database dump complete
 --
 
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 17.2
+-- Dumped by pg_dump version 17.2
+
+-- Started on 2025-01-30 18:55:31
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- TOC entry 227 (class 1259 OID 35112)
+-- Name: comment; Type: TABLE; Schema: sa; Owner: postgres
+--
+
+DROP TABLE sa.comment IF EXISTS;
+CREATE TABLE sa.comment (
+    id_trail integer NOT NULL,
+    score smallint NOT NULL,
+    text text,
+    id integer NOT NULL,
+    CONSTRAINT ck_comment_score CHECK (((score >= 1) AND (score <= 5)))
+);
+
+
+ALTER TABLE sa.comment OWNER TO postgres;
+
+--
+-- TOC entry 228 (class 1259 OID 35117)
+-- Name: comment_id_seq; Type: SEQUENCE; Schema: sa; Owner: postgres
+--
+
+ALTER TABLE sa.comment ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY (
+    SEQUENCE NAME sa.comment_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1
+);
+
+
+--
+-- TOC entry 5760 (class 0 OID 35112)
+-- Dependencies: 227
+-- Data for Name: comment; Type: TABLE DATA; Schema: sa; Owner: postgres
+--
+
+INSERT INTO sa.comment (id_trail, score, text, id) OVERRIDING SYSTEM VALUE VALUES (1, 5, 'The best trail in my entire life.', 1);
+
+
+--
+-- TOC entry 5767 (class 0 OID 0)
+-- Dependencies: 228
+-- Name: comment_id_seq; Type: SEQUENCE SET; Schema: sa; Owner: postgres
+--
+
+SELECT pg_catalog.setval('sa.comment_id_seq', 1, true);
+
+
+--
+-- TOC entry 5609 (class 2606 OID 35124)
+-- Name: comment comment_pkey; Type: CONSTRAINT; Schema: sa; Owner: postgres
+--
+
+ALTER TABLE ONLY sa.comment
+    ADD CONSTRAINT comment_pkey PRIMARY KEY (id);
+
+
+-- Completed on 2025-01-30 18:55:31
+
+--
+-- PostgreSQL database dump complete
+--
+
