@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Parque Do Calhau</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.176690</longitude>
+<latitude>38.738076</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1881632">
+<name><![CDATA[Parque Do Calhau]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.17669,38.7380758,92
+-9.1762233,38.7383729,93
+-9.1756439,38.7384148,95
+-9.1751504,38.7385026,93
+-9.1752309,38.7388374,87
+-9.1736376,38.737921,88
+-9.1733104,38.7372641,86
+-9.1733533,38.7366239,89
+-9.1733909,38.7365485,89
+-9.1739166,38.7361092,94
+-9.1743618,38.7359502,100
+-9.1750968,38.7359627,109
+-9.1755688,38.736105,108
+-9.1759121,38.7361092,108
+-9.1773015,38.7377034,102
+-9.1767865,38.7380173,97
+-9.1767865,38.738034,97
+-9.1767812,38.7380507,97
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17669,38.7380758,92</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1767812,38.7380507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1767812,38.7380507,97</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

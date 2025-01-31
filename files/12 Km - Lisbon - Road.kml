@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>12 Km - Lisbon - Road</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.149188</longitude>
+<latitude>38.751477</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route798181">
+<name><![CDATA[12 Km - Lisbon - Road]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.149188,38.751477,85
+-9.149188,38.751477,84
+-9.149153,38.751409,84
+-9.149272,38.751373,84
+-9.14931,38.751123,83
+-9.148843,38.750236,85
+-9.148843,38.750236,85
+-9.14931,38.751123,83
+-9.149272,38.751373,84
+-9.149053,38.751137,84
+-9.148428,38.749946,89
+-9.148238,38.749514,90
+-9.148074,38.748891,88
+-9.148048,38.748732,86
+-9.148133,38.748482,83
+-9.148052,38.748453,84
+-9.148025,38.748388,83
+-9.148048,38.748254,82
+-9.148118,38.748181,81
+-9.148117,38.748005,81
+-9.148062,38.747685,80
+-9.14795,38.747221,80
+-9.14795,38.747221,80
+-9.147759,38.746343,79
+-9.147386,38.744912,80
+-9.147017,38.743778,87
+-9.147104,38.74359,87
+-9.146218,38.740107,85
+-9.146182,38.739894,85
+-9.146147,38.739448,86
+-9.145632,38.737316,93
+-9.145632,38.737316,93
+-9.145098,38.735104,91
+-9.144932,38.735108,91
+-9.144708,38.734179,91
+-9.144708,38.734179,91
+-9.144668,38.734101,92
+-9.144532,38.734046,93
+-9.144424,38.733962,94
+-9.144355,38.733856,95
+-9.144329,38.733738,95
+-9.144351,38.733621,95
+-9.144418,38.733513,95
+-9.144523,38.733427,95
+-9.144657,38.733369,96
+-9.144806,38.733347,96
+-9.144961,38.733354,97
+-9.145101,38.733187,98
+-9.145337,38.732804,99
+-9.145306,38.73276,99
+-9.146045,38.731544,92
+-9.146065,38.731395,93
+-9.146428,38.730819,99
+-9.146548,38.73075,99
+-9.146879,38.730163,89
+-9.148141,38.728065,74
+-9.149458,38.725939,70
+-9.149444,38.725931,70
+-9.149444,38.725931,70
+-9.149458,38.725939,70
+-9.149496,38.725878,69
+-9.149275,38.725604,71
+-9.149207,38.725489,71
+-9.149193,38.725322,70
+-9.149289,38.725076,67
+-9.149426,38.724891,66
+-9.149513,38.724822,66
+-9.149461,38.724766,67
+-9.149382,38.724624,69
+-9.148036,38.723083,56
+-9.148036,38.723083,56
+-9.142215,38.716417,26
+-9.142013,38.716343,25
+-9.141784,38.71615,24
+-9.141204,38.715483,26
+-9.141164,38.715289,27
+-9.141184,38.715189,28
+-9.141169,38.715064,29
+-9.14087,38.714744,29
+-9.14077,38.714688,29
+-9.140521,38.714606,27
+-9.140521,38.714606,27
+-9.140027,38.714448,25
+-9.139755,38.714442,23
+-9.139527,38.714502,23
+-9.139397,38.714499,22
+-9.139278,38.714456,22
+-9.139041,38.713876,20
+-9.138549,38.713998,21
+-9.138299,38.713883,21
+-9.13806,38.713288,21
+-9.137971,38.713339,21
+-9.137915,38.71333,21
+-9.137864,38.713298,21
+-9.137848,38.713266,22
+-9.1354,38.707062,9
+-9.135137,38.707128,12
+-9.134828,38.707127,12
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149188,38.751477,85</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on A]]></name>
+<description><![CDATA[Start on Avenida da Igreja]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149188,38.751477,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149153,38.751409,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149272,38.751373,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Campo Grande]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14931,38.751123,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14931,38.751123,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149272,38.751373,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Campo Grande]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.148238,38.749514,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[At roundab]]></name>
+<description><![CDATA[At roundabout, take exit 3 onto Avenida da República]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.148133,38.748482,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.147386,38.744912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Avenida da República (Túnel)]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.147104,38.74359,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Avenida Duque de Ávila]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.145098,38.735104,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida da República]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144932,38.735108,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144668,38.734101,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144351,38.733621,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça Duque de Saldanha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144961,38.733354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Rua Engenheiro Vieira da Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.145337,38.732804,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Avenida Fontes Pereira de Melo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.145306,38.73276,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Enter roun]]></name>
+<description><![CDATA[Enter roundabout]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149458,38.725939,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[At roundab]]></name>
+<description><![CDATA[At roundabout, take exit 1 onto Avenida da Liberdade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149496,38.725878,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Praça dos Restauradores]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142215,38.716417,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Rua 1º de Dezembro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141164,38.715289,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Rua 1º de Dezembro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141169,38.715064,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto Praça Dom João da Câmara]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14077,38.714688,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto Praça Dom João da Câmara]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140027,38.714448,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[At roundab]]></name>
+<description><![CDATA[At roundabout, take exit 2]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139755,38.714442,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138549,38.713998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Praça da Figueira]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138299,38.713883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left onto Praça da Figueira]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13806,38.713288,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua da Prata]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.137971,38.713339,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça do Comércio]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1354,38.707062,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.134828,38.707127,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.134828,38.707127,12</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

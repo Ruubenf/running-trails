@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>5K - Lisboa</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.148826</longitude>
+<latitude>38.748981</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1477394">
+<name><![CDATA[5K - Lisboa]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.148826,38.748981,81
+-9.148826,38.748981,84
+-9.149321,38.749636,83
+-9.151002,38.752096,80
+-9.151503,38.75289,86
+-9.152575,38.754394,82
+-9.152624,38.754376,82
+-9.1527539,38.7542841,81
+-9.1530812,38.7541544,80
+-9.1552162,38.7534725,84
+-9.155404,38.7533512,84
+-9.1555381,38.7531462,85
+-9.1556776,38.752937,85
+-9.1586602,38.752092,94
+-9.1591001,38.7529119,92
+-9.1563065,38.7538486,86
+-9.1555703,38.7541418,85
+-9.1551143,38.7539787,84
+-9.1542801,38.7543029,82
+-9.1537705,38.7544723,80
+-9.1534835,38.7545665,79
+-9.1532958,38.7544849,79
+-9.1529202,38.7545016,80
+-9.1526949,38.7545769,81
+-9.1557527,38.7586514,83
+-9.1557714,38.7587643,82
+-9.1556883,38.7588856,81
+-9.1555461,38.7589777,80
+-9.1553235,38.7590425,79
+-9.1550821,38.7590279,79
+-9.1548917,38.7589421,80
+-9.1547388,38.7588564,82
+-9.1552699,38.7586054,83
+-9.1541487,38.7570911,85
+-9.1533601,38.7570743,83
+-9.1523087,38.7558821,83
+-9.1518581,38.7548907,82
+-9.1505975,38.7552483,86
+-9.1493905,38.7556227,90
+-9.1485912,38.7558863,89
+-9.1469926,38.7563925,88
+-9.1459358,38.756748,86
+-9.1458338,38.7565828,87
+-9.1471267,38.7561833,89
+-9.1486529,38.7557252,90
+-9.1499913,38.7553132,89
+-9.1511849,38.7548823,84
+-9.1514102,38.7547903,84
+-9.1510803,38.7541962,85
+-9.1507638,38.7535813,85
+-9.1504472,38.7529663,85
+-9.1501066,38.7523555,85
+-9.1497874,38.7517343,83
+-9.149487,38.7511862,82
+-9.1492349,38.7506926,82
+-9.1489828,38.7501989,84
+-9.1487306,38.7496906,86
+-9.1484463,38.7491676,89
+-9.1483471,38.7489333,87
+-9.1483015,38.7487597,85
+-9.148626,38.7486907,84
+-9.1488218,38.7489689,84
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.148826,38.748981,81</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.148826,38.748981,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia Campo Grande]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.152575,38.754394,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1488218,38.7489689,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1488218,38.7489689,84</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisbon Route [03 May 7km]</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.146900</longitude>
+<latitude>38.716730</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route198536">
+<name><![CDATA[Lisbon Route [03 May, 7km]]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.1469,38.71673,72
+-9.1469,38.71673,73
+-9.14643,38.71683,65
+-9.14611,38.71691,59
+-9.14611,38.71691,59
+-9.14593,38.7168,58
+-9.14587,38.71676,58
+-9.14576,38.71674,57
+-9.14576,38.71674,57
+-9.14579,38.71679,56
+-9.14586,38.71686,56
+-9.1459,38.7169,56
+-9.14593,38.71694,56
+-9.14594,38.71696,55
+-9.14593,38.71699,55
+-9.14588,38.71702,53
+-9.14572,38.71707,51
+-9.14558,38.71712,49
+-9.14553,38.71714,48
+-9.14525,38.71724,45
+-9.14497,38.71733,41
+-9.14497,38.71733,41
+-9.1451,38.71742,41
+-9.14519,38.71749,40
+-9.14519,38.71749,40
+-9.14518,38.71749,40
+-9.14504,38.71757,40
+-9.14492,38.71765,39
+-9.14488,38.71768,39
+-9.14485,38.71771,39
+-9.14483,38.71774,39
+-9.14481,38.71778,39
+-9.14479,38.71784,40
+-9.14479,38.71786,40
+-9.14479,38.7179,40
+-9.14479,38.71798,40
+-9.1448,38.71802,41
+-9.14481,38.71802,41
+-9.14482,38.71804,41
+-9.14482,38.71804,41
+-9.14476,38.71807,40
+-9.14469,38.7181,40
+-9.14449,38.71821,38
+-9.1444,38.71826,37
+-9.14418,38.71837,34
+-9.14405,38.71844,34
+-9.14405,38.71844,34
+-9.14422,38.71863,37
+-9.14447,38.71892,39
+-9.14475,38.71924,40
+-9.14492,38.71944,41
+-9.14496,38.71948,41
+-9.14498,38.71951,41
+-9.14505,38.7196,41
+-9.14514,38.71971,41
+-9.14544,38.72004,41
+-9.14556,38.72018,42
+-9.14573,38.72037,43
+-9.14606,38.72075,46
+-9.14638,38.72112,48
+-9.14678,38.72158,51
+-9.14679,38.72159,51
+-9.14715,38.722,54
+-9.14716,38.72201,54
+-9.14738,38.72226,54
+-9.14766,38.72258,55
+-9.14769,38.72262,55
+-9.14773,38.72266,55
+-9.14803,38.72301,56
+-9.14818,38.72317,56
+-9.14829,38.7233,56
+-9.14836,38.72337,57
+-9.14888,38.72394,68
+-9.14915,38.72423,71
+-9.1492,38.72428,71
+-9.14942,38.72452,70
+-9.14944,38.72458,69
+-9.14944,38.72458,69
+-9.14942,38.72459,69
+-9.14942,38.72459,69
+-9.14927,38.72467,69
+-9.14913,38.72482,68
+-9.14911,38.72486,68
+-9.14901,38.72508,68
+-9.14899,38.72516,69
+-9.14898,38.7252,69
+-9.149,38.72531,70
+-9.14902,38.72539,70
+-9.14906,38.7255,71
+-9.14912,38.72561,73
+-9.14916,38.72567,73
+-9.14923,38.72576,73
+-9.14931,38.72585,72
+-9.14938,38.72592,71
+-9.14943,38.72595,70
+-9.14948,38.72597,69
+-9.14956,38.726,68
+-9.14956,38.726,68
+-9.14951,38.72609,69
+-9.14951,38.72609,69
+-9.14944,38.7262,70
+-9.1493,38.72643,72
+-9.14914,38.72669,72
+-9.1488,38.72723,71
+-9.14861,38.72754,72
+-9.14827,38.72809,76
+-9.14817,38.72825,76
+-9.14812,38.72833,76
+-9.14805,38.72844,76
+-9.14767,38.72908,79
+-9.14759,38.72923,80
+-9.14715,38.72997,86
+-9.1469,38.73036,92
+-9.14666,38.73077,100
+-9.14612,38.73165,93
+-9.14607,38.73177,92
+-9.14607,38.73182,92
+-9.14585,38.73217,93
+-9.14565,38.73249,97
+-9.14557,38.73261,98
+-9.14542,38.73285,99
+-9.14528,38.73307,99
+-9.14528,38.73308,99
+-9.14524,38.73314,99
+-9.14524,38.73314,99
+-9.14527,38.7332,99
+-9.14524,38.73325,99
+-9.14524,38.73325,99
+-9.14522,38.7333,99
+-9.14522,38.7333,99
+-9.14511,38.73325,98
+-9.1451,38.73325,98
+-9.14509,38.73325,98
+-9.145,38.73323,97
+-9.14491,38.73323,97
+-9.1448,38.73322,97
+-9.14472,38.73322,96
+-9.14467,38.73323,96
+-9.14463,38.73324,96
+-9.14457,38.73326,96
+-9.14448,38.7333,95
+-9.14439,38.73336,95
+-9.14439,38.73336,95
+-9.14404,38.73316,94
+-9.14375,38.73297,94
+-9.14366,38.73292,94
+-9.14321,38.73267,92
+-9.14277,38.7324,87
+-9.14264,38.73233,86
+-9.14196,38.73195,86
+-9.14141,38.73164,83
+-9.14132,38.73159,82
+-9.14118,38.73157,81
+-9.14106,38.73155,80
+-9.14106,38.73155,80
+-9.14104,38.73154,79
+-9.14102,38.73153,79
+-9.141,38.73152,79
+-9.14098,38.73151,79
+-9.14096,38.7315,79
+-9.14094,38.73149,79
+-9.14092,38.73149,78
+-9.14089,38.73149,78
+-9.14088,38.73149,78
+-9.14086,38.73149,78
+-9.14085,38.73149,78
+-9.14083,38.73149,78
+-9.14083,38.73149,78
+-9.14082,38.7315,78
+-9.14081,38.7315,78
+-9.14079,38.7315,78
+-9.14078,38.73151,77
+-9.14075,38.73152,77
+-9.14073,38.73153,77
+-9.14071,38.73155,77
+-9.14069,38.73157,77
+-9.14068,38.73159,77
+-9.14067,38.73162,77
+-9.14066,38.73164,77
+-9.14066,38.73166,77
+-9.14066,38.73166,77
+-9.1405,38.73168,77
+-9.14046,38.73168,77
+-9.14032,38.73169,77
+-9.14011,38.73167,76
+-9.13991,38.73165,76
+-9.1395,38.73162,74
+-9.1392,38.73159,72
+-9.13873,38.73155,72
+-9.13832,38.73152,73
+-9.13796,38.73148,71
+-9.13762,38.73146,69
+-9.13723,38.73143,67
+-9.13693,38.73141,65
+-9.13672,38.73139,64
+-9.13662,38.73138,64
+-9.13658,38.73138,64
+-9.13654,38.73137,64
+-9.1365,38.73137,64
+-9.13645,38.73137,63
+-9.13644,38.73136,63
+-9.13643,38.73136,63
+-9.1364,38.73136,63
+-9.13634,38.73136,63
+-9.13606,38.73133,63
+-9.13592,38.73131,63
+-9.1357,38.73129,63
+-9.13534,38.73125,64
+-9.135,38.73123,64
+-9.13474,38.73121,64
+-9.13449,38.73119,63
+-9.1344,38.73119,63
+-9.1344,38.73119,63
+-9.1344,38.73119,63
+-9.13449,38.73119,63
+-9.13449,38.73119,63
+-9.13449,38.73113,63
+-9.13452,38.73089,63
+-9.13454,38.73064,63
+-9.13455,38.73054,63
+-9.13458,38.73015,64
+-9.13462,38.72976,63
+-9.13463,38.72963,62
+-9.13465,38.72945,61
+-9.13467,38.72921,60
+-9.13469,38.72906,59
+-9.13471,38.72889,59
+-9.13476,38.72857,58
+-9.13481,38.72835,56
+-9.13482,38.72829,56
+-9.13483,38.72816,56
+-9.13485,38.72799,55
+-9.13487,38.72777,55
+-9.1349,38.7275,54
+-9.13493,38.7272,54
+-9.13497,38.7267,56
+-9.13501,38.72635,54
+-9.13508,38.72558,51
+-9.13512,38.72513,49
+-9.13514,38.72487,48
+-9.13519,38.72445,47
+-9.13521,38.72422,46
+-9.13524,38.72394,45
+-9.13528,38.72358,45
+-9.13529,38.7234,44
+-9.13531,38.72323,44
+-9.13533,38.72303,44
+-9.13537,38.72281,43
+-9.13543,38.72232,42
+-9.13548,38.72186,41
+-9.13551,38.72164,40
+-9.13554,38.72135,39
+-9.13556,38.72117,38
+-9.13556,38.72108,38
+-9.13558,38.72097,37
+-9.13558,38.72089,37
+-9.1356,38.72075,37
+-9.13561,38.72059,37
+-9.13562,38.72046,37
+-9.13564,38.72026,37
+-9.13565,38.72007,36
+-9.13565,38.72007,36
+-9.13566,38.71999,36
+-9.13566,38.71981,36
+-9.13569,38.71947,35
+-9.13572,38.71927,34
+-9.13576,38.71891,32
+-9.13578,38.71868,31
+-9.13581,38.71853,29
+-9.13582,38.71838,28
+-9.13582,38.71833,28
+-9.13584,38.71819,28
+-9.13584,38.71816,28
+-9.13587,38.71787,28
+-9.13589,38.71761,28
+-9.1359,38.71749,28
+-9.13594,38.71732,28
+-9.13595,38.71725,28
+-9.13598,38.71719,29
+-9.13599,38.71716,29
+-9.13601,38.71713,29
+-9.13605,38.71708,29
+-9.13612,38.71704,30
+-9.13618,38.71699,31
+-9.13622,38.71696,31
+-9.13628,38.71691,32
+-9.13638,38.71681,33
+-9.13654,38.71646,31
+-9.13661,38.71632,29
+-9.13663,38.71628,28
+-9.13677,38.71602,24
+-9.13685,38.71587,22
+-9.13689,38.71579,22
+-9.13691,38.71575,22
+-9.13694,38.7157,23
+-9.13694,38.71569,23
+-9.13697,38.71563,23
+-9.137,38.71557,23
+-9.13706,38.71545,24
+-9.13715,38.71524,24
+-9.1372,38.71518,24
+-9.1372,38.71518,24
+-9.13715,38.71524,24
+-9.13715,38.71524,24
+-9.13712,38.7152,24
+-9.13709,38.71518,23
+-9.13706,38.71516,23
+-9.13704,38.71516,23
+-9.13701,38.71515,23
+-9.13667,38.71504,21
+-9.1365,38.715,23
+-9.13647,38.71499,23
+-9.1364,38.71498,24
+-9.13637,38.71499,25
+-9.13635,38.71499,25
+-9.13635,38.71499,25
+-9.13631,38.71495,26
+-9.1363,38.71492,26
+-9.1363,38.71491,26
+-9.1363,38.71491,26
+-9.1363,38.7149,27
+-9.1363,38.71487,27
+-9.1363,38.71484,27
+-9.13633,38.71474,28
+-9.13635,38.71465,29
+-9.13638,38.71445,31
+-9.13644,38.71412,33
+-9.13649,38.71398,33
+-9.13657,38.71378,32
+-9.1366,38.71371,31
+-9.13661,38.71368,31
+-9.13661,38.71366,31
+-9.13661,38.71365,31
+-9.13661,38.71362,31
+-9.1366,38.7136,31
+-9.1366,38.71357,31
+-9.1366,38.71357,31
+-9.13673,38.71354,30
+-9.13673,38.71354,30
+-9.13684,38.71352,29
+-9.13707,38.71347,27
+-9.13707,38.71347,27
+-9.13713,38.71347,26
+-9.13717,38.71347,26
+-9.1372,38.71348,25
+-9.13722,38.71348,25
+-9.13725,38.71348,25
+-9.13727,38.71347,25
+-9.13731,38.71346,25
+-9.13747,38.71342,23
+-9.13786,38.71332,21
+-9.13786,38.71332,21
+-9.13787,38.71333,21
+-9.13788,38.71334,21
+-9.13789,38.71334,21
+-9.1379,38.71335,21
+-9.13791,38.71335,21
+-9.13792,38.71335,21
+-9.13792,38.71336,21
+-9.13793,38.71336,21
+-9.13793,38.71336,21
+-9.13794,38.71336,21
+-9.13795,38.71335,21
+-9.13797,38.71335,21
+-9.13808,38.71329,21
+-9.13808,38.71329,21
+-9.13819,38.71321,21
+-9.13826,38.71317,21
+-9.13839,38.71313,21
+-9.13849,38.7131,21
+-9.13858,38.71309,21
+-9.13863,38.71309,21
+-9.13864,38.71309,21
+-9.13864,38.71309,21
+-9.13866,38.7131,21
+-9.13869,38.71311,21
+-9.13873,38.71316,20
+-9.13883,38.71328,19
+-9.13883,38.71328,19
+-9.13883,38.71326,19
+-9.13883,38.71324,19
+-9.13885,38.71322,19
+-9.13888,38.7132,20
+-9.13892,38.71318,20
+-9.13897,38.71316,20
+-9.13903,38.71314,20
+-9.13911,38.71312,20
+-9.13916,38.71311,20
+-9.13924,38.7131,21
+-9.13931,38.71311,22
+-9.13937,38.71312,23
+-9.13943,38.71314,23
+-9.13947,38.71316,24
+-9.13947,38.71316,24
+-9.13949,38.71322,23
+-9.13949,38.71322,23
+-9.13968,38.71372,24
+-9.13978,38.71395,24
+-9.13984,38.71407,24
+-9.13991,38.71425,24
+-9.13992,38.71431,24
+-9.13992,38.71434,24
+-9.13991,38.71436,24
+-9.1399,38.71438,24
+-9.1399,38.71438,24
+-9.13994,38.71441,24
+-9.13997,38.71442,24
+-9.14004,38.71446,25
+-9.14008,38.71448,25
+-9.14011,38.71449,25
+-9.14022,38.71452,26
+-9.14028,38.71454,26
+-9.14047,38.71458,27
+-9.14061,38.71463,28
+-9.14061,38.71463,28
+-9.14062,38.71463,28
+-9.14068,38.71465,28
+-9.14069,38.71465,28
+-9.14076,38.7147,29
+-9.14078,38.71472,29
+-9.14097,38.71489,29
+-9.14108,38.715,29
+-9.14108,38.715,29
+-9.14142,38.71521,29
+-9.14155,38.71522,29
+-9.14161,38.71523,29
+-9.14166,38.71525,29
+-9.1417,38.71528,29
+-9.14216,38.71582,27
+-9.14238,38.71609,27
+-9.14238,38.71616,27
+-9.14238,38.71616,27
+-9.14239,38.71622,27
+-9.14239,38.71624,27
+-9.14238,38.71629,26
+-9.14233,38.71639,26
+-9.14233,38.71639,26
+-9.14238,38.71655,25
+-9.14241,38.71658,25
+-9.1425,38.71669,25
+-9.14283,38.71707,28
+-9.14306,38.71732,30
+-9.14321,38.71749,30
+-9.14332,38.71762,30
+-9.14351,38.71784,30
+-9.14356,38.7179,30
+-9.14366,38.71801,31
+-9.14374,38.71811,31
+-9.14388,38.71827,32
+-9.14389,38.71827,32
+-9.144,38.71839,33
+-9.144,38.71839,33
+-9.14389,38.71827,32
+-9.14388,38.71827,32
+-9.14374,38.71811,31
+-9.14366,38.71801,31
+-9.14356,38.7179,30
+-9.14356,38.7179,30
+-9.14374,38.71781,32
+-9.1438,38.71778,32
+-9.14385,38.71776,32
+-9.14395,38.71772,33
+-9.14497,38.71733,41
+-9.14525,38.71724,45
+-9.14553,38.71714,48
+-9.14558,38.71712,49
+-9.14572,38.71707,51
+-9.14588,38.71702,53
+-9.14593,38.71699,55
+-9.14594,38.71696,55
+-9.14593,38.71694,56
+-9.1459,38.7169,56
+-9.14586,38.71686,56
+-9.14579,38.71679,56
+-9.14576,38.71674,57
+-9.14576,38.71674,57
+-9.14587,38.71676,58
+-9.14593,38.7168,58
+-9.14611,38.71691,59
+-9.14611,38.71691,59
+-9.14643,38.71683,65
+-9.14661,38.71679,69
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1469,38.71673,72</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start near]]></name>
+<description><![CDATA[Start near Tv. Conceição da Glória 5-7, 1250-096 Lisboa, Portugal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1469,38.71673,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head east ]]></name>
+<description><![CDATA[Head east on Tv. Conceição da Glória toward Tv. do Rosário]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1469,38.71673,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto R. das Taipas]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14611,38.71691,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Sharp left]]></name>
+<description><![CDATA[Sharp left onto R. da Conceição da Glória]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14576,38.71674,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça da Alegria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14497,38.71733,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right to stay on Praça da Alegria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14519,38.71749,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northwest on Praça da Alegria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14481,38.71802,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Praça Alegria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14482,38.71804,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northwest on Av. da Liberdade toward Tv. Salitre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14405,38.71844,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Praça do Marquês de Pombal/Praça Marquês de Pombal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14944,38.72458,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northeast on Praça do Marquês de Pombal/Praça Marquês de Pombal toward Av. da Liberdade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14942,38.72459,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Av. Fontes Pereira de Melo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14956,38.726,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northeast on Av. Fontes Pereira de Melo toward R. Camilo Castelo Branco]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14951,38.72609,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Slight lef]]></name>
+<description><![CDATA[Slight left to stay on Av. Fontes Pereira de Melo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14524,38.73314,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head north on Av. Fontes Pereira de Melo toward Praça Duque de Saldanha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14524,38.73325,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Praça Duque de Saldanha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14522,38.7333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Av. Casal Ribeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14439,38.73336,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Enter the ]]></name>
+<description><![CDATA[Enter the roundabout]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14106,38.73155,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northeast toward R. Dona Estefânia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14083,38.73149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Exit the r]]></name>
+<description><![CDATA[Exit the roundabout onto R. Pascoal de Melo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14066,38.73166,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head on Av]]></name>
+<description><![CDATA[Head on Av. Alm. Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1344,38.73119,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head west ]]></name>
+<description><![CDATA[Head west on R. Pascoal de Melo toward Av. Alm. Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1344,38.73119,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Av. Alm. Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13449,38.73119,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue o]]></name>
+<description><![CDATA[Continue onto R. Palma]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13565,38.72007,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head northeast on R. Palma toward Praça Martim Moniz]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1372,38.71518,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Praça Martim Moniz]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13715,38.71524,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Poço do Borratém]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13635,38.71499,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head south]]></name>
+<description><![CDATA[Head south on Poço do Borratém toward R. João das Regras]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1363,38.71491,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto R. Condes de Monsanto]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1366,38.71357,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head west ]]></name>
+<description><![CDATA[Head west on R. Condes de Monsanto toward R. dos Fanqueiros]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13673,38.71354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue o]]></name>
+<description><![CDATA[Continue onto Praça Figueira]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13707,38.71347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua da Prata]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13786,38.71332,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça Figueira]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13793,38.71336,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue o]]></name>
+<description><![CDATA[Continue onto Rua da Betesga]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13808,38.71329,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Slight rig]]></name>
+<description><![CDATA[Slight right onto R. Augusta]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13864,38.71309,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça Dom Pedro IV]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13883,38.71328,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right to stay on Praça Dom Pedro IV]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13947,38.71316,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head north on Praça Dom Pedro IV toward Calçada do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13949,38.71322,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Praça Dom João da Câmara]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1399,38.71438,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue o]]></name>
+<description><![CDATA[Continue onto R. 1º de Dezembro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14061,38.71463,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue s]]></name>
+<description><![CDATA[Continue straight onto Praça Restauradores]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14108,38.715,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head north]]></name>
+<description><![CDATA[Head north on Praça Restauradores toward Av. da Liberdade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14238,38.71616,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Slight lef]]></name>
+<description><![CDATA[Slight left onto Av. da Liberdade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14233,38.71639,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Head south]]></name>
+<description><![CDATA[Head southeast on Av. da Liberdade toward R. da Conceição da Glória]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144,38.71839,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto R. da Conceição da Glória]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14356,38.7179,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Sharp righ]]></name>
+<description><![CDATA[Sharp right onto R. das Taipas]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14576,38.71674,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Tv. Conceição da Glória]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14611,38.71691,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14661,38.71679,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14661,38.71679,69</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

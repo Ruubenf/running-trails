@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Monsanto 10km</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.172129</longitude>
+<latitude>38.736550</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1321255">
+<name><![CDATA[Monsanto 10km]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.172129,38.73655,69
+-9.172129,38.73655,67
+-9.17225,38.736501,68
+-9.172287,38.736611,68
+-9.172389,38.736591,68
+-9.172398,38.73661,68
+-9.173122,38.736464,82
+-9.173122,38.736504,83
+-9.173158,38.736505,84
+-9.173376,38.736295,86
+-9.173491,38.736216,88
+-9.17365,38.736322,92
+-9.173511,38.736435,90
+-9.173389,38.736564,89
+-9.173389,38.736564,89
+-9.173365,38.736604,89
+-9.173303,38.736968,87
+-9.173301,38.737019,87
+-9.173301,38.737019,87
+-9.173291,38.737235,86
+-9.173357,38.737475,87
+-9.173357,38.737475,87
+-9.173641,38.737957,87
+-9.173707,38.738009,88
+-9.173707,38.738009,88
+-9.173755,38.738047,88
+-9.174444,38.738408,92
+-9.175241,38.73887,86
+-9.175708,38.739216,87
+-9.175953,38.739359,85
+-9.176278,38.739501,82
+-9.176503,38.739486,83
+-9.176558,38.739469,83
+-9.176558,38.739469,83
+-9.176619,38.739449,83
+-9.176712,38.739346,85
+-9.176753,38.73919,87
+-9.176725,38.73907,88
+-9.176659,38.738988,89
+-9.176635,38.738784,90
+-9.176601,38.738747,90
+-9.176549,38.73873,90
+-9.176367,38.738719,91
+-9.176273,38.738692,91
+-9.176237,38.738662,92
+-9.176202,38.738552,92
+-9.176232,38.738414,93
+-9.17627,38.73837,93
+-9.176468,38.738242,94
+-9.176468,38.738242,94
+-9.176745,38.738062,96
+-9.178112,38.737268,109
+-9.179261,38.736707,122
+-9.179261,38.736707,122
+-9.179312,38.736678,123
+-9.179412,38.736696,123
+-9.179571,38.736647,124
+-9.179686,38.736674,124
+-9.179758,38.736709,125
+-9.17995,38.736905,125
+-9.180105,38.736947,125
+-9.180298,38.736967,125
+-9.180449,38.736951,125
+-9.180586,38.736918,125
+-9.180729,38.736784,125
+-9.180809,38.736865,125
+-9.180809,38.736865,125
+-9.181076,38.737135,126
+-9.181294,38.737529,125
+-9.181285,38.737648,123
+-9.181356,38.737925,119
+-9.181413,38.738066,117
+-9.181537,38.738065,117
+-9.181606,38.738432,112
+-9.181669,38.738554,110
+-9.182299,38.739499,109
+-9.182315,38.739555,109
+-9.182416,38.739726,111
+-9.182456,38.739867,112
+-9.182924,38.740558,110
+-9.182924,38.740558,110
+-9.18386,38.741887,109
+-9.184124,38.742113,109
+-9.184202,38.742101,110
+-9.184454,38.742153,111
+-9.184734,38.742156,114
+-9.185145,38.742098,119
+-9.185588,38.741987,125
+-9.185712,38.741973,127
+-9.185847,38.742004,128
+-9.186106,38.742109,131
+-9.186218,38.74213,133
+-9.186324,38.74212,135
+-9.186419,38.742087,137
+-9.18649,38.742044,138
+-9.186553,38.741929,140
+-9.186566,38.741867,140
+-9.186566,38.741867,140
+-9.186583,38.741476,144
+-9.186872,38.741263,149
+-9.187023,38.741245,151
+-9.187154,38.741274,152
+-9.187424,38.741365,154
+-9.187529,38.741418,154
+-9.187828,38.741497,155
+-9.188071,38.741541,156
+-9.188244,38.741632,156
+-9.188503,38.7417,157
+-9.188641,38.741715,159
+-9.188671,38.741668,159
+-9.188763,38.741588,161
+-9.188868,38.741589,162
+-9.188933,38.741631,162
+-9.189124,38.741586,164
+-9.189188,38.741545,165
+-9.189403,38.741506,167
+-9.189869,38.741461,170
+-9.190035,38.741393,170
+-9.190264,38.741264,169
+-9.190357,38.741181,169
+-9.190492,38.740964,171
+-9.190492,38.740964,171
+-9.190542,38.740884,172
+-9.190604,38.740834,172
+-9.19056,38.740671,173
+-9.190518,38.740637,173
+-9.190497,38.74046,174
+-9.190451,38.740409,174
+-9.190077,38.740218,175
+-9.189995,38.740103,174
+-9.190096,38.740014,174
+-9.190113,38.739949,174
+-9.190113,38.739629,174
+-9.190078,38.73949,174
+-9.190032,38.739402,174
+-9.189937,38.739298,173
+-9.189874,38.739254,173
+-9.189873,38.739155,173
+-9.190316,38.738857,176
+-9.190315,38.738668,177
+-9.190439,38.738469,178
+-9.190638,38.73831,178
+-9.19089,38.73821,180
+-9.191171,38.738177,181
+-9.191107,38.738148,181
+-9.190657,38.738064,181
+-9.190597,38.738042,181
+-9.190597,38.738042,181
+-9.19014,38.737996,182
+-9.190088,38.737953,182
+-9.190075,38.73785,183
+-9.190038,38.737749,184
+-9.189974,38.737677,185
+-9.189903,38.737643,185
+-9.189761,38.737607,185
+-9.189669,38.737607,185
+-9.189536,38.737634,184
+-9.189474,38.737614,184
+-9.189145,38.737437,184
+-9.188929,38.737246,184
+-9.189009,38.737253,185
+-9.189097,38.737227,186
+-9.189155,38.737171,186
+-9.189175,38.736883,188
+-9.189243,38.736659,190
+-9.18944,38.736639,190
+-9.18944,38.736639,190
+-9.189706,38.736663,190
+-9.190061,38.736941,189
+-9.190413,38.737102,189
+-9.191941,38.737108,187
+-9.192423,38.737006,184
+-9.192733,38.73685,182
+-9.193019,38.736732,181
+-9.193354,38.736685,180
+-9.193472,38.736578,181
+-9.193472,38.736578,181
+-9.193488,38.736564,181
+-9.193693,38.736542,181
+-9.194467,38.736554,179
+-9.19482,38.736468,178
+-9.195271,38.736389,176
+-9.1954,38.73635,176
+-9.195711,38.736194,175
+-9.196633,38.735874,163
+-9.196777,38.73578,162
+-9.196994,38.735594,162
+-9.19722,38.735366,162
+-9.197507,38.735131,160
+-9.198071,38.734927,159
+-9.198151,38.73486,159
+-9.198464,38.734449,160
+-9.198577,38.73426,160
+-9.19863,38.734326,159
+-9.19863,38.734326,159
+-9.198577,38.73426,160
+-9.198557,38.734285,160
+-9.198471,38.734212,162
+-9.198425,38.734205,163
+-9.198396,38.734155,163
+-9.198315,38.734085,165
+-9.198237,38.733965,167
+-9.198217,38.733857,168
+-9.198116,38.733719,171
+-9.197853,38.733678,174
+-9.197499,38.733576,179
+-9.197254,38.733574,180
+-9.196677,38.733849,184
+-9.196561,38.733957,184
+-9.196585,38.733969,184
+-9.196585,38.733969,184
+-9.196561,38.733957,184
+-9.196231,38.734261,185
+-9.19596,38.734372,186
+-9.195687,38.734399,188
+-9.195008,38.734053,197
+-9.194859,38.733992,199
+-9.194746,38.734005,200
+-9.194571,38.733796,202
+-9.194326,38.733711,205
+-9.194133,38.733458,208
+-9.193944,38.733266,210
+-9.193944,38.733266,210
+-9.193934,38.733255,210
+-9.193927,38.732939,209
+-9.193967,38.732808,209
+-9.194243,38.732839,209
+-9.194402,38.732817,208
+-9.194481,38.73277,207
+-9.194539,38.732683,207
+-9.194573,38.732661,207
+-9.194701,38.732634,207
+-9.194746,38.732604,207
+-9.194724,38.73254,207
+-9.194781,38.732477,208
+-9.194856,38.732527,207
+-9.194944,38.732549,207
+-9.195331,38.732432,204
+-9.195467,38.732349,203
+-9.195523,38.732277,202
+-9.195631,38.731964,200
+-9.195609,38.731877,200
+-9.195526,38.731802,201
+-9.195372,38.731735,202
+-9.195311,38.731624,203
+-9.195312,38.731552,203
+-9.195364,38.731383,203
+-9.195364,38.731383,203
+-9.19541,38.731281,203
+-9.195485,38.731216,203
+-9.195698,38.731145,202
+-9.195804,38.731086,202
+-9.196091,38.73085,201
+-9.196403,38.730623,198
+-9.196823,38.730394,194
+-9.196985,38.730321,193
+-9.197227,38.730247,191
+-9.197593,38.730009,188
+-9.197591,38.729959,188
+-9.197518,38.72989,189
+-9.197507,38.72978,189
+-9.197523,38.729537,189
+-9.197155,38.729379,193
+-9.19701,38.729272,194
+-9.196892,38.729307,195
+-9.196892,38.729307,195
+-9.195823,38.72963,203
+-9.195639,38.729621,203
+-9.195493,38.729573,203
+-9.194958,38.729828,205
+-9.194828,38.729853,205
+-9.194612,38.729949,206
+-9.194433,38.7301,206
+-9.19436,38.730254,207
+-9.193894,38.730294,208
+-9.19366,38.730206,208
+-9.193569,38.730189,208
+-9.193325,38.730194,208
+-9.192985,38.730075,206
+-9.191784,38.7297,201
+-9.191373,38.729547,198
+-9.191373,38.729547,198
+-9.191105,38.729479,198
+-9.190293,38.729146,197
+-9.190698,38.728676,193
+-9.190455,38.728515,193
+-9.190019,38.728184,193
+-9.189944,38.72811,193
+-9.18962,38.728092,192
+-9.189334,38.728137,192
+-9.189297,38.728131,192
+-9.189302,38.728244,192
+-9.189286,38.728334,192
+-9.189216,38.728462,193
+-9.189131,38.728549,193
+-9.188995,38.728624,194
+-9.188156,38.72891,195
+-9.188017,38.72891,196
+-9.187875,38.728892,196
+-9.1877,38.728808,197
+-9.187569,38.728705,198
+-9.187274,38.728367,201
+-9.187244,38.728386,201
+-9.186943,38.728073,198
+-9.186803,38.728003,198
+-9.186587,38.727982,198
+-9.186413,38.727997,198
+-9.186245,38.728069,198
+-9.185831,38.728326,199
+-9.185725,38.728371,199
+-9.185466,38.728396,200
+-9.185329,38.728364,201
+-9.18527,38.728393,201
+-9.18527,38.728393,201
+-9.185224,38.728416,200
+-9.185026,38.728317,202
+-9.184664,38.72826,200
+-9.184664,38.72826,200
+-9.185026,38.728317,202
+-9.185224,38.728416,200
+-9.185329,38.728364,201
+-9.185177,38.728294,201
+-9.185196,38.728272,200
+-9.185333,38.728325,201
+-9.185467,38.728356,200
+-9.185614,38.728354,200
+-9.185811,38.728301,199
+-9.186186,38.728065,198
+-9.186116,38.728012,197
+-9.185998,38.728002,196
+-9.185654,38.728123,197
+-9.185412,38.728109,197
+-9.184885,38.727887,193
+-9.184794,38.727824,192
+-9.184533,38.727704,190
+-9.184533,38.727704,190
+-9.183883,38.727589,186
+-9.182636,38.727512,176
+-9.182541,38.72741,174
+-9.181956,38.727067,167
+-9.181575,38.72664,161
+-9.181479,38.726582,160
+-9.181372,38.726402,156
+-9.181319,38.726355,155
+-9.181195,38.726331,154
+-9.181098,38.726276,153
+-9.181044,38.726218,151
+-9.18098,38.72618,150
+-9.180814,38.726155,149
+-9.180765,38.726092,148
+-9.180615,38.725967,145
+-9.180165,38.725987,143
+-9.179988,38.7259,141
+-9.179762,38.725879,139
+-9.179612,38.725879,138
+-9.179263,38.725942,138
+-9.179081,38.725937,136
+-9.178823,38.72585,131
+-9.178705,38.72585,130
+-9.178314,38.725649,120
+-9.177643,38.725498,106
+-9.176945,38.72551,98
+-9.176892,38.725554,98
+-9.176884,38.725717,102
+-9.1769,38.725914,106
+-9.176935,38.726008,107
+-9.176954,38.726146,109
+-9.176921,38.726244,110
+-9.176746,38.726403,110
+-9.176531,38.726452,108
+-9.176389,38.726526,107
+-9.17623,38.726536,106
+-9.176139,38.726525,105
+-9.176139,38.726525,105
+-9.176068,38.726517,104
+-9.175908,38.726554,102
+-9.175855,38.726621,103
+-9.175834,38.726687,103
+-9.175802,38.727038,102
+-9.17572,38.72712,101
+-9.175962,38.727309,104
+-9.175963,38.727404,104
+-9.175873,38.727458,102
+-9.175786,38.727449,102
+-9.175637,38.727601,98
+-9.175493,38.727668,96
+-9.175457,38.727776,93
+-9.1755,38.727781,93
+-9.175748,38.727895,94
+-9.176109,38.728116,95
+-9.17614,38.728149,95
+-9.17614,38.728149,95
+-9.176675,38.728718,99
+-9.178042,38.729878,117
+-9.177973,38.730004,116
+-9.177971,38.730142,117
+-9.178005,38.730332,118
+-9.178127,38.730523,120
+-9.178328,38.730925,124
+-9.178337,38.730974,124
+-9.178324,38.73101,124
+-9.178287,38.731044,124
+-9.178133,38.731117,124
+-9.178374,38.731309,127
+-9.178258,38.731375,127
+-9.177859,38.731155,123
+-9.177631,38.731118,122
+-9.177626,38.731278,123
+-9.17754,38.731495,124
+-9.177398,38.731602,124
+-9.177398,38.731602,124
+-9.177253,38.731713,125
+-9.177071,38.73174,125
+-9.176921,38.731787,126
+-9.176599,38.731839,126
+-9.176324,38.731961,126
+-9.175842,38.732235,127
+-9.175244,38.732479,122
+-9.175018,38.73264,121
+-9.175018,38.73264,121
+-9.174863,38.732745,120
+-9.174588,38.732899,118
+-9.174375,38.73306,117
+-9.174281,38.733184,118
+-9.174229,38.733347,120
+-9.174182,38.73339,120
+-9.173998,38.733478,119
+-9.173664,38.733553,116
+-9.173377,38.733673,114
+-9.173173,38.733711,111
+-9.173006,38.733757,109
+-9.172933,38.733821,109
+-9.172906,38.7339,108
+-9.17294,38.73403,109
+-9.172978,38.734231,108
+-9.173054,38.73434,107
+-9.173062,38.734401,105
+-9.172981,38.734583,100
+-9.172977,38.734637,98
+-9.173026,38.734724,97
+-9.173089,38.734771,97
+-9.173089,38.734771,97
+-9.17345,38.735045,96
+-9.173574,38.735098,97
+-9.173925,38.735206,103
+-9.174241,38.735281,107
+-9.174501,38.735368,108
+-9.17466,38.73544,109
+-9.174676,38.735515,108
+-9.174542,38.735904,102
+-9.174461,38.735929,101
+-9.174423,38.735969,101
+-9.174136,38.736026,98
+-9.174013,38.736076,96
+-9.173938,38.736053,94
+-9.173773,38.736078,91
+-9.173508,38.736205,88
+-9.173376,38.736295,86
+-9.173158,38.736505,84
+-9.173122,38.736504,83
+-9.173122,38.736464,82
+-9.172398,38.73661,68
+-9.172389,38.736591,68
+-9.172287,38.736611,68
+-9.17225,38.736501,68
+-9.172291,38.736458,68
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172129,38.73655,69</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172129,38.73655,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172287,38.736611,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172389,38.736591,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172398,38.73661,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173122,38.736464,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173491,38.736216,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Trilhos do Moinho]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17365,38.736322,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.176278,38.739501,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.176232,38.738414,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.179312,38.736678,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.180729,38.736784,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.181294,38.737529,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.181537,38.738065,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.184124,38.742113,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Trilho do Campo de Tiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186583,38.741476,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Trilho do Campo de Tiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186872,38.741263,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Pista Mata de São Domingos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.188641,38.741715,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Trilho do Campo de Tiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.188671,38.741668,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Trilho do Campo de Tiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190604,38.740834,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189995,38.740103,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189874,38.739254,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista Tras. Chumbo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189873,38.739155,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190316,38.738857,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.191171,38.738177,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.188929,38.737246,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista Rua Fria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189243,38.736659,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Pista Rua Fria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189706,38.736663,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Pista Rua Fria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193354,38.736685,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Pista Rua Fria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193488,38.736564,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198577,38.73426,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Pista Rua Fria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198577,38.73426,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita para Trilho Esquerda-esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198557,38.734285,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196561,38.733957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Trilho Esquerda-esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196561,38.733957,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.195687,38.734399,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.194746,38.734005,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.194326,38.733711,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Estrada do Forte de Monsanto]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193934,38.733255,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Estrada do Forte de Monsanto]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193967,38.732808,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.194243,38.732839,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista Monte Verde]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.194781,38.732477,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197523,38.729537,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19701,38.729272,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.195493,38.729573,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19436,38.730254,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Pista das Antenas]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193894,38.730294,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Avenida Tenente Martins]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190293,38.729146,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Estrada da Bela Vista]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190698,38.728676,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189944,38.72811,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Pista do Panorâmico]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189297,38.728131,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187274,38.728367,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Estrada da Bela Vista]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187244,38.728386,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185329,38.728364,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185224,38.728416,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185224,38.728416,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Estrada da Bela Vista]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185329,38.728364,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185177,38.728294,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista do Panorâmico]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185196,38.728272,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Trilho do Javali]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186186,38.728065,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda para Trilho do Javali]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.176945,38.72551,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Pista da Pimenteira]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175493,38.727668,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Caminho das Pedreiras]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175457,38.727776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista da Pedreira da Serafina]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.178042,38.729878,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda para Pista da Pedreira da Serafina]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.177971,38.730142,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.178133,38.731117,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.178374,38.731309,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.177631,38.731118,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174281,38.733184,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173173,38.733711,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17294,38.73403,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17466,38.73544,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Trilhos do Moinho]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174423,38.735969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174013,38.736076,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173122,38.736464,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172398,38.73661,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172389,38.736591,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172287,38.736611,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Entre na r]]></name>
+<description><![CDATA[Entre na rotunda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17225,38.736501,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172291,38.736458,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172291,38.736458,68</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisbon 5km</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.144098</longitude>
+<latitude>38.725810</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1766515">
+<name><![CDATA[Lisbon 5km]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.144098,38.72581,74
+-9.144098,38.72581,75
+-9.143285,38.726448,82
+-9.142641,38.72691,84
+-9.141962,38.727292,83
+-9.141962,38.727292,83
+-9.141942,38.727304,83
+-9.141172,38.72635,85
+-9.140692,38.725699,77
+-9.139872,38.723958,76
+-9.139606,38.723253,72
+-9.139619,38.723246,72
+-9.139619,38.723246,72
+-9.139894,38.723105,73
+-9.140115,38.722927,73
+-9.14052,38.722493,70
+-9.140581,38.722369,70
+-9.140594,38.72237,70
+-9.140594,38.72237,70
+-9.140756,38.722378,71
+-9.141198,38.722486,71
+-9.141358,38.722556,71
+-9.142489,38.723238,78
+-9.142478,38.723248,79
+-9.142478,38.723248,79
+-9.142489,38.723238,78
+-9.142544,38.72327,78
+-9.143024,38.72379,78
+-9.144512,38.725488,68
+-9.144813,38.725811,68
+-9.144813,38.725811,68
+-9.145323,38.726357,64
+-9.146034,38.727189,68
+-9.146116,38.727267,69
+-9.146097,38.727282,69
+-9.146097,38.727282,69
+-9.143716,38.729086,79
+-9.143681,38.729055,79
+-9.14361,38.729054,79
+-9.14361,38.729054,79
+-9.143574,38.729041,79
+-9.143526,38.729074,79
+-9.142238,38.727671,84
+-9.141981,38.727352,83
+-9.141981,38.727352,83
+-9.141172,38.72635,85
+-9.140692,38.725699,77
+-9.139872,38.723958,76
+-9.139647,38.723361,74
+-9.139647,38.723361,74
+-9.139606,38.723253,72
+-9.139894,38.723105,73
+-9.140115,38.722927,73
+-9.14052,38.722493,70
+-9.140581,38.722369,70
+-9.140606,38.72237,70
+-9.140606,38.72237,70
+-9.140756,38.722378,71
+-9.141198,38.722486,71
+-9.141358,38.722556,71
+-9.142544,38.72327,78
+-9.143024,38.72379,78
+-9.144382,38.725341,68
+-9.144382,38.725341,68
+-9.145323,38.726357,64
+-9.146034,38.727189,68
+-9.146116,38.727267,69
+-9.146022,38.727339,69
+-9.146022,38.727339,69
+-9.143716,38.729086,79
+-9.143681,38.729055,79
+-9.143632,38.729062,79
+-9.143574,38.729041,79
+-9.143526,38.729074,79
+-9.143473,38.729016,80
+-9.143473,38.729016,80
+-9.142238,38.727671,84
+-9.14195,38.727314,83
+-9.14195,38.727314,83
+-9.141172,38.72635,85
+-9.140692,38.725699,77
+-9.139872,38.723958,76
+-9.139606,38.723253,72
+-9.139631,38.72324,72
+-9.139631,38.72324,72
+-9.139894,38.723105,73
+-9.140115,38.722927,73
+-9.14052,38.722493,70
+-9.140581,38.722369,70
+-9.140606,38.72237,70
+-9.140606,38.72237,70
+-9.140756,38.722378,71
+-9.141198,38.722486,71
+-9.141358,38.722556,71
+-9.142544,38.72327,78
+-9.143024,38.72379,78
+-9.144512,38.725488,68
+-9.144481,38.725513,69
+-9.144481,38.725513,69
+-9.144073,38.72583,75
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144098,38.72581,74</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on R]]></name>
+<description><![CDATA[Start on Rua Bernadim Ribeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144098,38.72581,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua Gomes Freire]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141942,38.727304,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139606,38.723253,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140581,38.722369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Calçada de Santo António]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142489,38.723238,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Alameda de Santo António dos Capuchos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142489,38.723238,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida Duque de Loulé]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146116,38.727267,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143716,38.729086,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua Gomes Freire]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143526,38.729074,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139606,38.723253,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140581,38.722369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida Duque de Loulé]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146116,38.727267,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143716,38.729086,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua Gomes Freire]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143526,38.729074,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139606,38.723253,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Campo dos Mártires da Pátria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140581,38.722369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua Bernadim Ribeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144512,38.725488,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144073,38.72583,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144073,38.72583,75</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

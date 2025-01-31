@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>165K Monsanto Sul</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.229268</longitude>
+<latitude>38.697679</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1707058">
+<name><![CDATA[16,5K Monsanto Sul]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.229268,38.697679,6
+-9.229268,38.697679,7
+-9.22911,38.697709,7
+-9.228851,38.697948,7
+-9.228733,38.698001,8
+-9.228652,38.698018,8
+-9.228399,38.697984,8
+-9.227573,38.697775,8
+-9.227705,38.697641,8
+-9.227734,38.69765,8
+-9.228051,38.697753,7
+-9.227791,38.698547,9
+-9.22751,38.698946,8
+-9.227439,38.699005,8
+-9.227455,38.699067,8
+-9.227391,38.699123,8
+-9.227391,38.69918,8
+-9.227455,38.699326,8
+-9.227441,38.699477,8
+-9.227399,38.69958,9
+-9.227341,38.69969,9
+-9.227345,38.699744,9
+-9.227215,38.69977,9
+-9.227217,38.699878,9
+-9.227193,38.699968,9
+-9.227228,38.700151,9
+-9.227347,38.70041,9
+-9.227302,38.700508,9
+-9.227248,38.700564,9
+-9.22719,38.700597,9
+-9.227065,38.700627,9
+-9.226872,38.700585,9
+-9.226763,38.700589,9
+-9.226673,38.700995,10
+-9.226552,38.701051,11
+-9.226502,38.70112,12
+-9.225685,38.701101,21
+-9.225463,38.701212,25
+-9.225362,38.701366,28
+-9.225273,38.701435,30
+-9.225154,38.701479,32
+-9.225065,38.701541,34
+-9.225037,38.701565,35
+-9.225006,38.701664,37
+-9.224981,38.701666,37
+-9.224892,38.701763,38
+-9.225047,38.701924,39
+-9.225049,38.702084,40
+-9.225028,38.702183,42
+-9.224895,38.702558,46
+-9.224873,38.702646,46
+-9.224953,38.702708,46
+-9.224966,38.702756,46
+-9.224843,38.702967,48
+-9.224886,38.703021,48
+-9.224983,38.703274,47
+-9.225058,38.703613,42
+-9.225063,38.703764,40
+-9.224961,38.704005,39
+-9.224909,38.704182,37
+-9.224837,38.704301,38
+-9.224707,38.70445,40
+-9.224468,38.704637,42
+-9.224087,38.704845,45
+-9.224067,38.704878,45
+-9.22406,38.704965,44
+-9.223977,38.704993,45
+-9.223449,38.70543,47
+-9.223277,38.705547,47
+-9.223136,38.705594,48
+-9.2229,38.705617,49
+-9.222359,38.705751,51
+-9.222067,38.705792,52
+-9.221897,38.705867,52
+-9.22174,38.705971,52
+-9.221648,38.706061,52
+-9.221591,38.706159,52
+-9.221536,38.706369,52
+-9.221543,38.70651,51
+-9.22168,38.706851,49
+-9.2219,38.707075,48
+-9.221915,38.707331,50
+-9.221857,38.707469,51
+-9.221681,38.707726,55
+-9.22166,38.707908,57
+-9.221692,38.708162,58
+-9.221589,38.708479,61
+-9.2215,38.708562,63
+-9.221371,38.708605,66
+-9.221265,38.708753,69
+-9.221177,38.708663,71
+-9.220789,38.708795,80
+-9.220592,38.708886,82
+-9.220462,38.708985,83
+-9.220491,38.709147,84
+-9.220476,38.709194,84
+-9.220401,38.709283,84
+-9.220331,38.709419,84
+-9.2202,38.709587,84
+-9.220111,38.709679,85
+-9.220063,38.709776,85
+-9.220033,38.709899,86
+-9.219957,38.70999,86
+-9.219999,38.710215,85
+-9.220012,38.710429,85
+-9.220071,38.710645,83
+-9.220095,38.710813,82
+-9.220077,38.710924,82
+-9.219788,38.711338,79
+-9.219524,38.71159,77
+-9.219524,38.71159,77
+-9.219465,38.711715,75
+-9.219345,38.711813,74
+-9.219203,38.712068,72
+-9.219194,38.712131,71
+-9.219249,38.712225,70
+-9.219228,38.712277,69
+-9.219085,38.712394,69
+-9.219066,38.712532,67
+-9.218867,38.712385,70
+-9.218745,38.712373,70
+-9.218436,38.712428,71
+-9.218243,38.712447,72
+-9.218027,38.712446,72
+-9.217932,38.71242,73
+-9.217863,38.712376,73
+-9.217694,38.712157,75
+-9.21765,38.712052,76
+-9.217605,38.712009,76
+-9.21753,38.711985,77
+-9.217442,38.711984,77
+-9.217273,38.712022,78
+-9.216874,38.712113,79
+-9.216472,38.712095,82
+-9.216242,38.712051,83
+-9.216187,38.712137,83
+-9.216031,38.712311,83
+-9.215881,38.712401,83
+-9.21554,38.712431,85
+-9.215437,38.712429,85
+-9.215346,38.712406,86
+-9.215283,38.712446,86
+-9.21519,38.712467,86
+-9.214858,38.712462,89
+-9.214609,38.712549,90
+-9.214583,38.714121,80
+-9.213975,38.714125,86
+-9.213576,38.714447,87
+-9.213576,38.714498,87
+-9.213207,38.714657,88
+-9.213031,38.714816,87
+-9.212765,38.715171,85
+-9.212337,38.71563,84
+-9.211847,38.715941,87
+-9.211406,38.716249,90
+-9.210944,38.716654,92
+-9.210804,38.716757,92
+-9.210804,38.716757,92
+-9.21061,38.7169,94
+-9.210446,38.716948,95
+-9.210381,38.716934,96
+-9.210246,38.716977,97
+-9.210181,38.716995,97
+-9.20991,38.716883,100
+-9.209531,38.717319,103
+-9.209446,38.717484,103
+-9.209425,38.717633,103
+-9.209223,38.717951,104
+-9.209073,38.718126,104
+-9.209005,38.718255,104
+-9.208945,38.718308,104
+-9.208694,38.718405,106
+-9.20868,38.718437,106
+-9.208705,38.718519,105
+-9.20862,38.718591,105
+-9.208637,38.718707,105
+-9.208615,38.718739,105
+-9.208567,38.718761,105
+-9.208489,38.718771,106
+-9.208425,38.718835,106
+-9.208371,38.718859,106
+-9.208087,38.718914,109
+-9.208066,38.718963,109
+-9.207841,38.719057,111
+-9.20763,38.719287,112
+-9.207062,38.7195,117
+-9.206961,38.71956,118
+-9.206765,38.719714,118
+-9.206584,38.719811,119
+-9.205749,38.719993,123
+-9.205373,38.720053,123
+-9.205018,38.720132,123
+-9.204731,38.720242,124
+-9.204495,38.720367,125
+-9.204388,38.720377,125
+-9.204326,38.72045,125
+-9.203999,38.720564,127
+-9.2039,38.720631,128
+-9.2039,38.720631,128
+-9.20367,38.720792,130
+-9.203546,38.720855,131
+-9.203462,38.720937,132
+-9.203201,38.721044,134
+-9.20302,38.721081,136
+-9.202701,38.720995,141
+-9.202557,38.72089,144
+-9.202373,38.72109,143
+-9.202099,38.72134,141
+-9.20191,38.721448,141
+-9.201569,38.721542,141
+-9.201049,38.721661,144
+-9.200266,38.721777,148
+-9.199944,38.721888,150
+-9.199786,38.72198,152
+-9.199598,38.722139,153
+-9.199371,38.722423,153
+-9.199289,38.722616,153
+-9.199199,38.722671,153
+-9.199199,38.722765,153
+-9.199029,38.722776,154
+-9.198892,38.722845,155
+-9.19844,38.722934,157
+-9.198076,38.722982,158
+-9.197213,38.723046,162
+-9.196791,38.72303,166
+-9.19671,38.722989,167
+-9.197182,38.722524,169
+-9.197366,38.72232,170
+-9.19745,38.722176,171
+-9.197019,38.72195,174
+-9.196893,38.721909,174
+-9.196442,38.721704,174
+-9.196196,38.721507,174
+-9.195959,38.721359,174
+-9.195629,38.721104,173
+-9.195523,38.721087,172
+-9.195154,38.720849,170
+-9.195009,38.72078,169
+-9.194775,38.720844,168
+-9.19466,38.72086,168
+-9.194233,38.72085,166
+-9.194107,38.720828,167
+-9.193815,38.720701,168
+-9.193686,38.720661,169
+-9.193523,38.72063,170
+-9.193312,38.720613,171
+-9.1911,38.721315,176
+-9.190596,38.721569,177
+-9.190504,38.721469,176
+-9.190034,38.720953,171
+-9.190034,38.720953,171
+-9.189501,38.720366,164
+-9.189111,38.719991,160
+-9.188854,38.719806,157
+-9.18873,38.71976,156
+-9.187748,38.719644,149
+-9.187614,38.719607,148
+-9.187392,38.719488,147
+-9.187109,38.719303,146
+-9.187081,38.719261,146
+-9.186948,38.719261,145
+-9.186948,38.719396,145
+-9.186729,38.719395,144
+-9.186663,38.719395,143
+-9.186628,38.719395,143
+-9.186629,38.719583,143
+-9.186378,38.719583,142
+-9.186378,38.719526,142
+-9.186091,38.719526,140
+-9.186091,38.719596,140
+-9.186092,38.719689,141
+-9.185226,38.719691,137
+-9.185301,38.719855,138
+-9.185135,38.719778,137
+-9.184965,38.719721,136
+-9.184785,38.719685,134
+-9.184601,38.719669,132
+-9.184416,38.719674,131
+-9.183841,38.719703,128
+-9.18354,38.7197,126
+-9.183242,38.719662,125
+-9.182956,38.719589,124
+-9.182687,38.719482,124
+-9.182802,38.71966,124
+-9.182168,38.719485,121
+-9.181987,38.719492,119
+-9.181837,38.719542,117
+-9.181658,38.719572,115
+-9.18155,38.719576,114
+-9.181435,38.719571,112
+-9.181177,38.719511,110
+-9.181177,38.719511,110
+-9.180763,38.719476,106
+-9.180274,38.719581,98
+-9.179978,38.719482,96
+-9.179543,38.71924,94
+-9.179393,38.719177,93
+-9.179131,38.718898,92
+-9.178978,38.718776,91
+-9.178114,38.718288,77
+-9.17801,38.718204,76
+-9.177931,38.718105,75
+-9.177744,38.717724,74
+-9.177656,38.717629,72
+-9.177427,38.717478,67
+-9.177421,38.717344,66
+-9.177501,38.717198,68
+-9.177608,38.717064,70
+-9.177743,38.71697,74
+-9.177928,38.716881,79
+-9.177973,38.716829,80
+-9.177997,38.716762,80
+-9.178004,38.716419,77
+-9.178157,38.715838,73
+-9.178184,38.715607,72
+-9.178299,38.715412,73
+-9.17833,38.715321,74
+-9.178326,38.715094,72
+-9.178429,38.714375,69
+-9.178426,38.71377,68
+-9.178337,38.713472,68
+-9.178124,38.713125,62
+-9.178138,38.713101,63
+-9.178444,38.713033,69
+-9.178444,38.713033,69
+-9.178593,38.713017,72
+-9.178613,38.712926,72
+-9.178729,38.712725,73
+-9.178901,38.712569,74
+-9.178994,38.712511,75
+-9.179115,38.71247,76
+-9.17925,38.71245,76
+-9.179343,38.71246,75
+-9.179444,38.712498,75
+-9.179698,38.712646,76
+-9.179889,38.713037,80
+-9.179872,38.71324,83
+-9.179822,38.713408,85
+-9.179912,38.71347,87
+-9.179865,38.713668,89
+-9.179865,38.713668,89
+-9.180008,38.713061,81
+-9.180034,38.713082,81
+-9.180034,38.713082,81
+-9.180157,38.71318,83
+-9.182549,38.714632,103
+-9.182837,38.714897,108
+-9.183074,38.715233,113
+-9.183484,38.716074,123
+-9.1835538,38.7161048,123
+-9.1836557,38.7160671,124
+-9.183656,38.716066,124
+-9.183743,38.716042,124
+-9.183884,38.71594,124
+-9.18383,38.715538,119
+-9.18383,38.715538,119
+-9.183806,38.71536,117
+-9.183694,38.714758,108
+-9.183742,38.714326,103
+-9.183951,38.713061,97
+-9.184053,38.712898,99
+-9.184216,38.712819,101
+-9.185693,38.712407,105
+-9.185644,38.71229,104
+-9.185663,38.712263,104
+-9.185698,38.712214,103
+-9.185787,38.712091,102
+-9.185797,38.712042,102
+-9.185885,38.71199,102
+-9.185957,38.711817,101
+-9.186027,38.711704,100
+-9.186027,38.711704,100
+-9.185957,38.711817,101
+-9.186164,38.71195,103
+-9.186293,38.711947,104
+-9.186438,38.711964,106
+-9.186554,38.711998,107
+-9.186586,38.712082,108
+-9.186596,38.712108,108
+-9.186688,38.712426,112
+-9.187174,38.712227,109
+-9.187244,38.712387,110
+-9.187284,38.712426,111
+-9.187268,38.712522,112
+-9.187336,38.71256,112
+-9.187356,38.712593,113
+-9.187328,38.712668,114
+-9.187371,38.712753,116
+-9.187396,38.712907,119
+-9.186716,38.713312,127
+-9.186509,38.713569,126
+-9.186448,38.71377,127
+-9.186469,38.713957,128
+-9.186624,38.71414,131
+-9.186624,38.71414,131
+-9.186831,38.714371,132
+-9.18694,38.714327,132
+-9.187022,38.714339,132
+-9.187086,38.714381,132
+-9.187114,38.714442,132
+-9.187617,38.71459,132
+-9.188253,38.714872,126
+-9.188733,38.715132,122
+-9.188905,38.715318,121
+-9.18927,38.715816,120
+-9.189927,38.716578,117
+-9.190481,38.716956,117
+-9.190481,38.716956,117
+-9.190618,38.71705,117
+-9.191128,38.717212,117
+-9.191423,38.717293,117
+-9.19157,38.717318,117
+-9.191729,38.717282,117
+-9.192172,38.717081,120
+-9.192354,38.716907,121
+-9.192352,38.716793,120
+-9.19251,38.716567,120
+-9.19253,38.716158,118
+-9.192666,38.715653,117
+-9.192666,38.715653,117
+-9.192707,38.715499,117
+-9.19276,38.715091,118
+-9.192732,38.714021,116
+-9.192732,38.714021,116
+-9.192817,38.713912,117
+-9.192944,38.713908,119
+-9.1930783,38.7138989,120
+-9.193078,38.713903,120
+-9.193167,38.7139,121
+-9.193196,38.713974,122
+-9.194009,38.71396,125
+-9.194009,38.71396,125
+-9.195122,38.713939,120
+-9.195423,38.714001,118
+-9.196106,38.71399,115
+-9.196072,38.714239,117
+-9.196003,38.714705,121
+-9.196011,38.715013,124
+-9.196242,38.71508,124
+-9.196564,38.715076,122
+-9.196954,38.714994,123
+-9.197038,38.715098,124
+-9.197491,38.715425,130
+-9.197585,38.71553,131
+-9.19764,38.715793,134
+-9.197679,38.715892,135
+-9.197796,38.716059,138
+-9.197951,38.716203,142
+-9.197948,38.716298,143
+-9.197916,38.716343,143
+-9.197916,38.716343,143
+-9.19774,38.716593,145
+-9.197645,38.716813,147
+-9.197165,38.717087,149
+-9.197424,38.717163,151
+-9.197805,38.717224,155
+-9.198008,38.717306,159
+-9.198282,38.717514,165
+-9.198382,38.71764,166
+-9.198408,38.717901,169
+-9.198798,38.717902,170
+-9.198973,38.71797,171
+-9.199147,38.71793,172
+-9.199195,38.717897,171
+-9.199403,38.717985,173
+-9.199464,38.718026,173
+-9.199601,38.718012,174
+-9.199738,38.717972,174
+-9.200045,38.717971,175
+-9.200045,38.717971,175
+-9.200133,38.717984,175
+-9.200271,38.717948,175
+-9.200337,38.717831,174
+-9.200351,38.717735,174
+-9.200399,38.717603,174
+-9.200523,38.717452,174
+-9.200969,38.71681,172
+-9.201271,38.716593,172
+-9.201825,38.716307,172
+-9.202057,38.716238,173
+-9.202617,38.71599,173
+-9.202927,38.715991,171
+-9.203145,38.715929,170
+-9.203404,38.715894,168
+-9.203694,38.715654,163
+-9.203769,38.715662,162
+-9.203842,38.715712,161
+-9.203935,38.715897,162
+-9.203986,38.715951,161
+-9.204053,38.715974,160
+-9.204319,38.715942,157
+-9.204499,38.715943,154
+-9.204994,38.715881,147
+-9.205013,38.715848,147
+-9.205108,38.715825,147
+-9.205271,38.715819,146
+-9.205491,38.715855,145
+-9.205676,38.715903,145
+-9.205955,38.716053,143
+-9.206247,38.716288,139
+-9.20662,38.716624,135
+-9.206758,38.716642,133
+-9.206981,38.716861,130
+-9.207097,38.71676,129
+-9.207172,38.716726,128
+-9.207649,38.716743,123
+-9.207649,38.716743,123
+-9.208139,38.716799,117
+-9.208269,38.7168,116
+-9.208453,38.71677,114
+-9.209413,38.71677,106
+-9.209736,38.716831,102
+-9.20991,38.716883,100
+-9.210181,38.716995,97
+-9.210381,38.716934,96
+-9.210446,38.716948,95
+-9.21061,38.7169,94
+-9.210944,38.716654,92
+-9.211406,38.716249,90
+-9.211847,38.715941,87
+-9.212337,38.71563,84
+-9.212765,38.715171,85
+-9.213031,38.714816,87
+-9.213207,38.714657,88
+-9.213576,38.714498,87
+-9.213576,38.714447,87
+-9.213975,38.714125,86
+-9.214583,38.714121,80
+-9.214579,38.71392,81
+-9.214609,38.712549,90
+-9.214858,38.712462,89
+-9.21519,38.712467,86
+-9.215283,38.712446,86
+-9.215346,38.712406,86
+-9.215437,38.712429,85
+-9.21554,38.712431,85
+-9.215881,38.712401,83
+-9.216031,38.712311,83
+-9.216187,38.712137,83
+-9.216242,38.712051,83
+-9.216472,38.712095,82
+-9.216874,38.712113,79
+-9.217442,38.711984,77
+-9.21753,38.711985,77
+-9.217605,38.712009,76
+-9.21765,38.712052,76
+-9.217694,38.712157,75
+-9.217863,38.712376,73
+-9.217932,38.71242,73
+-9.218027,38.712446,72
+-9.218243,38.712447,72
+-9.218436,38.712428,71
+-9.218745,38.712373,70
+-9.218867,38.712385,70
+-9.219066,38.712532,67
+-9.219085,38.712394,69
+-9.219228,38.712277,69
+-9.219249,38.712225,70
+-9.219194,38.712131,71
+-9.219203,38.712068,72
+-9.219345,38.711813,74
+-9.219465,38.711715,75
+-9.219512,38.711603,77
+-9.219788,38.711338,79
+-9.220077,38.710924,82
+-9.220095,38.710813,82
+-9.220071,38.710645,83
+-9.220012,38.710429,85
+-9.219999,38.710215,85
+-9.219957,38.70999,86
+-9.219864,38.709788,86
+-9.219679,38.709512,86
+-9.219583,38.709299,86
+-9.219583,38.709299,86
+-9.21948,38.709071,86
+-9.219477,38.708972,85
+-9.219519,38.70893,85
+-9.219719,38.708851,85
+-9.219658,38.708771,84
+-9.219637,38.708624,84
+-9.219462,38.708245,83
+-9.219197,38.707891,83
+-9.219186,38.707803,83
+-9.219082,38.707569,82
+-9.219109,38.707459,82
+-9.219324,38.707057,82
+-9.219345,38.706852,82
+-9.219414,38.706609,82
+-9.219435,38.706462,81
+-9.219479,38.706354,81
+-9.218901,38.705547,78
+-9.21886,38.705434,77
+-9.218841,38.705267,77
+-9.218849,38.705178,76
+-9.219009,38.704584,72
+-9.21905,38.704328,68
+-9.219238,38.703994,65
+-9.219451,38.703774,62
+-9.219722,38.703224,55
+-9.220001,38.702853,51
+-9.220241,38.702759,51
+-9.220692,38.702716,53
+-9.220896,38.70267,54
+-9.221285,38.70252,55
+-9.221427,38.702431,55
+-9.221636,38.702339,55
+-9.221981,38.702244,53
+-9.222162,38.702146,52
+-9.22236,38.702067,51
+-9.222441,38.702067,51
+-9.222489,38.701984,49
+-9.222591,38.701934,48
+-9.222689,38.701862,46
+-9.222689,38.701862,46
+-9.22273,38.701832,45
+-9.222784,38.70174,43
+-9.223095,38.70156,39
+-9.223321,38.701527,38
+-9.223422,38.701489,37
+-9.223394,38.701384,36
+-9.223711,38.701368,35
+-9.223924,38.701315,34
+-9.224088,38.701178,32
+-9.224281,38.701094,30
+-9.224342,38.701046,29
+-9.224359,38.701002,29
+-9.224342,38.700952,28
+-9.224369,38.700905,27
+-9.224545,38.700809,26
+-9.224744,38.700733,25
+-9.224695,38.70051,23
+-9.225407,38.700186,17
+-9.225221,38.700046,17
+-9.225001,38.699852,17
+-9.224763,38.69958,17
+-9.226049,38.69904,11
+-9.226478,38.698877,9
+-9.226618,38.69885,8
+-9.226794,38.69889,8
+-9.227091,38.698994,8
+-9.227221,38.69909,8
+-9.227262,38.699019,8
+-9.227354,38.699063,8
+-9.22751,38.698946,8
+-9.227791,38.698547,9
+-9.228051,38.697753,7
+-9.227734,38.69765,8
+-9.227705,38.697641,8
+-9.227573,38.697775,8
+-9.228399,38.697984,8
+-9.228652,38.698018,8
+-9.228733,38.698001,8
+-9.228851,38.697948,7
+-9.228728,38.697818,7
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.229268,38.697679,6</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.229268,38.697679,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227573,38.697775,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228051,38.697753,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227439,38.699005,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227455,38.699067,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227455,38.699326,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227399,38.69958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Largo Dom Manuel I]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227341,38.69969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227345,38.699744,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Largo Dom Manuel I]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227215,38.69977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227347,38.70041,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.226763,38.700589,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.226502,38.70112,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.225685,38.701101,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.225362,38.701366,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224892,38.701763,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.225047,38.701924,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224895,38.702558,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224843,38.702967,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.22406,38.704965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.22168,38.706851,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.221265,38.708753,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.221177,38.708663,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220462,38.708985,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220491,38.709147,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.2202,38.709587,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219957,38.70999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219249,38.712225,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219066,38.712532,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.217273,38.712022,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.216242,38.712051,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Rua Colégio de São José]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.215881,38.712401,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.215346,38.712406,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Rua Sam Levy]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214609,38.712549,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Rua Padre Luís Fróis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214583,38.714121,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.213576,38.714498,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.210246,38.716977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20991,38.716883,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.208694,38.718405,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Pista da Cordoaria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.208489,38.718771,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.208087,38.718914,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20763,38.719287,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Pista da Cordoaria]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.202557,38.72089,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Estrada do Outeiro-Sul]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199199,38.722671,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199199,38.722765,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista do Penedo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19671,38.722989,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19745,38.722176,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.195629,38.721104,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.195009,38.72078,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190596,38.721569,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187081,38.719261,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186628,38.719395,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186378,38.719583,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186378,38.719526,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186092,38.719689,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Estrada do Alvito]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185226,38.719691,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185301,38.719855,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Estrada do Ténis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.183841,38.719703,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.182687,38.719482,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.182802,38.71966,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.180274,38.719581,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.179698,38.712646,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Miradouro do Bairro do Alvito]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.179822,38.713408,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Miradouro do Bairro do Alvito]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.179912,38.71347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à direita para Estrada do Alvito]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.180008,38.713061,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Tapada da Ajuda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.183884,38.71594,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185693,38.712407,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185644,38.71229,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185787,38.712091,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185797,38.712042,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.185957,38.711817,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186164,38.71195,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186554,38.711998,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Tapada da Ajuda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186688,38.712426,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187174,38.712227,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187396,38.712907,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Largo do Barbeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.186831,38.714371,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Tapada da Ajuda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187114,38.714442,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Tapada da Ajuda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.192354,38.716907,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Tapada da Ajuda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.192352,38.716793,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Avenida da Universidade Técnica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.193167,38.7139,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.195122,38.713939,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196106,38.71399,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196003,38.714705,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196011,38.715013,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.196954,38.714994,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Pista Casal do Cano]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197645,38.716813,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197165,38.717087,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198408,38.717901,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198798,38.717902,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.198973,38.71797,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199464,38.718026,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.200271,38.717948,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Pista da Encosta dos Montes Claros]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.203404,38.715894,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Pista da Encosta dos Montes Claros]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.203694,38.715654,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.204499,38.715943,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.204994,38.715881,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda para Pista Encosta Montes Claros]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20662,38.716624,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita para Pista Encosta Montes Claros]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.206758,38.716642,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.206981,38.716861,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.213207,38.714657,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Rua Padre Luís Fróis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.213576,38.714498,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Rua Sam Levy]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214583,38.714121,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214609,38.712549,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Rua Colégio de São José]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.215346,38.712406,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.215881,38.712401,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.216242,38.712051,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219066,38.712532,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219249,38.712225,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219957,38.70999,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219477,38.708972,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219719,38.708851,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219637,38.708624,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219197,38.707891,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.219479,38.706354,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.222441,38.702067,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.223422,38.701489,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.223394,38.701384,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.223924,38.701315,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224744,38.700733,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Rua do Alto do Duque]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224695,38.70051,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Rua Dom Jerónimo Osório]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.225407,38.700186,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Avenida Dom Vasco da Gama, EN 117]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.224763,38.69958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Largo Dom Manuel I]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.226618,38.69885,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227221,38.69909,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227262,38.699019,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227354,38.699063,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228051,38.697753,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva apertada à esquerda para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.227573,38.697775,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228399,38.697984,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228851,38.697948,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228728,38.697818,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.228728,38.697818,7</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

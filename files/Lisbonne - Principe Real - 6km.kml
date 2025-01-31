@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisbonne - Principe Real - 6km</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.150475</longitude>
+<latitude>38.724674</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route809128">
+<name><![CDATA[Lisbonne - Principe Real - 6km]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.150475,38.724674,66
+-9.150475,38.724674,67
+-9.150609,38.724737,67
+-9.150733,38.724644,68
+-9.150497,38.724522,69
+-9.152573,38.721061,85
+-9.153929,38.72034,78
+-9.154068,38.720198,76
+-9.15443,38.720025,73
+-9.155277,38.719868,72
+-9.155676,38.719704,74
+-9.155934,38.719519,75
+-9.158638,38.71589,84
+-9.158733,38.715907,84
+-9.158822,38.715877,85
+-9.158869,38.715811,85
+-9.158871,38.715772,85
+-9.160497,38.715587,94
+-9.160553,38.715577,94
+-9.160616,38.715536,94
+-9.160667,38.715444,93
+-9.160677,38.71538,92
+-9.160682,38.714708,85
+-9.160754,38.714272,84
+-9.1608,38.714113,84
+-9.160909,38.714048,85
+-9.160975,38.713988,85
+-9.160975,38.713988,85
+-9.16102,38.713946,85
+-9.160833,38.713859,85
+-9.160748,38.713897,85
+-9.160574,38.713759,85
+-9.160399,38.713746,84
+-9.15983,38.713603,83
+-9.159565,38.713509,83
+-9.158262,38.712925,79
+-9.158337,38.712958,79
+-9.157482,38.714439,78
+-9.156916,38.714425,73
+-9.156258,38.714533,66
+-9.154674,38.714996,47
+-9.154213,38.715201,45
+-9.154455,38.71553,48
+-9.153916,38.715809,52
+-9.153563,38.716031,59
+-9.152482,38.71695,71
+-9.151488,38.717729,81
+-9.151327,38.717673,81
+-9.149447,38.717188,78
+-9.149159,38.717059,79
+-9.148349,38.716661,85
+-9.148301,38.716582,85
+-9.147966,38.716423,83
+-9.147803,38.716366,83
+-9.14767,38.716261,83
+-9.147423,38.716083,83
+-9.14727,38.715999,84
+-9.14622,38.715722,83
+-9.144983,38.715465,76
+-9.144851,38.715424,74
+-9.144809,38.715394,73
+-9.144749,38.715322,73
+-9.144135,38.714328,71
+-9.143989,38.71405,70
+-9.143827,38.713771,69
+-9.143275,38.712966,67
+-9.142976,38.712031,64
+-9.142963,38.711947,64
+-9.142976,38.712031,64
+-9.142374,38.712051,65
+-9.142286,38.711812,63
+-9.142219,38.711748,62
+-9.14217,38.711735,62
+-9.14207,38.711747,61
+-9.141927,38.711803,60
+-9.141145,38.712106,54
+-9.141113,38.712058,53
+-9.141145,38.712106,54
+-9.140839,38.71223,50
+-9.140875,38.712309,51
+-9.140932,38.712458,53
+-9.140933,38.71269,50
+-9.140904,38.713342,37
+-9.140755,38.713426,35
+-9.1408,38.713483,35
+-9.140779,38.713493,35
+-9.140733,38.713436,35
+-9.140645,38.713492,34
+-9.139709,38.713723,24
+-9.139712,38.71373,24
+-9.139936,38.71428,24
+-9.140027,38.714448,25
+-9.140213,38.714509,26
+-9.14077,38.714688,29
+-9.140921,38.714783,29
+-9.141169,38.715064,29
+-9.141184,38.715189,28
+-9.141164,38.715289,27
+-9.141191,38.715418,26
+-9.141191,38.715418,26
+-9.141204,38.715483,26
+-9.141784,38.71615,24
+-9.142013,38.716343,25
+-9.142215,38.716417,26
+-9.143962,38.718418,33
+-9.149382,38.724624,69
+-9.149461,38.724766,67
+-9.149513,38.724822,66
+-9.149426,38.724891,66
+-9.149289,38.725076,67
+-9.149247,38.725183,68
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.150475,38.724674,66</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.150475,38.724674,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.150609,38.724737,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Au rond-po]]></name>
+<description><![CDATA[Au rond-point, prenez la 1 sortie vers Rua Braamcamp]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.150733,38.724644,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à droite sur Rua Alexandre Herculano]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.152573,38.721061,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la gauche sur Rua Alexandre Herculano]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.153929,38.72034,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à gauche sur Avenida Pedro Álvares Cabral]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.155934,38.719519,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Au rond-po]]></name>
+<description><![CDATA[Au rond-point, prenez la 1 sortie vers Rua de São Jorge]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.158638,38.71589,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la gauche sur Rua de São Jorge]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160616,38.715536,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la droite sur Rua da Estrela]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1608,38.714113,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16102,38.713946,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160748,38.713897,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à gauche sur Praça da Estrela]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160574,38.713759,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160399,38.713746,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Rua de São Bernardo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.158337,38.712958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Rua de Santo Amaro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.157482,38.714439,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Rua da Imprensa Nacional]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.154455,38.71553,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Rua da Escola Politécnica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.151488,38.717729,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la droite sur Praça do Príncipe Real]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.148349,38.716661,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Faites dem]]></name>
+<description><![CDATA[Faites demi-tour sur Rua da Misericórdia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142963,38.711947,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Largo da Trindade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142976,38.712031,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Rua Nova da Trindade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142374,38.712051,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à gauche sur Rua da Trindade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142219,38.711748,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Largo do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141145,38.712106,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Faites dem]]></name>
+<description><![CDATA[Faites demi-tour sur Largo do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141113,38.712058,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite sur Largo do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141145,38.712106,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la droite sur Calçada do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140875,38.712309,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140904,38.713342,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à droite sur Calçada do Carmo]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140645,38.713492,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Empruntez ]]></name>
+<description><![CDATA[Empruntez le rond-point]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139709,38.713723,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Au rond-po]]></name>
+<description><![CDATA[Au rond-point, prenez la 1 sortie vers Praça Dom João da Câmara]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.139712,38.71373,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à gauche sur Praça Dom João da Câmara]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.140027,38.714448,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Restez sur]]></name>
+<description><![CDATA[Restez sur la droite sur Rua 1º de Dezembro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.141169,38.715064,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez lé]]></name>
+<description><![CDATA[Tournez légèrement à droite sur Avenida da Liberdade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.142215,38.716417,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tournez à ]]></name>
+<description><![CDATA[Tournez à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143962,38.718418,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Empruntez ]]></name>
+<description><![CDATA[Empruntez le rond-point]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149513,38.724822,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149247,38.725183,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.149247,38.725183,68</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

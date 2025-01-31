@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Cais Do Sodre  Fund Champalimaud And Back</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.146762</longitude>
+<latitude>38.705001</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1570774">
+<name><![CDATA[Cais Do Sodre  Fund Champalimaud And Back]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.146762,38.705001,0
+-9.146762,38.705001,0
+-9.1468,38.705,0
+-9.148777,38.705809,5
+-9.148914,38.705604,4
+-9.149241,38.705734,4
+-9.155653,38.704574,6
+-9.155795,38.704622,6
+-9.156274,38.704538,5
+-9.156291,38.704598,5
+-9.156748,38.704502,4
+-9.156892,38.70451,4
+-9.156984,38.704524,4
+-9.157909,38.704811,5
+-9.158089,38.704836,6
+-9.15818,38.704797,6
+-9.15818,38.704797,6
+-9.159355,38.704286,3
+-9.159843,38.704099,5
+-9.160462,38.703888,7
+-9.160916,38.703767,8
+-9.161406,38.703712,9
+-9.161932,38.703423,6
+-9.162301,38.70334,6
+-9.162465,38.703275,7
+-9.162704,38.70321,7
+-9.163001,38.703167,8
+-9.163534,38.703162,8
+-9.163855,38.703245,7
+-9.164204,38.703265,6
+-9.164199,38.70315,6
+-9.165339,38.703158,6
+-9.166833,38.702881,5
+-9.16685,38.70293,6
+-9.168784,38.702585,6
+-9.168784,38.702585,6
+-9.17121,38.702151,8
+-9.172858,38.701832,6
+-9.172845,38.701788,6
+-9.174567,38.701478,7
+-9.174428,38.701,7
+-9.174603,38.700966,7
+-9.174503,38.700641,6
+-9.175105,38.700529,6
+-9.175307,38.700497,7
+-9.175279,38.700388,6
+-9.175349,38.700368,6
+-9.175883,38.700463,8
+-9.175881,38.700362,8
+-9.176326,38.700434,7
+-9.178973,38.699505,0
+-9.178673,38.69844,0
+-9.183409,38.69758,1
+-9.183409,38.69758,1
+-9.187558,38.696827,2
+-9.187595,38.696804,1
+-9.187668,38.696824,1
+-9.18858,38.696653,0
+-9.188714,38.697049,4
+-9.188745,38.697073,4
+-9.189433,38.696993,5
+-9.190038,38.696902,8
+-9.192436,38.696496,6
+-9.194045,38.696304,7
+-9.19902,38.695855,9
+-9.199035,38.695925,9
+-9.199698,38.695846,8
+-9.208598,38.694244,7
+-9.2092,38.694157,5
+-9.213226,38.693769,7
+-9.213739,38.693717,8
+-9.213872,38.69374,8
+-9.214611,38.693681,8
+-9.21476,38.69363,7
+-9.21766,38.693387,8
+-9.217978,38.693383,8
+-9.218501,38.693458,7
+-9.218981,38.693604,8
+-9.219321,38.693671,8
+-9.220467,38.694007,8
+-9.220514,38.693947,8
+-9.220622,38.693993,7
+-9.220622,38.693993,7
+-9.220514,38.693947,8
+-9.220467,38.694007,8
+-9.219321,38.693671,8
+-9.218981,38.693604,8
+-9.218501,38.693458,7
+-9.217978,38.693383,8
+-9.21766,38.693387,8
+-9.21476,38.69363,7
+-9.214611,38.693681,8
+-9.213872,38.69374,8
+-9.213739,38.693717,8
+-9.213226,38.693769,7
+-9.2092,38.694157,5
+-9.208598,38.694244,7
+-9.199698,38.695846,8
+-9.19923,38.695908,9
+-9.19345,38.696444,6
+-9.192465,38.696579,7
+-9.187804,38.6973,6
+-9.185159,38.697768,2
+-9.184209,38.697981,6
+-9.183177,38.698252,7
+-9.182135,38.698568,6
+-9.181146,38.698909,5
+-9.180071,38.699333,-5
+-9.178652,38.699978,10
+-9.177598,38.700495,9
+-9.175464,38.701439,7
+-9.175307,38.701476,7
+-9.174201,38.702016,7
+-9.169647,38.702857,8
+-9.168293,38.703081,8
+-9.167546,38.70322,8
+-9.164761,38.703236,7
+-9.164594,38.703265,6
+-9.164204,38.703265,6
+-9.163855,38.703245,7
+-9.163534,38.703162,8
+-9.163001,38.703167,8
+-9.162704,38.70321,7
+-9.162465,38.703275,7
+-9.162301,38.70334,6
+-9.161932,38.703423,6
+-9.161819,38.703405,5
+-9.161425,38.703637,8
+-9.161297,38.703676,8
+-9.161082,38.703696,8
+-9.160798,38.703746,7
+-9.160535,38.703817,6
+-9.159807,38.70405,4
+-9.159142,38.704318,3
+-9.15819,38.704752,5
+-9.158019,38.704751,5
+-9.156988,38.704447,3
+-9.156866,38.704431,4
+-9.155795,38.704622,6
+-9.155653,38.704574,6
+-9.149241,38.705734,4
+-9.148914,38.705604,4
+-9.148777,38.705809,5
+-9.1468,38.705,0
+-9.146762,38.705001,0
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146762,38.705001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on C]]></name>
+<description><![CDATA[Start on Cais do Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146762,38.705001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.156274,38.704538,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.156291,38.704598,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161406,38.703712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.164204,38.703265,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.164199,38.70315,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.166833,38.702881,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Rua da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172858,38.701832,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172845,38.701788,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174567,38.701478,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175279,38.700388,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175883,38.700463,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175881,38.700362,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à cur]]></name>
+<description><![CDATA[Vire à curva ligeira à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187558,38.696827,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187595,38.696804,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18858,38.696653,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19902,38.695855,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199035,38.695925,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à esquerda para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.218981,38.693604,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Largo da Fundação Champalimaud]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220467,38.694007,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220514,38.693947,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para Largo da Fundação Champalimaud]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220514,38.693947,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.220467,38.694007,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175464,38.701439,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita para Rua da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174201,38.702016,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mantenha-s]]></name>
+<description><![CDATA[Mantenha-se à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161932,38.703423,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161819,38.703405,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146762,38.705001,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146762,38.705001,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

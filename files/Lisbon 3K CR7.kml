@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisbon 3K CR7</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.135850</longitude>
+<latitude>38.709120</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route499881">
+<name><![CDATA[Lisbon 3K CR7]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.13585,38.70912,17
+-9.13585,38.70912,17
+-9.13535,38.70924,18
+-9.13535,38.70924,18
+-9.13511,38.70928,19
+-9.13486,38.70933,20
+-9.13486,38.70933,20
+-9.13484,38.70928,20
+-9.13481,38.70922,19
+-9.13481,38.70922,19
+-9.13447,38.70922,20
+-9.1343,38.7092,21
+-9.1343,38.7092,21
+-9.13413,38.70919,21
+-9.13411,38.70919,21
+-9.13409,38.70918,21
+-9.13391,38.70917,20
+-9.13384,38.70916,20
+-9.13363,38.70913,20
+-9.13357,38.70912,19
+-9.1329271,38.7090056,18
+-9.1328251,38.7088633,16
+-9.1322833,38.708834,15
+-9.1317791,38.7088842,16
+-9.1310227,38.7090433,14
+-9.1304862,38.7091186,11
+-9.1294241,38.7096084,12
+-9.1290432,38.7101316,13
+-9.1285926,38.7105419,12
+-9.1287696,38.7107323,15
+-9.1289574,38.7109081,19
+-9.1291639,38.7107826,20
+-9.1292578,38.7107637,22
+-9.1292658,38.7109081,23
+-9.129231,38.7110923,25
+-9.1292578,38.7112263,27
+-9.1290861,38.7113163,25
+-9.1289118,38.7114272,25
+-9.1287374,38.7115381,24
+-9.1285631,38.711649,23
+-9.1285108,38.7116878,23
+-9.1284209,38.7116815,22
+-9.1283673,38.7116292,21
+-9.1283043,38.7115601,20
+-9.1281822,38.7114554,18
+-9.1280387,38.7113592,16
+-9.1280361,38.7113142,15
+-9.1281541,38.7112346,15
+-9.128091,38.7111739,14
+-9.1280065,38.7110944,12
+-9.1279368,38.71104,11
+-9.127804,38.7111268,12
+-9.1276431,38.711242,13
+-9.1274513,38.7113749,14
+-9.1272247,38.7114931,14
+-9.1259962,38.7120446,16
+-9.1255617,38.7122706,14
+-9.1250199,38.7124213,9
+-9.1245639,38.7124255,7
+-9.124226,38.712413,6
+-9.1240275,38.7121409,4
+-9.124285,38.7120027,4
+-9.1248214,38.7117307,3
+-9.1256046,38.7114418,5
+-9.1265059,38.7110107,6
+-9.1274554,38.7105042,6
+-9.1278845,38.7101777,6
+-9.1285229,38.7097256,8
+-9.1295046,38.7091772,7
+-9.1306418,38.7085954,7
+-9.1318381,38.7080512,5
+-9.1329163,38.7075405,8
+-9.1335279,38.707373,10
+-9.1346544,38.7070968,11
+-9.1354859,38.7068958,6
+-9.1363603,38.7067033,3
+-9.1369826,38.7065986,5
+-9.1372025,38.7069712,8
+-9.1373688,38.7074149,11
+-9.1375566,38.7078837,15
+-9.1375458,38.7081014,16
+-9.1371864,38.7081307,14
+-9.1365534,38.7082898,12
+-9.1360116,38.7084824,16
+-9.136076,38.7088005,17
+-9.1361457,38.7090349,18
+-9.13585,38.70912,17
+-9.1354108,38.7092274,18
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13585,38.70912,17</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start near]]></name>
+<description><![CDATA[Start near R. do Comércio 85, 1100-053 Lisboa, Portugal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13585,38.70912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Sla rechts]]></name>
+<description><![CDATA[Sla rechtsaf naar R. da Madalena]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13486,38.70933,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start near]]></name>
+<description><![CDATA[Start near R. do Comércio 85, 1100-053 Lisboa, Portugal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.13585,38.70912,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1354108,38.7092274,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1354108,38.7092274,18</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

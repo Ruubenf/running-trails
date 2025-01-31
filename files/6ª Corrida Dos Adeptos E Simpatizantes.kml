@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>6ª Corrida Dos Adeptos E Simpatizantes</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.097399</longitude>
+<latitude>38.743381</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1820059">
+<name><![CDATA[6ª Corrida Dos Adeptos E Simpatizantes]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.0973985,38.7433814,4
+-9.0959716,38.7483602,1
+-9.0965939,38.7484857,6
+-9.0980422,38.7437077,4
+-9.0985143,38.742896,4
+-9.0995336,38.7422851,4
+-9.1004241,38.7417412,6
+-9.1013896,38.7403019,8
+-9.1024733,38.7386784,7
+-9.1031063,38.7370381,6
+-9.1034496,38.7361176,9
+-9.103986,38.7341174,12
+-9.1046834,38.7322092,8
+-9.1059387,38.7302758,6
+-9.1072905,38.7286354,4
+-9.1088247,38.7274134,5
+-9.1103053,38.7261328,5
+-9.1115391,38.7248103,1
+-9.1138566,38.7220732,4
+-9.1162705,38.7193443,4
+-9.1191673,38.7165149,6
+-9.1213238,38.7145309,5
+-9.1224182,38.7135264,6
+-9.1213238,38.7145309,5
+-9.1191673,38.7165149,6
+-9.1162705,38.7193443,4
+-9.1138566,38.7220732,4
+-9.1115391,38.7248103,1
+-9.1103053,38.7261328,5
+-9.1088247,38.7274134,5
+-9.1072905,38.7286354,4
+-9.1059387,38.7302758,6
+-9.1046834,38.7322092,8
+-9.103986,38.7341174,12
+-9.1034496,38.7361176,9
+-9.1031063,38.7370381,6
+-9.1024733,38.7386784,7
+-9.1013896,38.7403019,8
+-9.1004241,38.7417412,6
+-9.0995336,38.7422851,4
+-9.0985143,38.742896,4
+-9.0980422,38.7437077,4
+-9.0965939,38.7484857,6
+-9.0959716,38.7483602,1
+-9.0973985,38.7433814,4
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.0973985,38.7433814,4</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.0973985,38.7433814,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.0973985,38.7433814,4</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

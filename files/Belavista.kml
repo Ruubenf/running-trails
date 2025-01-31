@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Belavista</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.124117</longitude>
+<latitude>38.744710</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route945899">
+<name><![CDATA[Belavista]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.124117,38.74471,66
+-9.124117,38.74471,60
+-9.124301,38.744844,62
+-9.124336,38.744902,63
+-9.124389,38.744946,63
+-9.124886,38.745526,69
+-9.12495,38.745638,71
+-9.124832,38.745685,72
+-9.125103,38.746139,74
+-9.125305,38.746429,74
+-9.125406,38.746447,74
+-9.125406,38.746447,74
+-9.125792,38.746528,73
+-9.12598,38.746607,74
+-9.126103,38.74669,75
+-9.126313,38.747092,79
+-9.126377,38.747183,80
+-9.126554,38.747277,82
+-9.126554,38.747277,82
+-9.126661,38.747368,84
+-9.126813,38.747551,85
+-9.127027,38.747545,84
+-9.127226,38.747561,82
+-9.12736,38.747706,84
+-9.127794,38.748609,94
+-9.127797,38.748809,96
+-9.12784,38.748934,96
+-9.127947,38.749465,96
+-9.127947,38.749595,96
+-9.127848,38.749961,96
+-9.127848,38.750348,96
+-9.127885,38.750705,95
+-9.128009,38.751224,97
+-9.128009,38.751224,97
+-9.128006,38.751213,97
+-9.127721,38.751269,98
+-9.127561,38.751364,98
+-9.127422,38.75148,98
+-9.127257,38.751591,99
+-9.127069,38.751685,100
+-9.126743,38.751809,101
+-9.126682,38.751737,101
+-9.126464,38.751421,98
+-9.126397,38.751291,97
+-9.126207,38.751069,95
+-9.12612,38.751017,95
+-9.126008,38.75095,96
+-9.125812,38.750887,97
+-9.125812,38.750887,97
+-9.125488,38.750802,99
+-9.125313,38.750693,99
+-9.124976,38.750406,97
+-9.124832,38.750367,97
+-9.124731,38.750377,97
+-9.124728,38.75028,96
+-9.124728,38.75028,96
+-9.124702,38.74977,92
+-9.124557,38.749581,91
+-9.124413,38.749571,92
+-9.124297,38.749635,93
+-9.12373,38.748791,85
+-9.123734,38.748788,85
+-9.123734,38.748788,85
+-9.124026,38.748521,86
+-9.12416,38.748458,87
+-9.124468,38.748398,87
+-9.124468,38.748398,87
+-9.124691,38.748364,87
+-9.124828,38.74842,87
+-9.124984,38.748598,87
+-9.12519,38.748903,86
+-9.125244,38.749251,87
+-9.125129,38.749541,89
+-9.125087,38.7498,90
+-9.12523,38.750069,91
+-9.125299,38.750165,92
+-9.125596,38.750396,93
+-9.125934,38.75053,92
+-9.126311,38.750613,91
+-9.126536,38.750623,89
+-9.126774,38.750585,90
+-9.126774,38.750585,90
+-9.126862,38.750571,91
+-9.126935,38.750503,92
+-9.127026,38.750209,93
+-9.126999,38.750059,93
+-9.126826,38.749734,91
+-9.126699,38.749552,90
+-9.12664,38.749213,92
+-9.126645,38.748808,91
+-9.126618,38.748372,90
+-9.126546,38.747805,86
+-9.126578,38.747691,86
+-9.126694,38.747607,86
+-9.126694,38.747607,86
+-9.126813,38.747551,85
+-9.126661,38.747368,84
+-9.126549,38.747272,82
+-9.126377,38.747183,80
+-9.126313,38.747092,79
+-9.126103,38.74669,75
+-9.12598,38.746607,74
+-9.125792,38.746528,73
+-9.125376,38.746442,74
+-9.125323,38.746482,74
+-9.124969,38.746664,76
+-9.124819,38.746697,76
+-9.124116,38.746743,75
+-9.123963,38.746774,75
+-9.123545,38.746902,76
+-9.12344,38.746917,76
+-9.12331,38.746911,76
+-9.12331,38.746911,76
+-9.123258,38.746908,76
+-9.123223,38.746873,75
+-9.123217,38.746827,75
+-9.123386,38.746402,74
+-9.1234,38.746306,73
+-9.123373,38.746178,73
+-9.123317,38.746034,72
+-9.123059,38.74563,71
+-9.123032,38.745524,70
+-9.123054,38.745432,69
+-9.123116,38.745308,68
+-9.123116,38.745308,68
+-9.123102,38.745338,68
+-9.122906,38.745138,68
+-9.122649,38.7448,66
+-9.122295,38.744469,66
+-9.122198,38.744402,66
+-9.122091,38.744369,67
+-9.121976,38.744369,68
+-9.122016,38.744331,67
+-9.122037,38.744281,66
+-9.121994,38.744151,66
+-9.121995,38.744085,64
+-9.121931,38.744038,64
+-9.121921,38.743994,63
+-9.121937,38.743953,62
+-9.121906,38.7439,61
+-9.121774,38.743766,60
+-9.121238,38.743441,57
+-9.121238,38.743441,57
+-9.121203,38.743436,57
+-9.121377,38.743413,56
+-9.121632,38.743496,56
+-9.121761,38.743555,56
+-9.122258,38.743662,52
+-9.122579,38.744034,57
+-9.122558,38.744084,58
+-9.122558,38.744208,60
+-9.122595,38.744318,61
+-9.122684,38.744394,61
+-9.122812,38.744446,61
+-9.12296,38.744469,60
+-9.123531,38.744477,56
+-9.12374,38.744509,56
+-9.123919,38.74458,58
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124117,38.74471,66</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124117,38.74471,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left ]]></name>
+<description><![CDATA[Keep left onto Azinhaga do Pombeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124336,38.744902,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Azinhaga do Pombeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124832,38.745685,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Azinhaga do Pombeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.125305,38.746429,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126103,38.74669,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126813,38.747551,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.127794,38.748609,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.127797,38.748809,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.128006,38.751213,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126743,38.751809,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126682,38.751737,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.12612,38.751017,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.125488,38.750802,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124731,38.750377,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.124702,38.74977,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.12373,38.748791,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126813,38.747551,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Azinhaga do Pombeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.126103,38.74669,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.125376,38.746442,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.123223,38.746873,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right onto Azinhaga do Pombeiro]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.123102,38.745338,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.121976,38.744369,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.121995,38.744085,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.121937,38.743953,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.121203,38.743436,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.122258,38.743662,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.122579,38.744034,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.123919,38.74458,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.123919,38.74458,58</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

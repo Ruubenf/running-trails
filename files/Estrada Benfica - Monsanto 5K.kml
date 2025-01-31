@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Estrada Benfica - Monsanto 5K</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.196710</longitude>
+<latitude>38.750370</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route117445">
+<name><![CDATA[Estrada Benfica - Monsanto 5K]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.19671,38.75037,77
+-9.19671,38.75037,80
+-9.19612,38.75024,80
+-9.19612,38.75024,80
+-9.19618,38.75012,79
+-9.19618,38.75012,79
+-9.19584,38.75003,80
+-9.19584,38.75003,80
+-9.19541,38.74992,80
+-9.1949,38.7498,79
+-9.1949,38.7498,79
+-9.19425,38.74968,77
+-9.19421,38.74967,77
+-9.19419,38.74967,77
+-9.19418,38.74968,77
+-9.19416,38.74968,77
+-9.19415,38.74969,77
+-9.19414,38.7497,77
+-9.19413,38.74971,77
+-9.19412,38.74972,78
+-9.19412,38.74974,78
+-9.19411,38.74978,78
+-9.19411,38.74978,78
+-9.19375,38.74972,79
+-9.19303,38.74958,81
+-9.19299,38.74958,81
+-9.19278,38.74954,82
+-9.19278,38.74954,82
+-9.1927,38.7495,82
+-9.19267,38.74948,82
+-9.19264,38.74946,82
+-9.19262,38.74945,82
+-9.1926,38.74942,82
+-9.19259,38.74941,82
+-9.19258,38.74939,82
+-9.19257,38.74937,82
+-9.19256,38.7493,82
+-9.19272,38.74884,80
+-9.19274,38.74871,79
+-9.19274,38.74868,79
+-9.19275,38.74865,79
+-9.19275,38.74862,79
+-9.19275,38.74858,79
+-9.19274,38.74855,79
+-9.19272,38.7485,79
+-9.19266,38.7484,78
+-9.19261,38.74835,78
+-9.19259,38.74833,77
+-9.19257,38.74831,78
+-9.19254,38.7483,77
+-9.19254,38.7483,77
+-9.19257,38.74824,78
+-9.19257,38.74823,78
+-9.19256,38.74821,78
+-9.19253,38.7482,78
+-9.19249,38.74817,78
+-9.19244,38.74816,79
+-9.1924,38.74814,79
+-9.1924,38.74814,79
+-9.19206,38.74806,83
+-9.19201,38.74806,83
+-9.19197,38.74807,83
+-9.19196,38.74807,83
+-9.19195,38.74809,83
+-9.19192,38.74814,84
+-9.19192,38.74814,84
+-9.19176,38.74808,85
+-9.19129,38.74789,84
+-9.19112,38.74783,84
+-9.19078,38.74769,83
+-9.19056,38.7476,81
+-9.19037,38.74754,79
+-9.19037,38.74754,79
+-9.19028,38.74747,78
+-9.19006,38.74736,77
+-9.18999,38.74734,77
+-9.18986,38.7473,78
+-9.18986,38.7473,78
+-9.18986,38.74729,78
+-9.18981,38.74724,78
+-9.18979,38.74722,78
+-9.18974,38.74712,79
+-9.1897,38.74705,79
+-9.18971,38.74694,80
+-9.18969,38.74688,80
+-9.18969,38.74685,80
+-9.18974,38.74646,81
+-9.18981,38.74585,82
+-9.18981,38.74585,82
+-9.18991,38.74584,82
+-9.18991,38.74584,82
+-9.18992,38.74581,83
+-9.18992,38.74578,83
+-9.18994,38.74577,83
+-9.18996,38.74576,83
+-9.19004,38.74571,83
+-9.19004,38.74571,83
+-9.19006,38.7457,83
+-9.19007,38.74568,84
+-9.18996,38.74549,84
+-9.18995,38.74545,85
+-9.18994,38.74542,85
+-9.18993,38.74537,85
+-9.18996,38.74518,86
+-9.18996,38.74514,86
+-9.18997,38.74512,86
+-9.18998,38.74511,86
+-9.18999,38.7451,86
+-9.19002,38.7451,87
+-9.19003,38.7451,87
+-9.19004,38.74511,87
+-9.19005,38.74512,87
+-9.19004,38.74552,84
+-9.19006,38.74553,84
+-9.19008,38.74553,84
+-9.19008,38.74552,84
+-9.19009,38.74551,84
+-9.19008,38.74514,86
+-9.19008,38.74513,86
+-9.19007,38.74511,87
+-9.19007,38.7451,87
+-9.19001,38.74501,87
+-9.18999,38.74495,87
+-9.18996,38.74491,87
+-9.18996,38.74489,87
+-9.18995,38.74484,87
+-9.18994,38.74483,87
+-9.18993,38.74476,88
+-9.18992,38.74469,88
+-9.18988,38.74447,89
+-9.18985,38.74439,89
+-9.18985,38.74432,90
+-9.18984,38.74427,90
+-9.18983,38.74424,90
+-9.18983,38.74421,90
+-9.18981,38.74414,92
+-9.18981,38.74413,92
+-9.18981,38.74412,92
+-9.1898,38.74409,94
+-9.1898,38.74408,94
+-9.18979,38.74405,95
+-9.18978,38.74398,98
+-9.18977,38.74387,103
+-9.18976,38.7437,109
+-9.18972,38.74349,118
+-9.18972,38.74347,119
+-9.18968,38.74347,119
+-9.18968,38.74347,119
+-9.19031,38.74322,122
+-9.19039,38.74318,123
+-9.190402,38.743202,122
+-9.190879,38.743053,120
+-9.191527,38.742815,117
+-9.192155,38.742631,116
+-9.192317,38.74255,116
+-9.192475,38.742497,116
+-9.193151,38.742286,119
+-9.193925,38.742159,117
+-9.194181,38.741921,121
+-9.194341,38.741878,122
+-9.195442,38.741748,124
+-9.196325,38.741721,122
+-9.196817,38.741648,123
+-9.197054,38.741586,123
+-9.197415,38.741575,123
+-9.197594,38.741542,123
+-9.197972,38.741342,124
+-9.198247,38.741239,125
+-9.198358,38.741158,126
+-9.19847,38.741031,128
+-9.198547,38.740977,128
+-9.198637,38.740944,128
+-9.198757,38.740935,128
+-9.199142,38.740808,128
+-9.199296,38.740728,128
+-9.199693,38.740561,125
+-9.199843,38.740477,125
+-9.200143,38.740109,127
+-9.200233,38.739902,128
+-9.20029,38.739703,129
+-9.20052,38.739689,127
+-9.200824,38.739641,126
+-9.200943,38.739656,124
+-9.20112,38.73984,121
+-9.20109,38.73987,121
+-9.20096,38.73994,121
+-9.20084,38.74,122
+-9.20073,38.74007,122
+-9.20066,38.74013,122
+-9.2006,38.74018,122
+-9.20058,38.74021,122
+-9.20058,38.74021,122
+-9.20052,38.74027,122
+-9.20041,38.7404,121
+-9.20023,38.74063,120
+-9.20013,38.74073,119
+-9.20009,38.74076,119
+-9.20005,38.74078,119
+-9.19996,38.74082,120
+-9.19981,38.74089,120
+-9.19963,38.74098,121
+-9.19942,38.7411,121
+-9.1992,38.74127,119
+-9.19906,38.74139,117
+-9.19863,38.74182,113
+-9.19849,38.74196,112
+-9.19845,38.74201,112
+-9.19842,38.74203,112
+-9.19835,38.7421,111
+-9.19829,38.74217,110
+-9.19812,38.74233,107
+-9.19785,38.74256,104
+-9.19777,38.74262,103
+-9.19759,38.74275,102
+-9.1974,38.74287,101
+-9.1972,38.74297,99
+-9.19711,38.74301,99
+-9.19711,38.74301,99
+-9.19702,38.74305,98
+-9.19689,38.74311,97
+-9.19669,38.74318,96
+-9.19654,38.74324,95
+-9.19631,38.7433,93
+-9.19615,38.74334,92
+-9.196,38.74336,91
+-9.19571,38.74341,90
+-9.19545,38.74345,89
+-9.19502,38.74351,89
+-9.19455,38.74357,89
+-9.19416,38.74362,90
+-9.19369,38.74367,91
+-9.19335,38.7437,93
+-9.19282,38.74376,92
+-9.19235,38.74381,92
+-9.19171,38.74387,92
+-9.19074,38.74396,93
+-9.19074,38.74396,93
+-9.19081,38.74387,96
+-9.19102,38.74376,98
+-9.19134,38.74364,100
+-9.1915,38.74359,99
+-9.1915,38.74359,99
+-9.19162,38.74356,99
+-9.19179,38.74354,98
+-9.19198,38.7435,97
+-9.19215,38.74342,97
+-9.19236,38.74329,97
+-9.1925,38.74323,97
+-9.1925,38.74323,97
+-9.19237,38.74311,101
+-9.19231,38.74309,102
+-9.1918,38.74268,117
+-9.19104,38.7429,122
+-9.19082,38.74299,123
+-9.19082,38.74299,123
+-9.19031,38.74322,122
+-9.18968,38.74347,119
+-9.18968,38.74347,119
+-9.18972,38.74347,119
+-9.18972,38.74349,118
+-9.18976,38.7437,109
+-9.18976,38.7437,109
+-9.18977,38.74387,103
+-9.18978,38.74398,98
+-9.18979,38.74405,95
+-9.1898,38.74408,94
+-9.1898,38.74409,94
+-9.18981,38.74412,92
+-9.18981,38.74413,92
+-9.18981,38.74414,92
+-9.18983,38.74421,90
+-9.18983,38.74424,90
+-9.18984,38.74427,90
+-9.18985,38.74432,90
+-9.18985,38.74439,89
+-9.18988,38.74447,89
+-9.18992,38.74469,88
+-9.18993,38.74476,88
+-9.18994,38.74483,87
+-9.18995,38.74484,87
+-9.18996,38.74489,87
+-9.18996,38.74491,87
+-9.18999,38.74495,87
+-9.19001,38.74501,87
+-9.19007,38.7451,87
+-9.19007,38.74511,87
+-9.19008,38.74513,86
+-9.19008,38.74514,86
+-9.19009,38.74551,84
+-9.19008,38.74552,84
+-9.19008,38.74553,84
+-9.19006,38.74553,84
+-9.19004,38.74552,84
+-9.19005,38.74512,87
+-9.19004,38.74511,87
+-9.19003,38.7451,87
+-9.19002,38.7451,87
+-9.18999,38.7451,86
+-9.18998,38.74511,86
+-9.18997,38.74512,86
+-9.18996,38.74514,86
+-9.18996,38.74518,86
+-9.18993,38.74537,85
+-9.18994,38.74542,85
+-9.18995,38.74545,85
+-9.18996,38.74549,84
+-9.19007,38.74568,84
+-9.19006,38.7457,83
+-9.19004,38.74571,83
+-9.19004,38.74571,83
+-9.18996,38.74576,83
+-9.18994,38.74577,83
+-9.18992,38.74578,83
+-9.18992,38.74581,83
+-9.18991,38.74584,82
+-9.18991,38.74584,82
+-9.18981,38.74585,82
+-9.18981,38.74585,82
+-9.18974,38.74646,81
+-9.18969,38.74685,80
+-9.18969,38.74688,80
+-9.18969,38.74688,80
+-9.18971,38.74694,80
+-9.1897,38.74705,79
+-9.1897,38.74705,79
+-9.18974,38.74712,79
+-9.18979,38.74722,78
+-9.18981,38.74724,78
+-9.18986,38.74729,78
+-9.18986,38.7473,78
+-9.18999,38.74734,77
+-9.19006,38.74736,77
+-9.19006,38.74736,77
+-9.19028,38.74747,78
+-9.19037,38.74754,79
+-9.19056,38.7476,81
+-9.19078,38.74769,83
+-9.19112,38.74783,84
+-9.19129,38.74789,84
+-9.19176,38.74808,85
+-9.19192,38.74814,84
+-9.19192,38.74814,84
+-9.19195,38.74809,83
+-9.19196,38.74807,83
+-9.19197,38.74807,83
+-9.19199,38.74806,83
+-9.19199,38.74806,83
+-9.19201,38.74806,83
+-9.19206,38.74806,83
+-9.19244,38.74816,79
+-9.19249,38.74817,78
+-9.19253,38.7482,78
+-9.19256,38.74821,78
+-9.19257,38.74823,78
+-9.19257,38.74824,78
+-9.19254,38.7483,77
+-9.19254,38.7483,77
+-9.19257,38.74831,78
+-9.19259,38.74833,77
+-9.19261,38.74835,78
+-9.19266,38.7484,78
+-9.19266,38.7484,78
+-9.19272,38.7485,79
+-9.19274,38.74855,79
+-9.19275,38.74858,79
+-9.19275,38.74862,79
+-9.19275,38.74865,79
+-9.19274,38.74868,79
+-9.19274,38.74871,79
+-9.19272,38.74884,80
+-9.19256,38.7493,82
+-9.19256,38.7493,82
+-9.19257,38.74937,82
+-9.19258,38.74939,82
+-9.19259,38.74941,82
+-9.1926,38.74942,82
+-9.19262,38.74945,82
+-9.19264,38.74946,82
+-9.19267,38.74948,82
+-9.1927,38.7495,82
+-9.19278,38.74954,82
+-9.19278,38.74954,82
+-9.19299,38.74958,81
+-9.19303,38.74958,81
+-9.19375,38.74972,79
+-9.19411,38.74978,78
+-9.19411,38.74978,78
+-9.19412,38.74974,78
+-9.19412,38.74972,78
+-9.19413,38.74971,77
+-9.19414,38.7497,77
+-9.19415,38.74969,77
+-9.19416,38.74968,77
+-9.19418,38.74968,77
+-9.19418,38.74968,77
+-9.19419,38.74967,77
+-9.19421,38.74967,77
+-9.19425,38.74968,77
+-9.1949,38.7498,79
+-9.1949,38.7498,79
+-9.19485,38.74993,79
+-9.19485,38.74993,79
+-9.19504,38.74997,80
+-9.19612,38.75024,80
+-9.19679,38.75039,80
+-9.19691,38.75041,80
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19671,38.75037,77</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start near]]></name>
+<description><![CDATA[Start near Estr. de Benfica 555, 1500-328 Lisboa, Portugal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19671,38.75037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para este em Estr. de Benfica em direção a R. Fernanda Botelho]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19671,38.75037,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita em direção a R. Fernanda Botelho]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19612,38.75024,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19618,38.75012,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para este em direção a Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19584,38.75003,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue e]]></name>
+<description><![CDATA[Continue em frente para Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1949,38.7498,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para continuar na Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19411,38.74978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curvar lig]]></name>
+<description><![CDATA[Curvar ligeiramente à direita em direção a R. José Rodrigues Miguéis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19278,38.74954,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curva lige]]></name>
+<description><![CDATA[Curva ligeira à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19254,38.7483,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para este em direção a R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1924,38.74814,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita em direção a R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19192,38.74814,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curve lige]]></name>
+<description><![CDATA[Curve ligeiramente à direita para continuar na R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19037,38.74754,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita em direção a R. Ten-Cel. Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18986,38.7473,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita em direção a Estrada do Calhariz de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18981,38.74585,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda em direção a Lisboa - Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18991,38.74584,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para continuar na Lisboa - Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19004,38.74571,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18968,38.74347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20029,38.739703,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para nordeste em Ciclovia Lisboa Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20112,38.73984,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para nordeste em Ciclovia Lisboa Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20058,38.74021,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para nordeste em Ciclovia Lisboa Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19711,38.74301,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curva acen]]></name>
+<description><![CDATA[Curva acentuada à direita]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19074,38.74396,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para oeste]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1915,38.74359,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1925,38.74323,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para nordeste]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19082,38.74299,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda em direção a Lisboa - Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18968,38.74347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue a]]></name>
+<description><![CDATA[Continue até Lisboa - Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18976,38.7437,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para continuar na Lisboa - Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19004,38.74571,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita em direção a Estrada do Calhariz de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18991,38.74584,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda em direção a R. Ten-Cel. Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18981,38.74585,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curve lige]]></name>
+<description><![CDATA[Curve ligeiramente à esquerda para continuar na R. Ten-Cel. Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18969,38.74688,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda em direção a Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1897,38.74705,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue a]]></name>
+<description><![CDATA[Continue até R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19006,38.74736,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda na Praça Dr. Nuno Pinheiro Torres]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19192,38.74814,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para oeste em direção a R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19199,38.74806,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curvar lig]]></name>
+<description><![CDATA[Curvar ligeiramente à esquerda em direção a R. Prof. José Sebastião e Silva]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19254,38.7483,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continue a]]></name>
+<description><![CDATA[Continue até R. José Rodrigues Miguéis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19266,38.7484,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curve lige]]></name>
+<description><![CDATA[Curve ligeiramente à esquerda para continuar na R. José Rodrigues Miguéis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19256,38.7493,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Curvar lig]]></name>
+<description><![CDATA[Curvar ligeiramente à esquerda em direção a Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19278,38.74954,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para continuar na Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19411,38.74978,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Siga para ]]></name>
+<description><![CDATA[Siga para oeste em Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19418,38.74968,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à dir]]></name>
+<description><![CDATA[Vire à direita para continuar na Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1949,38.7498,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Vire à esq]]></name>
+<description><![CDATA[Vire à esquerda para continuar na Estr. de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19485,38.74993,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19691,38.75041,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19691,38.75041,80</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

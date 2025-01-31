@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Ego En Lisbonne 15km </name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.142490</longitude>
+<latitude>38.705410</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route217758">
+<name><![CDATA[Ego En Lisbonne 15km ]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.14249,38.70541,0
+-9.14249,38.70541,2
+-9.14269,38.70537,2
+-9.14279,38.70533,2
+-9.14294,38.7053,2
+-9.14312,38.70528,2
+-9.14323,38.70527,2
+-9.14323,38.70527,2
+-9.14353,38.70525,2
+-9.14353,38.70525,2
+-9.14359,38.70525,2
+-9.14399,38.70523,2
+-9.14399,38.70523,2
+-9.14414,38.70519,2
+-9.14414,38.70519,2
+-9.14453,38.7051,1
+-9.14458,38.7051,1
+-9.14461,38.7051,1
+-9.14461,38.7051,1
+-9.14463,38.70509,1
+-9.14467,38.7051,1
+-9.14469,38.70513,1
+-9.14471,38.70516,1
+-9.14471,38.70519,2
+-9.14472,38.70525,2
+-9.14472,38.70525,2
+-9.14472,38.70528,2
+-9.14472,38.70528,2
+-9.14499,38.70525,2
+-9.14521,38.70522,2
+-9.14521,38.70522,2
+-9.14555,38.70517,2
+-9.14599,38.70513,1
+-9.14599,38.70513,1
+-9.14604,38.70513,1
+-9.14627,38.7051,1
+-9.14659,38.70507,1
+-9.14668,38.70507,1
+-9.14675,38.70506,1
+-9.1468,38.70507,1
+-9.1468,38.70507,1
+-9.14681,38.70507,1
+-9.14682,38.70507,1
+-9.14684,38.70507,1
+-9.14686,38.70507,1
+-9.14687,38.70508,1
+-9.14714,38.70519,2
+-9.14741,38.7053,3
+-9.1476,38.70537,3
+-9.14763,38.70539,3
+-9.14763,38.70539,3
+-9.14773,38.70543,3
+-9.14813,38.70561,4
+-9.14815,38.70562,4
+-9.14819,38.70556,4
+-9.14819,38.70556,4
+-9.14824,38.70558,4
+-9.14824,38.70558,4
+-9.14881,38.70582,5
+-9.14881,38.70582,5
+-9.14884,38.70583,5
+-9.14884,38.70583,5
+-9.14889,38.70577,5
+-9.14894,38.70571,4
+-9.14896,38.7057,4
+-9.14898,38.7057,4
+-9.14909,38.70573,4
+-9.1491,38.70574,4
+-9.14911,38.70576,5
+-9.14911,38.70577,5
+-9.14911,38.70579,5
+-9.14911,38.70579,5
+-9.14929,38.70575,5
+-9.14929,38.70575,5
+-9.14957,38.70569,5
+-9.15069,38.70548,6
+-9.15069,38.70548,6
+-9.1508,38.70546,6
+-9.1509,38.70544,6
+-9.1519,38.70526,5
+-9.152,38.70524,6
+-9.152,38.70524,6
+-9.15224,38.7052,6
+-9.15239,38.70518,7
+-9.15295,38.70511,6
+-9.15379,38.70496,5
+-9.15379,38.70496,5
+-9.1545,38.70484,5
+-9.15511,38.70475,6
+-9.1555,38.70468,6
+-9.1562,38.70455,5
+-9.1562,38.70455,5
+-9.15636,38.70452,5
+-9.15639,38.70451,5
+-9.15639,38.70452,5
+-9.1564,38.70452,5
+-9.15641,38.70453,5
+-9.15642,38.70455,5
+-9.15643,38.70458,5
+-9.15643,38.70458,5
+-9.15686,38.7045,4
+-9.15695,38.70451,4
+-9.15721,38.70459,3
+-9.15727,38.70461,3
+-9.15767,38.70473,4
+-9.15794,38.70481,5
+-9.15794,38.70481,5
+-9.15796,38.70482,5
+-9.15803,38.70483,5
+-9.15808,38.70484,6
+-9.1581,38.70484,6
+-9.15813,38.70484,6
+-9.15817,38.70483,6
+-9.15822,38.7048,6
+-9.15843,38.7047,6
+-9.15948,38.70424,4
+-9.15957,38.7042,4
+-9.15968,38.70416,4
+-9.16023,38.70395,6
+-9.16023,38.70395,6
+-9.16046,38.70388,6
+-9.16067,38.70382,7
+-9.16081,38.70378,7
+-9.16091,38.70376,7
+-9.161,38.70373,8
+-9.16113,38.70371,8
+-9.16128,38.70369,9
+-9.16138,38.70367,9
+-9.16143,38.70366,9
+-9.16147,38.70364,9
+-9.16152,38.70362,8
+-9.16158,38.70359,8
+-9.16164,38.70355,7
+-9.16165,38.70355,7
+-9.16167,38.70355,7
+-9.16168,38.70354,7
+-9.16174,38.70354,8
+-9.16185,38.70348,7
+-9.1619,38.70345,6
+-9.1619,38.70345,6
+-9.16195,38.70337,5
+-9.16195,38.70337,5
+-9.16197,38.70333,4
+-9.16203,38.70328,5
+-9.16206,38.70325,5
+-9.16206,38.70323,5
+-9.16206,38.70321,5
+-9.16205,38.70319,5
+-9.16203,38.70317,5
+-9.16202,38.70316,5
+-9.16174,38.70302,3
+-9.16172,38.70301,3
+-9.16171,38.70299,3
+-9.1617,38.70298,3
+-9.16169,38.70296,3
+-9.1617,38.70293,3
+-9.16171,38.70291,3
+-9.16173,38.70289,3
+-9.16177,38.70283,3
+-9.1618,38.70279,4
+-9.16181,38.70275,4
+-9.16181,38.7027,4
+-9.16181,38.70268,4
+-9.16183,38.70267,4
+-9.16184,38.70266,4
+-9.16187,38.70265,4
+-9.16189,38.70266,4
+-9.162,38.70268,4
+-9.16284,38.70285,8
+-9.16333,38.70297,9
+-9.16347,38.703,9
+-9.16349,38.70301,9
+-9.16349,38.70301,9
+-9.16376,38.70309,8
+-9.1639,38.70314,7
+-9.164,38.70315,7
+-9.16409,38.70316,6
+-9.16489,38.70315,7
+-9.16506,38.70315,7
+-9.16526,38.70313,6
+-9.1654,38.70312,6
+-9.1655,38.70312,6
+-9.16562,38.7031,6
+-9.16661,38.70293,6
+-9.1676,38.70276,6
+-9.1676,38.70276,6
+-9.16806,38.70268,6
+-9.17002,38.70235,7
+-9.17009,38.70233,7
+-9.17059,38.70223,8
+-9.17059,38.70223,8
+-9.17089,38.70217,9
+-9.17261,38.70188,6
+-9.17288,38.70184,6
+-9.17288,38.70184,6
+-9.17361,38.70171,7
+-9.17388,38.70166,7
+-9.17429,38.70155,7
+-9.17444,38.70152,7
+-9.17451,38.70152,7
+-9.17457,38.70152,7
+-9.1746,38.70153,7
+-9.17461,38.70154,7
+-9.17462,38.70154,7
+-9.17462,38.70155,7
+-9.17462,38.70155,7
+-9.17467,38.7018,8
+-9.17467,38.7018,8
+-9.17492,38.70166,8
+-9.17502,38.70162,8
+-9.17544,38.70143,7
+-9.17551,38.7014,7
+-9.17555,38.70138,7
+-9.17563,38.70138,7
+-9.17606,38.70119,8
+-9.17632,38.70108,9
+-9.17667,38.70093,10
+-9.17709,38.70074,9
+-9.17709,38.70074,9
+-9.1773,38.70064,9
+-9.17779,38.70042,9
+-9.1782,38.70023,11
+-9.17857,38.70005,11
+-9.17911,38.69979,3
+-9.17924,38.69973,2
+-9.17926,38.69972,1
+-9.1793,38.69971,1
+-9.17931,38.6997,1
+-9.17935,38.69968,0
+-9.17938,38.69967,0
+-9.17941,38.69966,0
+-9.17944,38.69964,-1
+-9.17961,38.69957,-3
+-9.17976,38.6995,-4
+-9.17987,38.69945,-5
+-9.17987,38.69945,-5
+-9.18002,38.69939,-6
+-9.18045,38.6992,0
+-9.1807,38.6991,3
+-9.18103,38.69897,5
+-9.18143,38.69882,5
+-9.18205,38.69861,5
+-9.18253,38.69846,7
+-9.18306,38.6983,7
+-9.18326,38.69824,7
+-9.18329,38.69824,7
+-9.1833,38.69823,7
+-9.18396,38.69806,6
+-9.1849,38.69784,3
+-9.18575,38.69768,1
+-9.18575,38.69768,1
+-9.18583,38.69766,1
+-9.18583,38.69766,1
+-9.18578,38.69759,1
+-9.18577,38.69753,0
+-9.18575,38.6975,0
+-9.18571,38.69751,0
+-9.18567,38.69751,0
+-9.18567,38.69751,0
+-9.18558,38.69722,0
+-9.18558,38.69722,0
+-9.18564,38.69721,0
+-9.18564,38.69721,0
+-9.18676,38.69701,3
+-9.18745,38.69689,2
+-9.18749,38.69688,2
+-9.18751,38.69688,2
+-9.18752,38.69689,2
+-9.19065,38.69628,4
+-9.19065,38.69628,4
+-9.19247,38.69593,1
+-9.19306,38.69582,0
+-9.19409,38.69563,5
+-9.19412,38.69562,6
+-9.19412,38.69562,6
+-9.19548,38.69538,6
+-9.19644,38.69521,4
+-9.19666,38.69517,4
+-9.19717,38.69508,3
+-9.19727,38.69507,3
+-9.19732,38.69508,3
+-9.19739,38.69509,3
+-9.19778,38.69504,4
+-9.19778,38.69504,4
+-9.19776,38.69498,4
+-9.19776,38.69498,4
+-9.19778,38.69504,4
+-9.19778,38.69504,4
+-9.19853,38.69488,4
+-9.19925,38.69474,4
+-9.19965,38.69466,4
+-9.19974,38.69462,4
+-9.20057,38.69447,3
+-9.20154,38.6943,1
+-9.20186,38.69424,2
+-9.20186,38.69424,2
+-9.20264,38.69409,5
+-9.20273,38.69409,5
+-9.20279,38.69412,5
+-9.20283,38.69416,6
+-9.20286,38.69424,6
+-9.20286,38.69424,6
+-9.20283,38.69416,6
+-9.20279,38.69412,5
+-9.20273,38.69409,5
+-9.20264,38.69409,5
+-9.20154,38.6943,1
+-9.20057,38.69447,3
+-9.20057,38.69447,3
+-9.20058,38.6945,3
+-9.20093,38.69567,6
+-9.20093,38.69567,6
+-9.20101,38.69565,6
+-9.20124,38.69561,6
+-9.20143,38.69557,6
+-9.20171,38.69552,6
+-9.20195,38.69548,7
+-9.20216,38.69544,7
+-9.20237,38.6954,8
+-9.20261,38.69535,8
+-9.20279,38.69532,7
+-9.20297,38.69528,6
+-9.2031,38.69525,6
+-9.20318,38.69524,5
+-9.20322,38.69523,5
+-9.2033,38.69522,5
+-9.20346,38.69519,4
+-9.20359,38.69516,4
+-9.20379,38.69513,4
+-9.20398,38.69509,3
+-9.20421,38.69505,2
+-9.20456,38.69498,2
+-9.20527,38.69486,3
+-9.20579,38.69476,4
+-9.20583,38.69476,4
+-9.20618,38.69469,5
+-9.20626,38.69468,5
+-9.20626,38.69468,5
+-9.20625,38.6946,5
+-9.20625,38.69459,5
+-9.20624,38.69453,5
+-9.20614,38.6935,6
+-9.20614,38.6935,6
+-9.20615,38.69349,6
+-9.20617,38.69347,6
+-9.20761,38.69321,5
+-9.20766,38.6932,6
+-9.20768,38.6932,6
+-9.20773,38.6932,6
+-9.20952,38.69286,2
+-9.20952,38.69285,2
+-9.20954,38.69282,2
+-9.20956,38.69281,2
+-9.20959,38.69279,2
+-9.20962,38.69279,2
+-9.21071,38.69259,0
+-9.21071,38.69259,0
+-9.21073,38.69265,1
+-9.21073,38.69265,1
+-9.21106,38.69379,3
+-9.21107,38.6938,3
+-9.21108,38.69381,3
+-9.21109,38.69382,3
+-9.2111,38.69382,3
+-9.21112,38.69382,3
+-9.21116,38.69382,3
+-9.21116,38.69382,3
+-9.21326,38.69361,6
+-9.21326,38.69361,6
+-9.21327,38.69358,6
+-9.21325,38.69341,5
+-9.21325,38.69341,5
+-9.21372,38.69337,7
+-9.2138,38.69333,8
+-9.21385,38.6933,8
+-9.21387,38.69327,8
+-9.21389,38.69323,8
+-9.2139,38.69319,8
+-9.2139,38.69314,8
+-9.21389,38.69311,8
+-9.21364,38.69223,4
+-9.21365,38.69223,4
+-9.21364,38.69221,4
+-9.21361,38.69218,4
+-9.21361,38.69218,4
+-9.21472,38.69191,2
+-9.21489,38.69188,2
+-9.21501,38.69189,2
+-9.2151,38.69193,2
+-9.21516,38.69199,2
+-9.21524,38.69207,3
+-9.21533,38.69214,3
+-9.21542,38.69221,4
+-9.21557,38.69226,4
+-9.21557,38.69226,4
+-9.2157,38.6923,5
+-9.2162,38.69234,6
+-9.21629,38.69233,6
+-9.21637,38.69232,6
+-9.21645,38.69231,6
+-9.21652,38.69229,6
+-9.21659,38.69227,6
+-9.21666,38.69224,5
+-9.21673,38.6922,5
+-9.21689,38.69224,5
+-9.21795,38.69301,6
+-9.21797,38.69304,6
+-9.21799,38.69307,6
+-9.218,38.6931,6
+-9.21801,38.69313,6
+-9.21802,38.69316,6
+-9.21802,38.69319,7
+-9.21802,38.69322,7
+-9.21803,38.69325,7
+-9.21802,38.69331,7
+-9.21801,38.69338,7
+-9.21801,38.69338,7
+-9.21795,38.69338,8
+-9.21791,38.69338,8
+-9.21791,38.69338,8
+-9.21773,38.69337,8
+-9.21772,38.69337,8
+-9.21764,38.69337,8
+-9.21762,38.69337,8
+-9.21752,38.69338,8
+-9.21742,38.69339,8
+-9.21732,38.6934,8
+-9.21657,38.69349,8
+-9.2162,38.69352,8
+-9.21592,38.69354,8
+-9.21572,38.69354,7
+-9.215,38.69359,7
+-9.21397,38.69367,9
+-9.2138,38.6937,8
+-9.21368,38.69371,8
+-9.21327,38.69375,7
+-9.21318,38.69376,7
+-9.21317,38.69376,7
+-9.21302,38.69378,6
+-9.21302,38.69378,6
+-9.21286,38.6938,6
+-9.21282,38.69383,6
+-9.21279,38.69384,6
+-9.21121,38.69398,4
+-9.20987,38.6941,3
+-9.20965,38.69412,4
+-9.20895,38.6942,6
+-9.20875,38.69423,7
+-9.20844,38.69428,8
+-9.20809,38.69435,8
+-9.20793,38.69438,8
+-9.20721,38.69451,8
+-9.20721,38.69451,8
+-9.20686,38.69457,7
+-9.20626,38.69468,5
+-9.20618,38.69469,5
+-9.20583,38.69476,4
+-9.20579,38.69476,4
+-9.20527,38.69486,3
+-9.20456,38.69498,2
+-9.20421,38.69505,2
+-9.20398,38.69509,3
+-9.20379,38.69513,4
+-9.20359,38.69516,4
+-9.20346,38.69519,4
+-9.2033,38.69522,5
+-9.20322,38.69523,5
+-9.20318,38.69524,5
+-9.2031,38.69525,6
+-9.20297,38.69528,6
+-9.20279,38.69532,7
+-9.20261,38.69535,8
+-9.20237,38.6954,8
+-9.20216,38.69544,7
+-9.20195,38.69548,7
+-9.20171,38.69552,6
+-9.20143,38.69557,6
+-9.20124,38.69561,6
+-9.20101,38.69565,6
+-9.20093,38.69567,6
+-9.20087,38.69568,6
+-9.20068,38.69571,6
+-9.20051,38.69574,6
+-9.20031,38.69577,6
+-9.2001,38.6958,7
+-9.19988,38.69583,7
+-9.19978,38.69585,8
+-9.19935,38.6959,9
+-9.19928,38.69591,9
+-9.19912,38.69593,9
+-9.19912,38.69593,9
+-9.19904,38.69593,9
+-9.19889,38.69595,8
+-9.19887,38.69595,8
+-9.1987,38.69596,8
+-9.19834,38.696,8
+-9.19803,38.69602,7
+-9.19772,38.69605,6
+-9.19746,38.69608,6
+-9.19728,38.69609,6
+-9.19683,38.69613,7
+-9.19652,38.69616,8
+-9.19632,38.69618,10
+-9.19556,38.69625,12
+-9.19487,38.69631,10
+-9.19425,38.69636,8
+-9.19402,38.69638,8
+-9.19386,38.6964,7
+-9.19361,38.69643,6
+-9.19333,38.69646,6
+-9.19329,38.69647,6
+-9.19329,38.69647,6
+-9.19305,38.6965,6
+-9.19262,38.69656,7
+-9.19256,38.69656,7
+-9.19249,38.69657,7
+-9.19239,38.69659,7
+-9.19214,38.69663,7
+-9.19168,38.69671,7
+-9.1906,38.69688,8
+-9.18964,38.69704,7
+-9.18937,38.69708,6
+-9.18937,38.69708,6
+-9.18928,38.69712,6
+-9.18881,38.6972,6
+-9.1887,38.69722,6
+-9.1885,38.69725,5
+-9.18813,38.6973,6
+-9.18783,38.69736,6
+-9.18768,38.69738,7
+-9.1874,38.69743,7
+-9.18718,38.69746,7
+-9.18706,38.69746,7
+-9.18695,38.69748,7
+-9.18693,38.69748,7
+-9.18693,38.69748,7
+-9.18609,38.69761,3
+-9.18609,38.69762,3
+-9.18599,38.69763,2
+-9.18583,38.69766,1
+-9.1849,38.69784,3
+-9.18396,38.69806,6
+-9.1833,38.69823,7
+-9.18329,38.69824,7
+-9.18326,38.69824,7
+-9.18306,38.6983,7
+-9.18253,38.69846,7
+-9.18205,38.69861,5
+-9.18143,38.69882,5
+-9.18103,38.69897,5
+-9.1807,38.6991,3
+-9.18045,38.6992,0
+-9.18002,38.69939,-6
+-9.17976,38.6995,-4
+-9.17961,38.69957,-3
+-9.17944,38.69964,-1
+-9.17941,38.69966,0
+-9.17938,38.69967,0
+-9.17935,38.69968,0
+-9.17931,38.6997,1
+-9.1793,38.69971,1
+-9.17926,38.69972,1
+-9.17924,38.69973,2
+-9.17911,38.69979,3
+-9.17857,38.70005,11
+-9.1782,38.70023,11
+-9.17779,38.70042,9
+-9.1773,38.70064,9
+-9.17667,38.70093,10
+-9.17632,38.70108,9
+-9.17606,38.70119,8
+-9.17563,38.70138,7
+-9.17563,38.70138,7
+-9.17555,38.70138,7
+-9.17551,38.7014,7
+-9.17544,38.70143,7
+-9.17502,38.70162,8
+-9.17492,38.70166,8
+-9.17467,38.7018,8
+-9.17451,38.70189,8
+-9.17437,38.70196,8
+-9.17428,38.70201,8
+-9.17423,38.70203,8
+-9.17423,38.70203,8
+-9.17408,38.7021,7
+-9.17404,38.70212,7
+-9.17404,38.70212,7
+-9.174,38.70205,7
+-9.174,38.70205,7
+-9.17347,38.70215,7
+-9.17326,38.70219,7
+-9.173,38.70224,7
+-9.17292,38.70225,7
+-9.17243,38.70235,8
+-9.17243,38.70235,8
+-9.17229,38.70238,8
+-9.17098,38.70262,11
+-9.16973,38.70285,8
+-9.16844,38.70308,8
+-9.16829,38.70311,9
+-9.16829,38.70311,9
+-9.16811,38.70314,8
+-9.16777,38.70319,8
+-9.16754,38.70322,8
+-9.16732,38.70323,8
+-9.16725,38.70327,8
+-9.16605,38.70326,8
+-9.16427,38.70325,6
+-9.16404,38.70326,7
+-9.16393,38.70326,7
+-9.16385,38.70324,7
+-9.16379,38.70323,7
+-9.16368,38.70319,8
+-9.16357,38.70316,8
+-9.16351,38.70316,9
+-9.16336,38.70316,9
+-9.1631,38.70317,9
+-9.16298,38.70317,8
+-9.16279,38.7032,8
+-9.16255,38.70325,7
+-9.16253,38.70326,7
+-9.16253,38.70326,7
+-9.16249,38.70327,7
+-9.16239,38.70332,6
+-9.16231,38.70336,7
+-9.16219,38.70339,7
+-9.16214,38.7034,7
+-9.16203,38.70342,6
+-9.1619,38.70345,6
+-9.16185,38.70348,7
+-9.16174,38.70354,8
+-9.16148,38.7037,10
+-9.16138,38.70376,10
+-9.16133,38.70379,10
+-9.16118,38.70384,10
+-9.1608,38.70393,8
+-9.16042,38.70404,7
+-9.16031,38.70407,7
+-9.16029,38.70408,7
+-9.16012,38.70413,6
+-9.16003,38.70417,6
+-9.15998,38.70418,6
+-9.15988,38.70423,6
+-9.15978,38.70427,6
+-9.15973,38.70429,6
+-9.15938,38.70445,5
+-9.15878,38.70472,6
+-9.15828,38.70497,7
+-9.15805,38.70507,7
+-9.15792,38.70513,7
+-9.15792,38.70513,7
+-9.15779,38.70519,8
+-9.15778,38.70519,8
+-9.15764,38.70526,8
+-9.15748,38.70533,8
+-9.15738,38.70537,8
+-9.15729,38.7054,8
+-9.15724,38.70542,8
+-9.15716,38.70545,8
+-9.15703,38.7055,7
+-9.15683,38.70558,7
+-9.15668,38.70563,6
+-9.15658,38.70567,6
+-9.15637,38.70574,6
+-9.1563,38.70576,6
+-9.15587,38.70589,6
+-9.1555,38.70598,6
+-9.1553,38.70601,7
+-9.15507,38.70605,7
+-9.15495,38.70607,7
+-9.1548,38.70609,7
+-9.15451,38.70613,8
+-9.15433,38.70616,8
+-9.15418,38.70617,9
+-9.15395,38.70619,9
+-9.15385,38.70619,9
+-9.1537,38.70619,9
+-9.15355,38.70619,8
+-9.15341,38.7062,8
+-9.15341,38.70619,8
+-9.1534,38.7062,8
+-9.15321,38.7062,8
+-9.15292,38.70619,8
+-9.1527,38.70619,8
+-9.15249,38.7062,8
+-9.15234,38.7062,7
+-9.15234,38.7062,7
+-9.15216,38.70619,7
+-9.15149,38.70619,5
+-9.15108,38.70618,5
+-9.15103,38.70618,5
+-9.15079,38.70618,5
+-9.15029,38.70617,7
+-9.14996,38.70617,7
+-9.14967,38.70616,6
+-9.14963,38.70616,6
+-9.14959,38.70615,6
+-9.14948,38.70615,6
+-9.14925,38.70612,5
+-9.14913,38.7061,5
+-9.14907,38.70609,5
+-9.14893,38.70606,5
+-9.14874,38.70601,5
+-9.14818,38.70589,5
+-9.14802,38.70585,6
+-9.14752,38.70573,6
+-9.1472,38.70564,5
+-9.14713,38.70563,5
+-9.14699,38.70561,5
+-9.14682,38.70558,5
+-9.14672,38.70557,5
+-9.14663,38.70557,5
+-9.14659,38.70557,5
+-9.14659,38.70557,5
+-9.14659,38.70555,5
+-9.14659,38.70553,5
+-9.14659,38.70551,4
+-9.14656,38.70549,4
+-9.14651,38.70547,4
+-9.14648,38.70546,4
+-9.14643,38.70545,4
+-9.14636,38.70545,4
+-9.14631,38.70545,4
+-9.14619,38.70546,4
+-9.1461,38.70547,4
+-9.14603,38.70547,4
+-9.14583,38.70546,4
+-9.14557,38.70546,4
+-9.14539,38.70545,4
+-9.14523,38.70544,4
+-9.14501,38.70543,4
+-9.14481,38.70543,4
+-9.14476,38.70543,4
+-9.14459,38.70545,4
+-9.14444,38.70545,4
+-9.14437,38.70546,4
+-9.1442,38.70547,4
+-9.14392,38.70549,4
+-9.14392,38.70549,4
+-9.14391,38.70546,4
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14249,38.70541,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start near]]></name>
+<description><![CDATA[Start near Praça Europa, 1200-450 Lisboa, Portugal]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14249,38.70541,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14249,38.70541,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14323,38.70527,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14353,38.70525,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14399,38.70523,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continuer ]]></name>
+<description><![CDATA[Continuer sur Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14414,38.70519,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest sur Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14461,38.7051,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord sur Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14472,38.70525,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche sur Ciclovia Lisboa Cidade]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14472,38.70528,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest sur Ciclovia Lisboa Cidade vers Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14521,38.70522,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest sur Ciclovia Lisboa Cidade vers Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14599,38.70513,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest sur Ciclovia Lisboa Cidade vers Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1468,38.70507,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest sur Ciclovia Lisboa Cidade vers Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14763,38.70539,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-ouest sur Cais Gás]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14815,38.70562,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14819,38.70556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest vers Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14824,38.70558,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest vers Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14881,38.70582,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche sur Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14884,38.70583,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14911,38.70579,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14929,38.70575,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15069,38.70548,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.152,38.70524,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15379,38.70496,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1562,38.70455,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continuer ]]></name>
+<description><![CDATA[Continuer sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15643,38.70458,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15794,38.70481,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-ouest sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16023,38.70395,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner lé]]></name>
+<description><![CDATA[Tourner légèrement à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1619,38.70345,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16195,38.70337,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16349,38.70301,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1676,38.70276,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest vers R. Cintura Porto Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17059,38.70223,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continuer ]]></name>
+<description><![CDATA[Continuer sur R. da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17288,38.70184,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite pour continuer sur R. da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17462,38.70155,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17467,38.7018,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-ouest sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17709,38.70074,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-ouest sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17987,38.69945,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18575,38.69768,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18583,38.69766,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18567,38.69751,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18558,38.69722,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18564,38.69721,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19065,38.69628,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19412,38.69562,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19778,38.69504,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19776,38.69498,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19778,38.69504,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20186,38.69424,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-est]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20286,38.69424,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20057,38.69447,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20093,38.69567,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20626,38.69468,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20614,38.6935,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21071,38.69259,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21073,38.69265,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction ouest]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21116,38.69382,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21326,38.69361,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21325,38.69341,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction sud-est]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21365,38.69223,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21361,38.69218,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-ouest vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21557,38.69226,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21801,38.69338,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21791,38.69338,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.21302,38.69378,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20721,38.69451,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19912,38.69593,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19329,38.69647,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner lé]]></name>
+<description><![CDATA[Tourner légèrement à gauche pour continuer sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18937,38.69708,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18693,38.69748,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.18609,38.69762,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner lé]]></name>
+<description><![CDATA[Tourner légèrement à droite pour continuer sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17563,38.70138,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-est sur Av. Brasília vers R. da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17423,38.70203,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite sur R. da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17404,38.70212,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à gauche pour continuer sur R. da Cintura do Porto de Lisboa]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.174,38.70205,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur R. da Cintura do Porto de Lisboa vers Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.17243,38.70235,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continuer ]]></name>
+<description><![CDATA[Continuer sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16829,38.70311,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-est sur Av. Brasília vers Rocha do Conde de Óbidos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.16253,38.70326,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction nord-est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15792,38.70513,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Aller en d]]></name>
+<description><![CDATA[Aller en direction est sur Av. Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15341,38.70619,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Continuer ]]></name>
+<description><![CDATA[Continuer sur Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.15234,38.7062,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite pour continuer sur Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14659,38.70557,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tourner à ]]></name>
+<description><![CDATA[Tourner à droite pour continuer sur Cais Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14392,38.70549,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14391,38.70546,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14391,38.70546,4</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

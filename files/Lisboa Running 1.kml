@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisboa Running 1</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.098181</longitude>
+<latitude>38.790758</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1027872">
+<name><![CDATA[Lisboa Running 1]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.098181,38.790758,6
+-9.09818,38.790708,7
+-9.09818,38.790708,7
+-9.0981658,38.7901391,8
+-9.0981202,38.7890776,7
+-9.098095,38.788834,7
+-9.09803,38.788382,5
+-9.097944,38.788042,6
+-9.097726,38.787463,6
+-9.097649,38.787323,7
+-9.097649,38.787323,7
+-9.097475,38.78701,9
+-9.097162,38.786536,9
+-9.096819,38.786111,6
+-9.096589,38.78587,6
+-9.096205,38.785522,8
+-9.096053,38.785408,9
+-9.096013,38.78542,9
+-9.096013,38.78542,9
+-9.096053,38.785408,9
+-9.095266,38.784816,9
+-9.094839,38.784452,9
+-9.094303,38.783912,9
+-9.094168,38.783817,9
+-9.094027,38.783764,9
+-9.093899,38.783771,8
+-9.093761,38.783733,8
+-9.093761,38.783733,8
+-9.093675,38.78368,8
+-9.09361,38.783594,8
+-9.09359,38.783495,8
+-9.093609,38.783425,8
+-9.093609,38.783425,8
+-9.093687,38.783313,8
+-9.093656,38.783078,9
+-9.093609,38.782957,10
+-9.093502,38.782847,10
+-9.093155,38.782251,8
+-9.092935,38.781738,7
+-9.092935,38.781738,7
+-9.092672,38.781128,5
+-9.092562,38.780812,5
+-9.092398,38.780423,7
+-9.092292,38.780087,8
+-9.092292,38.780087,8
+-9.091996,38.778969,8
+-9.091902,38.777995,9
+-9.091972,38.77735,8
+-9.09198,38.776913,8
+-9.09198,38.776913,8
+-9.092071,38.775499,2
+-9.092071,38.775499,2
+-9.092094,38.775163,-2
+-9.0917793,38.7750181,-5
+-9.091779,38.775018,-5
+-9.091441,38.775055,-4
+-9.091441,38.775055,-4
+-9.091323,38.776322,4
+-9.091236,38.777496,3
+-9.090945,38.781153,3
+-9.090945,38.781153,3
+-9.090902,38.78155,3
+-9.09076,38.783558,2
+-9.090913,38.783854,3
+-9.091085,38.784128,4
+-9.091319,38.784432,4
+-9.091562,38.7847,5
+-9.091771,38.78487,7
+-9.091771,38.78487,7
+-9.092214,38.785231,13
+-9.092321,38.785664,21
+-9.092362,38.786044,20
+-9.092345,38.786518,11
+-9.092262,38.786976,6
+-9.092128,38.78735,3
+-9.091868,38.787833,2
+-9.091868,38.787833,2
+-9.091526,38.788307,2
+-9.09107,38.788771,2
+-9.09086,38.789021,2
+-9.090775,38.789475,2
+-9.090661,38.78993,2
+-9.090436,38.790475,2
+-9.090436,38.790475,2
+-9.090316,38.790798,2
+-9.090444,38.791662,2
+-9.090501,38.791928,1
+-9.090663,38.792252,1
+-9.090607,38.793985,1
+-9.09086,38.794165,1
+-9.090871,38.794331,1
+-9.090904,38.794459,2
+-9.090958,38.794554,2
+-9.091073,38.794638,2
+-9.091146,38.794719,2
+-9.09118,38.794854,3
+-9.09118,38.794854,3
+-9.091359,38.795514,2
+-9.091516,38.795721,2
+-9.091679,38.795859,2
+-9.091893,38.795916,2
+-9.094169,38.79603,3
+-9.094169,38.79603,3
+-9.095918,38.796118,3
+-9.0959823,38.7958129,3
+-9.0965188,38.7956875,2
+-9.096532,38.795722,2
+-9.096604,38.795705,2
+-9.096584,38.795644,2
+-9.096597,38.795581,2
+-9.096639,38.795527,2
+-9.096705,38.79549,3
+-9.096784,38.795475,3
+-9.096864,38.795485,4
+-9.096965,38.795296,5
+-9.096888,38.795281,4
+-9.097203,38.794647,5
+-9.097417,38.794121,3
+-9.097417,38.794121,3
+-9.097682,38.793311,4
+-9.097898,38.792494,5
+-9.097898,38.792494,5
+-9.098094,38.79183,5
+-9.098181,38.790871,7
+-9.098181,38.790871,7
+-9.098181,38.790842,7
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.098181,38.790758,6</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.098181,38.790842,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.098181,38.790842,7</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

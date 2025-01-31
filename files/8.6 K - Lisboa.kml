@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>8.6 K - Lisboa</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.148347</longitude>
+<latitude>38.731431</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1459539">
+<name><![CDATA[8.6 K - Lisboa]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.1483471,38.7314308,88
+-9.1468933,38.7308763,99
+-9.146542,38.7314329,99
+-9.1462308,38.7317719,94
+-9.1452786,38.7333307,99
+-9.1454342,38.7335022,98
+-9.1455013,38.7336759,97
+-9.1455039,38.733927,94
+-9.1453725,38.7340985,92
+-9.1451606,38.734199,90
+-9.1473305,38.7430885,85
+-9.1475451,38.7441261,83
+-9.1478401,38.7453269,77
+-9.1479528,38.7457788,76
+-9.1479582,38.7461135,77
+-9.1484141,38.7479502,80
+-9.1485643,38.7479418,80
+-9.1486394,38.7479795,81
+-9.1488245,38.7481217,82
+-9.1489425,38.7481301,82
+-9.1491169,38.7483204,84
+-9.1490096,38.7483916,83
+-9.1488916,38.7485798,83
+-9.1486475,38.7486928,84
+-9.1501307,38.7508704,76
+-9.1507906,38.7517698,79
+-9.1514504,38.7528826,86
+-9.1521317,38.7538657,83
+-9.1525501,38.7544179,82
+-9.1526842,38.7546104,81
+-9.1535586,38.7557357,80
+-9.154079,38.7564469,82
+-9.154653,38.7571956,86
+-9.1552806,38.7579988,86
+-9.1557419,38.7585635,84
+-9.1557983,38.7586451,83
+-9.1557848,38.7587455,82
+-9.1557661,38.7588103,82
+-9.1557017,38.7589066,81
+-9.1555971,38.7589651,80
+-9.1554657,38.7590279,79
+-9.1552913,38.759053,79
+-9.1550902,38.7590446,78
+-9.1549373,38.7589902,79
+-9.1547817,38.7588856,82
+-9.1547307,38.7588438,82
+-9.1552538,38.758597,83
+-9.1541111,38.7570827,85
+-9.1536096,38.7571517,83
+-9.1533467,38.7570785,83
+-9.1527486,38.7563757,81
+-9.1523919,38.7559741,82
+-9.1518769,38.7549262,82
+-9.151547,38.7550036,83
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1483471,38.7314308,88</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.151547,38.7550036,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.151547,38.7550036,83</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Belém</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.216975</longitude>
+<latitude>38.692310</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route442745">
+<name><![CDATA[Belém]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.216975,38.69231,8
+-9.216975,38.69231,6
+-9.216957,38.692292,6
+-9.216722,38.692233,5
+-9.216586,38.692234,5
+-9.216453,38.692255,5
+-9.216183,38.692333,5
+-9.215987,38.692351,5
+-9.215795,38.692344,5
+-9.215612,38.692308,5
+-9.21529,38.692184,4
+-9.215087,38.692039,3
+-9.21504,38.69197,2
+-9.214968,38.691894,2
+-9.212875,38.692277,4
+-9.212822,38.692287,4
+-9.212817,38.69227,3
+-9.212817,38.69227,3
+-9.212822,38.692287,4
+-9.212875,38.692277,4
+-9.21323,38.693394,5
+-9.213223,38.693594,6
+-9.213212,38.693649,6
+-9.211536,38.693784,3
+-9.211009,38.693828,4
+-9.210827,38.693152,2
+-9.210693,38.692656,1
+-9.210686,38.692658,1
+-9.210686,38.692658,1
+-9.20915,38.692914,3
+-9.208213,38.693091,6
+-9.207859,38.693155,6
+-9.207859,38.693155,6
+-9.207623,38.693197,5
+-9.206275,38.693443,5
+-9.206275,38.693443,5
+-9.206114,38.693472,6
+-9.206229,38.694466,5
+-9.206199,38.694527,5
+-9.204469,38.694841,2
+-9.204409,38.694862,2
+-9.204344,38.694929,2
+-9.20408,38.694985,2
+-9.203952,38.694966,2
+-9.203859,38.694935,3
+-9.203084,38.69508,5
+-9.20303,38.694907,5
+-9.20278,38.6941,5
+-9.202407,38.694162,5
+-9.202407,38.694162,5
+-9.200581,38.694467,3
+-9.20027,38.694542,3
+-9.19934,38.694699,4
+-9.199288,38.694723,4
+-9.199234,38.694728,4
+-9.199185,38.694776,4
+-9.199242,38.694979,6
+-9.198341,38.695131,5
+-9.197893,38.695207,4
+-9.197839,38.695013,4
+-9.197724,38.695035,4
+-9.197705,38.694972,3
+-9.197172,38.695055,3
+-9.197172,38.695055,3
+-9.197705,38.694972,3
+-9.197724,38.695035,4
+-9.197121,38.695087,3
+-9.192405,38.69595,1
+-9.190914,38.696253,4
+-9.187515,38.696873,2
+-9.184458,38.69745,0
+-9.18218,38.697856,2
+-9.180629,38.698107,0
+-9.178688,38.698484,0
+-9.177873,38.698639,0
+-9.177873,38.698639,0
+-9.178688,38.698484,0
+-9.178973,38.699505,0
+-9.176326,38.700434,7
+-9.175881,38.700362,8
+-9.175885,38.700426,8
+-9.175883,38.700463,8
+-9.175349,38.700368,6
+-9.175279,38.700388,6
+-9.175307,38.700497,7
+-9.175203,38.700513,6
+-9.175114,38.700218,6
+-9.175145,38.700153,6
+-9.174854,38.699206,10
+-9.174857,38.699168,10
+-9.174893,38.699136,10
+-9.174962,38.69911,10
+-9.175915,38.698947,5
+-9.175915,38.698947,5
+-9.174962,38.69911,10
+-9.174893,38.699136,10
+-9.174857,38.699168,10
+-9.174854,38.699206,10
+-9.175145,38.700153,6
+-9.175114,38.700218,6
+-9.175203,38.700513,6
+-9.175307,38.700497,7
+-9.175279,38.700388,6
+-9.175349,38.700368,6
+-9.175736,38.700441,8
+-9.175883,38.700463,8
+-9.175885,38.700426,8
+-9.175881,38.700362,8
+-9.176326,38.700434,7
+-9.178973,38.699505,0
+-9.178859,38.699098,-3
+-9.178688,38.698484,0
+-9.177814,38.69865,0
+-9.177814,38.69865,0
+-9.180629,38.698107,0
+-9.18218,38.697856,2
+-9.184418,38.697457,0
+-9.187515,38.696873,2
+-9.187574,38.696863,2
+-9.187561,38.696826,2
+-9.189264,38.696513,1
+-9.190371,38.6963,4
+-9.190371,38.6963,4
+-9.192499,38.69589,1
+-9.196114,38.69522,4
+-9.197705,38.694972,3
+-9.197724,38.695035,4
+-9.197839,38.695013,4
+-9.197893,38.695207,4
+-9.198798,38.695054,6
+-9.199242,38.694979,6
+-9.199185,38.694776,4
+-9.199234,38.694728,4
+-9.199288,38.694723,4
+-9.19934,38.694699,4
+-9.20027,38.694542,3
+-9.200581,38.694467,3
+-9.20278,38.6941,5
+-9.20286,38.694085,5
+-9.20286,38.694085,5
+-9.20278,38.6941,5
+-9.20303,38.694907,5
+-9.203084,38.69508,5
+-9.203859,38.694935,3
+-9.203952,38.694966,2
+-9.20408,38.694985,2
+-9.204344,38.694929,2
+-9.204409,38.694862,2
+-9.204469,38.694841,2
+-9.206141,38.694538,5
+-9.206199,38.694527,5
+-9.206229,38.694466,5
+-9.206114,38.693472,6
+-9.206616,38.69338,1
+-9.206616,38.69338,1
+-9.20915,38.692914,3
+-9.210693,38.692656,1
+-9.210744,38.692647,1
+-9.210744,38.692647,1
+-9.210693,38.692656,1
+-9.210827,38.693152,2
+-9.211009,38.693828,4
+-9.213067,38.693664,6
+-9.213212,38.693649,6
+-9.213235,38.693486,5
+-9.21323,38.693394,5
+-9.212875,38.692277,4
+-9.212822,38.692287,4
+-9.21274,38.692303,3
+-9.21274,38.692303,3
+-9.214803,38.691919,2
+-9.214968,38.691894,2
+-9.215087,38.692039,3
+-9.215175,38.692111,3
+-9.21529,38.692184,4
+-9.215432,38.692248,4
+-9.215612,38.692308,5
+-9.215795,38.692344,5
+-9.215987,38.692351,5
+-9.216183,38.692333,5
+-9.216453,38.692255,5
+-9.216586,38.692234,5
+-9.216722,38.692233,5
+-9.216957,38.692292,6
+-9.21705,38.69239,7
+-9.217178,38.692526,7
+-9.217178,38.692526,7
+-9.217187,38.692535,7
+-9.217415,38.692694,7
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.216975,38.69231,8</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.216975,38.69231,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214968,38.691894,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.212822,38.692287,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.212822,38.692287,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.212875,38.692277,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.213212,38.693649,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.211009,38.693828,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.210693,38.692656,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.206199,38.694527,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Doca de Belém]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.203084,38.69508,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Doca de Belém]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20278,38.6941,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199288,38.694723,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199234,38.694728,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199185,38.694776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199242,38.694979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197893,38.695207,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197839,38.695013,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197724,38.695035,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197724,38.695035,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.178688,38.698484,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175881,38.700362,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175883,38.700463,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175279,38.700388,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175203,38.700513,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175114,38.700218,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175114,38.700218,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175203,38.700513,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175279,38.700388,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175883,38.700463,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.175881,38.700362,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.178688,38.698484,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187574,38.696863,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.187561,38.696826,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197724,38.695035,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197839,38.695013,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.197893,38.695207,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199242,38.694979,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199185,38.694776,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199234,38.694728,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Avenida de Brasilia]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.199288,38.694723,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Doca de Belém]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.20278,38.6941,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.203084,38.69508,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.206199,38.694527,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.210693,38.692656,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Ciclovia da Frente Ribeirinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.211009,38.693828,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.213212,38.693649,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.212875,38.692277,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.214968,38.691894,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.217415,38.692694,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.217415,38.692694,7</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

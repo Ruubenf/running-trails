@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>S. Domingos</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.169157</longitude>
+<latitude>38.742215</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route945909">
+<name><![CDATA[S. Domingos]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.169157,38.742215,65
+-9.169157,38.742215,65
+-9.170207,38.741685,65
+-9.1707126,38.7419097,66
+-9.170713,38.74191,66
+-9.170846,38.741969,66
+-9.170995,38.741712,68
+-9.17097,38.741702,68
+-9.17097,38.741702,68
+-9.170995,38.741712,68
+-9.171402,38.741841,69
+-9.171914,38.741954,72
+-9.1735318,38.7421,76
+-9.173532,38.742102,76
+-9.173637,38.742112,76
+-9.1736795,38.7417418,78
+-9.173681,38.741742,78
+-9.173716,38.741201,79
+-9.173503,38.740899,79
+-9.173503,38.740899,79
+-9.17323,38.740512,75
+-9.173196,38.740482,75
+-9.173145,38.740465,75
+-9.1734061,38.7400696,70
+-9.172989,38.739872,70
+-9.173221,38.739661,67
+-9.173163,38.739632,67
+-9.173163,38.739632,67
+-9.176031,38.741056,70
+-9.176704,38.741424,69
+-9.177063,38.741707,70
+-9.177145,38.741771,71
+-9.1774026,38.7419064,72
+-9.177836,38.742134,74
+-9.178559,38.742481,77
+-9.181369,38.743698,71
+-9.18201,38.743957,73
+-9.183962,38.744692,77
+-9.184767,38.744879,78
+-9.185072,38.744923,78
+-9.185682,38.744972,77
+-9.186565,38.745003,76
+-9.187396,38.744997,76
+-9.188031,38.744979,78
+-9.189147,38.744876,85
+-9.189545,38.744842,86
+-9.189592,38.744866,86
+-9.189592,38.744866,86
+-9.189745,38.744945,86
+-9.189876,38.745104,86
+-9.189815,38.745527,83
+-9.189956,38.745671,84
+-9.189762,38.747013,79
+-9.189796,38.74713,79
+-9.189896,38.747225,78
+-9.190583,38.747518,81
+-9.190594,38.747543,81
+-9.19049,38.747702,80
+-9.190504,38.747759,80
+-9.190491,38.747801,80
+-9.190421,38.74787,80
+-9.190121,38.74832,78
+-9.190045,38.748583,78
+-9.190045,38.748583,78
+-9.189967,38.748852,79
+-9.190053,38.748935,79
+-9.190053,38.748935,79
+-9.190091,38.748972,80
+-9.190254,38.749002,80
+-9.190336,38.749,80
+-9.190598,38.749111,81
+-9.190893,38.749163,81
+-9.19112,38.749224,81
+-9.191086,38.750111,81
+-9.191184,38.750121,82
+-9.191141,38.750635,81
+-9.191206,38.750646,81
+-9.191169,38.750745,80
+-9.191118,38.750809,80
+-9.191118,38.750809,80
+-9.19037,38.75141,81
+-9.189839,38.751782,83
+-9.189732,38.751937,82
+-9.189501,38.752206,79
+-9.1894037,38.7523513,77
+-9.1892374,38.752343,77
+-9.189244,38.752348,77
+-9.189079,38.752491,76
+-9.188937,38.752556,77
+-9.188964,38.752612,77
+-9.188558,38.752781,80
+-9.18822,38.753059,81
+-9.188068,38.75315,81
+-9.188126,38.753216,81
+-9.187987,38.753284,81
+-9.18739,38.753958,86
+-9.18739,38.753958,86
+-9.186354,38.75513,87
+-9.186005,38.755478,85
+-9.185985,38.75551,85
+-9.185993,38.7556,85
+-9.18589,38.755618,85
+-9.185787,38.755844,85
+-9.185534,38.75836,101
+-9.185291,38.759324,101
+-9.185291,38.759324,101
+-9.185238,38.759339,101
+-9.185172,38.759597,100
+-9.185208,38.75969,100
+-9.185156,38.759859,100
+-9.185083,38.760008,100
+-9.185091,38.760081,100
+-9.185122,38.760131,101
+-9.185058,38.760178,101
+-9.18487,38.760159,100
+-9.184802,38.760205,100
+-9.184334,38.760206,100
+-9.184335,38.760233,100
+-9.183468,38.760219,103
+-9.183276,38.760209,104
+-9.182972,38.760166,106
+-9.182458,38.759973,108
+-9.181772,38.759532,107
+-9.181772,38.759532,107
+-9.180325,38.758597,102
+-9.179192,38.757841,96
+-9.177734,38.756736,92
+-9.177098,38.756226,94
+-9.175689,38.754787,89
+-9.17519,38.754247,86
+-9.174982,38.754012,85
+-9.174464,38.753315,87
+-9.174197,38.752855,85
+-9.173893,38.752264,85
+-9.173358,38.751154,83
+-9.173061,38.750645,84
+-9.173061,38.750645,84
+-9.172839,38.75027,87
+-9.172661,38.75001,89
+-9.171319,38.748245,83
+-9.171277,38.74794,82
+-9.171125,38.747759,80
+-9.170902,38.747537,78
+-9.170618,38.747129,78
+-9.170333,38.746833,77
+-9.169727,38.746372,73
+-9.169451,38.745661,74
+-9.168972,38.744929,77
+-9.168603,38.744695,77
+-9.167621,38.743848,71
+-9.167305,38.743603,71
+-9.167302,38.743547,70
+-9.167192,38.743252,69
+-9.167261,38.743215,68
+-9.167366,38.74316,68
+-9.167481,38.743099,67
+-9.167594,38.743039,67
+-9.168714,38.742445,64
+-9.168714,38.742445,64
+-9.169074,38.742257,65
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.169157,38.742215,65</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on P]]></name>
+<description><![CDATA[Start on Praça Marechal Humberto Delgado]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.169157,38.742215,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Estrada de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.170207,38.741685,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Estrada de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.170846,38.741969,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Estrada de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.170995,38.741712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Rua Raúl Carapinha]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173637,38.742112,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Rua Padre Carlos dos Santos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173716,38.741201,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right onto Rua Alcina Bastos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173145,38.740465,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua Franscisco Santos]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.172989,38.739872,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Rua Francisco Gentil Martins]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.173221,38.739661,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Rua Tenente Coronel Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189545,38.744842,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Rua Tenente Coronel Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189745,38.744945,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Rua Tenente Coronel Ribeiro dos Reis]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189876,38.745104,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189815,38.745527,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.189956,38.745671,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Rua Paulo Renato]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190336,38.749,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Estrada de Benfica]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.190893,38.749163,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.19112,38.749224,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Rua Doutor João Couto]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.191086,38.750111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Avenida do Colégio Militar]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.191184,38.750121,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.191141,38.750635,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.191206,38.750646,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.188126,38.753216,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Rua da Fonte]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.184335,38.760233,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Estrada da Luz]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.177098,38.756226,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Estrada da Luz]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.171277,38.74794,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right onto Estrada das Laranjeiras]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.169727,38.746372,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Estrada das Laranjeiras]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.168972,38.744929,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Estrada das Laranjeiras]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.167305,38.743603,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.167302,38.743547,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Praça Marechal Humberto Delgado]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.167192,38.743252,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.169074,38.742257,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.169074,38.742257,65</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

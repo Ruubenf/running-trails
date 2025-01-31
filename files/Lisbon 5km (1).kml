@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisbon 5km</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.136125</longitude>
+<latitude>38.706929</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route760106">
+<name><![CDATA[Lisbon 5km]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.136125,38.706929,1
+-9.136125,38.706929,5
+-9.136207,38.706911,5
+-9.136192,38.706876,5
+-9.138747,38.706255,4
+-9.138728,38.706202,4
+-9.141553,38.705525,3
+-9.142329,38.705405,2
+-9.14306,38.7052,1
+-9.143081,38.705251,2
+-9.143574,38.70526,2
+-9.143572,38.705327,3
+-9.143828,38.705339,3
+-9.143888,38.705381,3
+-9.143902,38.70549,4
+-9.144797,38.705462,4
+-9.145057,38.705431,4
+-9.146008,38.705474,4
+-9.146377,38.705477,4
+-9.146377,38.705477,4
+-9.146508,38.705479,4
+-9.147234,38.705604,5
+-9.147518,38.705695,6
+-9.147642,38.705756,6
+-9.148914,38.70605,5
+-9.149643,38.706146,6
+-9.151387,38.706173,5
+-9.153934,38.70618,9
+-9.154061,38.706171,9
+-9.154061,38.706171,9
+-9.154335,38.706152,8
+-9.155039,38.706049,7
+-9.155317,38.705999,6
+-9.155958,38.705832,5
+-9.156819,38.705532,6
+-9.158,38.705026,6
+-9.158838,38.704618,6
+-9.159587,38.704299,5
+-9.160323,38.704037,7
+-9.161237,38.703791,10
+-9.161406,38.703712,9
+-9.161297,38.703719,9
+-9.161297,38.703719,9
+-9.161406,38.703712,9
+-9.161932,38.703423,6
+-9.162298,38.703341,6
+-9.162457,38.703274,7
+-9.162704,38.70321,7
+-9.163001,38.703167,8
+-9.163534,38.703162,8
+-9.163855,38.703245,7
+-9.164066,38.703264,6
+-9.164594,38.703265,6
+-9.164761,38.703236,7
+-9.167546,38.70322,8
+-9.167923,38.703143,8
+-9.167923,38.703143,8
+-9.167546,38.70322,8
+-9.164761,38.703236,7
+-9.164594,38.703265,6
+-9.164066,38.703264,6
+-9.163855,38.703245,7
+-9.163534,38.703162,8
+-9.163001,38.703167,8
+-9.162704,38.70321,7
+-9.162457,38.703274,7
+-9.162298,38.703341,6
+-9.161932,38.703423,6
+-9.161406,38.703712,9
+-9.161237,38.703791,10
+-9.160323,38.704037,7
+-9.159587,38.704299,5
+-9.158838,38.704618,6
+-9.158,38.705026,6
+-9.156592,38.705619,6
+-9.155958,38.705832,5
+-9.155317,38.705999,6
+-9.155039,38.706049,7
+-9.154335,38.706152,8
+-9.153934,38.70618,9
+-9.151387,38.706173,5
+-9.149643,38.706146,6
+-9.148914,38.70605,5
+-9.147642,38.705756,6
+-9.147495,38.705727,6
+-9.147017,38.705692,6
+-9.146091,38.705672,6
+-9.145947,38.705664,6
+-9.145739,38.705626,6
+-9.14529,38.705498,4
+-9.145157,38.705485,4
+-9.144797,38.705462,4
+-9.143902,38.70549,4
+-9.143888,38.705381,3
+-9.143828,38.705339,3
+-9.143572,38.705327,3
+-9.143574,38.70526,2
+-9.143081,38.705251,2
+-9.14306,38.7052,1
+-9.142329,38.705405,2
+-9.141553,38.705525,3
+-9.138728,38.706202,4
+-9.138747,38.706255,4
+-9.136192,38.706876,5
+-9.136207,38.706911,5
+-9.136029,38.706952,5
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136125,38.706929,1</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on P]]></name>
+<description><![CDATA[Start on Praça do Comércio]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136125,38.706929,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136207,38.706911,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre ind på Praça do Comércio]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136192,38.706876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138747,38.706255,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138728,38.706202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14306,38.7052,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143574,38.70526,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre ind på Cais do Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143572,38.705327,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre ind på Cais do Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143902,38.70549,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hold til v]]></name>
+<description><![CDATA[Hold til venstre ind på Cais do Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.144797,38.705462,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hold til v]]></name>
+<description><![CDATA[Hold til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.146508,38.705479,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej skarp]]></name>
+<description><![CDATA[Drej skarpt til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161406,38.703712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej lidt ]]></name>
+<description><![CDATA[Drej lidt til venstre ind på Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161406,38.703712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hold til v]]></name>
+<description><![CDATA[Hold til venstre ind på Avenida de Brasília]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.164594,38.703265,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hold til v]]></name>
+<description><![CDATA[Hold til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.147642,38.705756,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre ind på Cais do Sodré]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143902,38.70549,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143572,38.705327,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.143574,38.70526,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.14306,38.7052,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138728,38.706202,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre ind på Avenida da Ribeira das Naus]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.138747,38.706255,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til v]]></name>
+<description><![CDATA[Drej til venstre]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136192,38.706876,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Drej til h]]></name>
+<description><![CDATA[Drej til højre ind på Praça do Comércio]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136207,38.706911,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136029,38.706952,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.136029,38.706952,5</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

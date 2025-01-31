@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Parque Das Nacoes 12km</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.091466</longitude>
+<latitude>38.774721</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route753449">
+<name><![CDATA[Parque Das Nacoes 12km]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.0914655,38.7747211,-6
+-9.0916303,38.7724622,10
+-9.0917659,38.771346,12
+-9.0917981,38.7704468,6
+-9.0918463,38.7695685,2
+-9.0919161,38.7686902,4
+-9.0919858,38.7678118,5
+-9.0920609,38.7670046,5
+-9.0920931,38.7659464,3
+-9.0919375,38.7657665,1
+-9.0919912,38.7647961,0
+-9.0918946,38.7640014,1
+-9.0917873,38.7634785,0
+-9.0924686,38.7633949,3
+-9.0925545,38.7624286,5
+-9.0926456,38.7614708,5
+-9.0928012,38.7605129,6
+-9.0930641,38.7595842,7
+-9.0933269,38.7586556,5
+-9.09352,38.7576893,5
+-9.0937132,38.7567229,6
+-9.0938795,38.7562084,8
+-9.094137,38.7552253,8
+-9.0943891,38.7542422,4
+-9.0946573,38.7532591,6
+-9.0949416,38.7522593,3
+-9.0950972,38.7517531,1
+-9.0953922,38.7507616,3
+-9.0956658,38.7497617,6
+-9.0959394,38.7487618,4
+-9.0960413,38.7484648,3
+-9.0965563,38.7485275,6
+-9.0968406,38.7473268,7
+-9.0971464,38.7463143,5
+-9.0973824,38.7454231,4
+-9.0976506,38.7445152,4
+-9.0979028,38.7435989,4
+-9.098564,38.7428646,4
+-9.099437,38.7424985,5
+-9.1000754,38.7420634,5
+-9.1006064,38.7415529,6
+-9.100998,38.7409923,9
+-9.101336,38.7403814,8
+-9.1017491,38.7397496,8
+-9.1021621,38.7391177,7
+-9.1025001,38.738557,7
+-9.1029024,38.7376365,6
+-9.1032618,38.7366908,6
+-9.1035622,38.7357577,10
+-9.1037285,38.7350212,9
+-9.1039217,38.7343601,11
+-9.104104,38.7336571,12
+-9.1043133,38.7330252,11
+-9.1045868,38.7323891,9
+-9.104957,38.7317363,6
+-9.1053915,38.7310835,8
+-9.1058636,38.7304307,7
+-9.1063517,38.7297778,6
+-9.1071676,38.728843,4
+-9.1069955,38.7289953,4
+-9.1063625,38.72969,6
+-9.1056651,38.7306148,7
+-9.1049892,38.7315898,5
+-9.104442,38.7326067,9
+-9.1040558,38.7336152,11
+-9.1037875,38.734653,10
+-9.1035247,38.7357117,10
+-9.1031492,38.736808,6
+-9.1027468,38.737875,7
+-9.102264,38.7388834,7
+-9.1018134,38.7395487,7
+-9.1013145,38.7403102,8
+-9.1008157,38.7411345,8
+-9.1002202,38.7418667,5
+-9.0994155,38.7424567,4
+-9.0985465,38.7428123,4
+-9.0980583,38.7433479,3
+-9.0978169,38.7436073,4
+-9.0976131,38.7443981,4
+-9.0973824,38.7451847,4
+-9.0971625,38.7460005,4
+-9.0969372,38.7468205,5
+-9.0967065,38.7476699,7
+-9.0965071,38.7484657,5
+-9.0959716,38.7484438,2
+-9.0955961,38.7498203,5
+-9.0954137,38.7505859,3
+-9.0951616,38.7513849,1
+-9.094888,38.7522844,3
+-9.0945983,38.753347,6
+-9.0942278,38.754686,6
+-9.0965259,38.7558423,14
+-9.0969211,38.7560536,12
+-9.096756,38.7581804,21
+-9.0963358,38.7592004,9
+-9.0961808,38.760379,8
+-9.0961164,38.7612951,11
+-9.0960467,38.7622111,13
+-9.0959769,38.7633489,6
+-9.0959126,38.7644866,8
+-9.0958053,38.765595,6
+-9.0957785,38.7667453,8
+-9.0957195,38.7678662,10
+-9.0955424,38.7692715,9
+-9.0954995,38.7700327,8
+-9.0953114,38.7721974,12
+-9.0952313,38.7730315,13
+-9.095065,38.774236,10
+-9.0949577,38.7747253,10
+-9.0949202,38.7750013,10
+-9.0950435,38.7753652,11
+-9.0948772,38.7759381,11
+-9.0948129,38.7767034,12
+-9.0947592,38.7773977,8
+-9.0919912,38.7773433,8
+-9.0912294,38.7773349,4
+-9.0913153,38.7762476,4
+-9.0914118,38.7752355,-2
+-9.0920502,38.7749762,-3
+-9.091503,38.7747128,0
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.0914655,38.7747211,-6</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.091503,38.7747128,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.091503,38.7747128,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

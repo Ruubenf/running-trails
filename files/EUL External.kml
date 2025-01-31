@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>EUL External</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.162755</longitude>
+<latitude>38.750485</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route945888">
+<name><![CDATA[EUL External]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.162755,38.750485,99
+-9.162755,38.750485,101
+-9.162743,38.751372,98
+-9.1626,38.751335,98
+-9.162551,38.751296,98
+-9.162551,38.751296,98
+-9.162492,38.751163,98
+-9.162402,38.75105,99
+-9.16228,38.750957,99
+-9.162143,38.750891,100
+-9.16199,38.750852,100
+-9.161829,38.75084,101
+-9.161669,38.750856,101
+-9.161503,38.750908,101
+-9.161503,38.750908,101
+-9.161518,38.7509,101
+-9.16134,38.750812,102
+-9.161158,38.750777,102
+-9.160997,38.750767,103
+-9.160858,38.750777,103
+-9.160858,38.750777,103
+-9.160705,38.750812,102
+-9.160678,38.75149,102
+-9.160531,38.751795,102
+-9.160487,38.751854,102
+-9.160433,38.751899,101
+-9.160236,38.751958,100
+-9.16012,38.751975,100
+-9.16012,38.751975,100
+-9.160042,38.751986,99
+-9.159963,38.75202,99
+-9.159893,38.752085,98
+-9.159859,38.752184,97
+-9.159922,38.752395,97
+-9.160057,38.752702,96
+-9.16028,38.753063,96
+-9.16028,38.753063,96
+-9.160599,38.753545,95
+-9.160735,38.753629,95
+-9.161078,38.753715,95
+-9.16177,38.753814,96
+-9.162107,38.753916,95
+-9.162219,38.753993,94
+-9.162219,38.753993,94
+-9.162321,38.754102,93
+-9.162514,38.754767,89
+-9.161719,38.755025,88
+-9.161678,38.755074,88
+-9.161678,38.755074,88
+-9.1617,38.755114,88
+-9.1617,38.755114,88
+-9.162497,38.756602,87
+-9.162458,38.756873,86
+-9.1625,38.756994,86
+-9.162611,38.757187,85
+-9.162654,38.757226,85
+-9.16283,38.757312,86
+-9.162934,38.757298,86
+-9.162934,38.757298,86
+-9.163681,38.757128,87
+-9.163934,38.757108,88
+-9.164844,38.756866,88
+-9.165303,38.756769,88
+-9.165589,38.756643,89
+-9.165856,38.756489,89
+-9.165921,38.756414,90
+-9.165921,38.756414,90
+-9.166018,38.756301,90
+-9.166073,38.755672,91
+-9.166063,38.755292,90
+-9.165982,38.755068,90
+-9.165462,38.752973,95
+-9.165417,38.75287,95
+-9.165186,38.752251,94
+-9.165186,38.752247,94
+-9.165186,38.752247,94
+-9.165187,38.752184,94
+-9.165087,38.751907,94
+-9.164983,38.751772,94
+-9.164999,38.75061,93
+-9.164983,38.750572,93
+-9.164932,38.750525,93
+-9.164745,38.750433,94
+-9.164586,38.75038,95
+-9.164544,38.750381,95
+-9.164544,38.750381,95
+-9.164466,38.750385,96
+-9.163779,38.75036,99
+-9.16378,38.750317,99
+-9.163569,38.750317,100
+-9.163569,38.750317,100
+-9.162888,38.750316,102
+-9.162887,38.750376,102
+-9.162793,38.750458,101
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162755,38.750485,99</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162755,38.750485,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162743,38.751372,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161518,38.7509,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160705,38.750812,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160678,38.75149,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.160236,38.751958,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162107,38.753916,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162321,38.754102,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162514,38.754767,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.161678,38.755074,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1625,38.756994,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.164466,38.750385,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.163779,38.75036,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162887,38.750376,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162793,38.750458,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.162793,38.750458,101</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

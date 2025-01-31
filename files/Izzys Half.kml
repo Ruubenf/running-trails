@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Izzys Half</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.149294</longitude>
+<latitude>38.751439</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route1465610">
+<name><![CDATA[Izzy&#39;s Half]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.1492939,38.7514393,85
+-9.1480923,38.7484606,83
+-9.1476631,38.745716,79
+-9.1477489,38.7442767,81
+-9.1472769,38.7430048,85
+-9.1470194,38.7416324,82
+-9.1479528,38.7412428,85
+-9.1498947,38.7403939,86
+-9.152813,38.7392223,74
+-9.1530275,38.7388541,75
+-9.1527271,38.7381512,78
+-9.1526413,38.7374147,79
+-9.1523409,38.735741,83
+-9.1526413,38.7348371,86
+-9.1539288,38.7344019,91
+-9.1534996,38.7341006,93
+-9.1529846,38.7331968,93
+-9.1524696,38.7322594,96
+-9.1525555,38.7315229,97
+-9.1535854,38.7310542,100
+-9.1541004,38.7307194,106
+-9.1546154,38.7305186,106
+-9.1550875,38.7302172,105
+-9.1545725,38.7298155,99
+-9.1536283,38.7289785,91
+-9.1525984,38.7276394,76
+-9.1515684,38.7263002,69
+-9.1511393,38.7258315,64
+-9.1504955,38.7250279,63
+-9.1485214,38.7239565,63
+-9.1468048,38.7214789,51
+-9.1445732,38.719202,40
+-9.1430712,38.7172265,30
+-9.14217,38.716088,26
+-9.1405392,38.7146816,27
+-9.139595,38.7139449,23
+-9.1386509,38.7130408,21
+-9.1380501,38.7134092,21
+-9.1377497,38.7129739,24
+-9.1371749,38.7115516,26
+-9.1367412,38.7104958,25
+-9.1362262,38.709173,18
+-9.1359901,38.7084865,16
+-9.1366124,38.7083861,13
+-9.1366982,38.7080177,11
+-9.1364408,38.7074651,10
+-9.1362047,38.7069461,5
+-9.1374707,38.7065609,7
+-9.1390371,38.7061591,3
+-9.1408396,38.7058409,5
+-9.1419983,38.7055897,4
+-9.1427493,38.7053386,2
+-9.1437793,38.7054893,4
+-9.1453028,38.705506,4
+-9.1469979,38.7056065,5
+-9.1488647,38.7060418,5
+-9.1510105,38.7062428,5
+-9.1534567,38.7063432,9
+-9.1554737,38.7059581,6
+-9.1575551,38.7053386,8
+-9.1598296,38.704518,9
+-9.1622329,38.7036975,13
+-9.1647005,38.7034296,9
+-9.1675329,38.7035971,10
+-9.1706872,38.7034798,8
+-9.1731119,38.7029775,8
+-9.1754293,38.7016546,7
+-9.1780257,38.7002646,10
+-9.180944,38.6990422,6
+-9.1842484,38.6980541,6
+-9.1880679,38.6973842,6
+-9.1924024,38.6966474,8
+-9.1969514,38.6961785,7
+-9.201479,38.6955588,6
+-9.2050624,38.6948052,2
+-9.2089033,38.694286,7
+-9.2127442,38.6937668,6
+-9.2158556,38.6933984,7
+-9.2154908,38.6938171,8
+-9.211328,38.694152,4
+-9.206264,38.6947549,5
+-9.2011356,38.6955588,6
+-9.1954064,38.6964632,10
+-9.1890121,38.6973173,7
+-9.1825104,38.6984728,8
+-9.1769743,38.701035,10
+-9.1729832,38.7027765,8
+-9.1676831,38.7035217,10
+-9.1642928,38.7035468,11
+-9.1607308,38.7040659,9
+-9.1577697,38.7052967,9
+-9.1546047,38.7061842,8
+-9.1520083,38.7064102,7
+-9.1507101,38.7063767,7
+-9.1471052,38.7063098,7
+-9.1443157,38.7063767,11
+-9.1433394,38.70636,12
+-9.1423845,38.7064939,12
+-9.1414511,38.7061591,7
+-9.1403031,38.7058576,2
+-9.1388118,38.706226,4
+-9.1372561,38.7066195,6
+-9.1357648,38.7069628,6
+-9.1355181,38.7070716,9
+-9.1356575,38.7075572,14
+-9.1358614,38.7081935,15
+-9.1362691,38.7083024,14
+-9.1368163,38.7081517,12
+-9.1374171,38.7079675,14
+-9.1372669,38.7074819,11
+-9.1371167,38.7069544,8
+-9.1369987,38.70672,6
+-9.1364193,38.7068205,5
+-9.1356683,38.7069544,6
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1492939,38.7514393,85</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1356683,38.7069544,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1356683,38.7069544,6</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>

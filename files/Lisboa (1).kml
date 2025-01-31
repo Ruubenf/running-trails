@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Lisboa</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>-9.127600</longitude>
+<latitude>38.718892</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Route822909">
+<name><![CDATA[Lisboa]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-9.1276002,38.7188923,73
+-9.1278791,38.7187835,73
+-9.1280723,38.7200726,76
+-9.1282225,38.7210771,81
+-9.1288233,38.7213617,83
+-9.1285658,38.7242244,87
+-9.1283512,38.7264676,87
+-9.1280937,38.7289953,93
+-9.127965,38.7301168,88
+-9.1278148,38.7307696,83
+-9.1276217,38.7316401,84
+-9.1294241,38.7324268,81
+-9.1330504,38.7332804,65
+-9.1359687,38.7341508,76
+-9.1378355,38.7348204,90
+-9.1390371,38.7347032,97
+-9.1403246,38.7351719,96
+-9.1448307,38.7351719,92
+-9.1519117,38.734971,89
+-9.1539717,38.7342011,92
+-9.1549587,38.7319581,107
+-9.1598511,38.7285098,127
+-9.1614389,38.7273381,125
+-9.1622972,38.7264006,119
+-9.164443,38.7246596,104
+-9.1668892,38.7224499,82
+-9.1673183,38.7215124,77
+-9.1703653,38.7197378,78
+-9.1713524,38.7190011,79
+-9.1696787,38.7191853,98
+-9.1672111,38.7192188,100
+-9.1672754,38.7173939,103
+-9.1671252,38.7157532,100
+-9.1693997,38.7151839,97
+-9.1686916,38.7132585,87
+-9.1683054,38.7124381,80
+-9.1713738,38.7102781,46
+-9.1719532,38.7093907,32
+-9.1734552,38.7060753,14
+-9.1746998,38.7027598,8
+-9.1738415,38.702023,7
+-9.1666317,38.7028603,5
+-9.1617393,38.7033961,5
+-9.1577482,38.7046353,4
+-9.1533279,38.7049367,5
+-9.1486502,38.705573,3
+-9.145689,38.7048697,0
+-9.1414404,38.7053051,2
+-9.1361618,38.7066112,2
+-9.1334152,38.7065777,2
+-9.1289949,38.7081517,2
+-9.1245747,38.710094,0
+-9.121871,38.7130408,1
+-9.1233301,38.7140789,19
+-9.1197252,38.7173939,14
+-9.1226435,38.719269,62
+-9.1237164,38.7191016,61
+-9.1253471,38.7184989,65
+-9.1270208,38.7190681,73
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1276002,38.7188923,73</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1270208,38.7190681,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>-9.1270208,38.7190681,73</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>
