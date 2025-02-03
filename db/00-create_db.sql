@@ -1,7 +1,6 @@
 -- Database: running-trails
 
--- DROP DATABASE IF EXISTS "running-trails";
-
+DROP DATABASE IF EXISTS "running-trails";
 CREATE DATABASE "running-trails"
     WITH
     OWNER = postgres
@@ -12,12 +11,3 @@ CREATE DATABASE "running-trails"
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1
     IS_TEMPLATE = False;
-
--- SCHEMAS
-
--- SCHEMA: sa
-
--- DROP SCHEMA IF EXISTS sa ;
-
-CREATE SCHEMA IF NOT EXISTS sa
-    AUTHORIZATION postgres;

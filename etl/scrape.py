@@ -3,11 +3,12 @@ from time import sleep
 from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
-PAGES = 6
+PAGES = 1
 
-ids = []
-
+ids = ['1165636', '1164742']
+"""
 for i in range(PAGES):
     url = f"https://www.plotaroute.com/routes/running/popular/{i+1}?Locality=Lisboa&CCode=PT"
 
@@ -24,7 +25,7 @@ for i in range(PAGES):
             ids.append(tr.find('td').text)
         except:
             pass
-
+"""
 print(ids)
 
 
@@ -37,6 +38,7 @@ options.add_experimental_option("prefs", {
   "safebrowsing.enabled": True
 })
 driver = webdriver.Chrome(options=options)
+ac = ActionChains(driver)
 
 # Full screen
 driver.maximize_window()
@@ -65,6 +67,14 @@ for id in ids:
     sleep(2)
 
     # Press the other download button with doc
+    elem = driver.find_element('xpath', '//*[@id="RatingStats"]')
+    #show the text of the span inside the element
+    #print(elem.find_element('xpath', './/span').text)
+
+    # Target coords x: 582.171875, y: 259
+    # Elem coords x: 681.921875, y: 536.59375
+
+    ac.move_to_element(elem).move_by_offset(-100, -277).click().perform() 
 
 
     #download_button = driver.find_element('xpath', '//*[@id="DownloadBut"]')
