@@ -1,7 +1,5 @@
 -- Table: sa.trail
-
--- DROP TABLE IF EXISTS sa.trail;
-
+DROP TABLE IF EXISTS sa.trail;
 CREATE TABLE IF NOT EXISTS sa.trail
 (
     id_0 integer NOT NULL DEFAULT nextval('sa.trail_id_0_seq'::regclass),
@@ -17,19 +15,6 @@ CREATE TABLE IF NOT EXISTS sa.trail
     CONSTRAINT trail_pkey PRIMARY KEY (id_0)
 )
 
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS sa.trail
-    OWNER to postgres;
--- Index: sidx_trail_geom
-
--- DROP INDEX IF EXISTS sa.sidx_trail_geom;
-
-CREATE INDEX IF NOT EXISTS sidx_trail_geom
-    ON sa.trail USING gist
-    (geom)
-    TABLESPACE pg_default;
-
 -- Table: sa.user
 DROP TALBE IF EXISTS sa.user;
 create table sa.user(
@@ -38,7 +23,6 @@ create table sa.user(
 
 
 -- Table: sa.comment
-
 DROP TABLE IF EXISTS sa.comment;
 CREATE TABLE IF NOT EXISTS sa.comment
 (
@@ -50,8 +34,3 @@ CREATE TABLE IF NOT EXISTS sa.comment
     CONSTRAINT comment_pkey PRIMARY KEY (id),
     CONSTRAINT ck_comment_score CHECK (score >= 1 AND score <= 5)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS sa.comment
-    OWNER to postgres;
