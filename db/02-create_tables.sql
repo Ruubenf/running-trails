@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS sa.trail
 -- Table: sa.user
 DROP TALBE IF EXISTS sa.runner;
 create table sa.runner(
-	username varchar(63) NOT NULL PRIMARY KEY
+	username varchar(255) NOT NULL PRIMARY KEY
 );
 
 
