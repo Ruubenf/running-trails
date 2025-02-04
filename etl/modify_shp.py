@@ -78,7 +78,7 @@ gdf["slope_max"] = 8.00
 print("Final Data Preview:\n", gdf[["name", "descript", "type_terra", "distance_m"]].head())
 
 # Save the cleaned shapefile
-output_shapefile = "etl/data/processed/lisbon_trails_appended.shp"
+output_shapefile = "etl/data/processed/lisbon_trails_appended1.shp"
 gdf.to_file(output_shapefile)
 print(f"Appended shapefile saved to: {output_shapefile}")
 
