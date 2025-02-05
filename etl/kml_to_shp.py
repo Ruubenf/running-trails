@@ -1,4 +1,4 @@
-from os.path import join, dirname, abspath
+from os.path import join, dirname, abspath, splitext, basename
 from os import listdir, makedirs
 import geopandas as gpd
 import pandas as pd
@@ -46,7 +46,8 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
         gdf = gpd.read_file(shp_path)
 
         # Add the name of the file in the attribute 'Name'
-        gdf["Name"] = file  
+        file_name = splitext(basename(file))[0]
+        gdf["Name"] = file_name  
         gdfs.append(gdf)
 
     # Join the shapefiles in one
