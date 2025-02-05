@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Leaflet</title>
+		<title>RunLisboa</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -10,7 +10,38 @@
 	</head>
 	<body>
 		<div id="leaflet"></div>
-		<div id="sidebar"></div>
+		
+		<div id="sidebar">
+			<h1>RunLisboa</h1>
+			<p>Discover the best running trails in Lisbon. Find scenic, safe, and highly recommended routes for all levels of runners.</p>
+			
+			<h2>Best Trails</h2>
+			<table>
+				<tr>
+				  <td>#1</td>
+				  <td>Melanie's Pro Running Circuit</td>
+				  <td>⭐⭐⭐⭐⭐</td>
+				</tr>
+				<tr>
+					<td>#2</td>
+					<td>Exclusive Ruben Trail</td>
+					<td>⭐⭐⭐⭐</td>
+				</tr>
+				<tr>
+					<td>#3</td>
+					<td>Go Margaux Begginer Route</td>
+					<td>⭐⭐⭐</td>
+				</tr>
+			  </table>
+
+			  <div class="topnav">
+				<input type="text" placeholder="Search trails...">
+				<a class="active" href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
+			  </div>
+		</div>
+
 		<script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
 		<script src="https://unpkg.com/leaflet-sidebar@0.2.0/src/L.Control.Sidebar.js"></script>
 		
