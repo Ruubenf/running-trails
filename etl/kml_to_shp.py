@@ -60,11 +60,11 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
     makedirs(output_folder, exist_ok=True)
     output_shp_path = join(output_folder, output_shp)
 
-    print(f"Saving the final shapefile at: {output_shp_path}")
+    print(f"✅Saving the final shapefile at: {output_shp_path}")
 
     # Save the final shapefile
     merged_gdf.to_file(output_shp_path, driver="ESRI Shapefile")
-    print(f"Merged and projected shapefile saved at: {output_shp_path}")
+    print(f"✅Merged and projected shapefile saved at: {output_shp_path}")
 
 
 def init_converter():
