@@ -2,16 +2,15 @@
 DROP TABLE IF EXISTS sa.trail;
 CREATE TABLE IF NOT EXISTS sa.trail
 (
-    id_0 integer NOT NULL DEFAULT nextval('sa.trail_id_0_seq'::regclass),
-    geom geometry(MultiLineString,3763),
-    name character varying(20) COLLATE pg_catalog."default",
-    descript character varying(50) COLLATE pg_catalog."default",
-    location character varying(25) COLLATE pg_catalog."default",
-    type_terra character varying(15) COLLATE pg_catalog."default",
+    id_0 SERIAL PRIMARY KEY,
+    geom geometry(LineStringZ,3763),
+    name character varying(255),
+    descript character varying(255),
+    location character varying(255),
+    type_terra character varying(255),
     slope_mean bigint,
     slope_max bigint,
-    distance_m double precision,
-    CONSTRAINT trail_pkey PRIMARY KEY (id_0)
+    distance_m double precision
 )
 
 -- Table: sa.user
