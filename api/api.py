@@ -49,6 +49,20 @@ def get_comments(id_trail):
     conn.close()
     return jsonify(comments)
 
+# Get best 3 trails
+@app.route('/best_trails', methods=['GET'])
+def get_best_trails():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""select id_trail, t.name, cast(avg(score) as numeric(10,2)) as score from sa.comment
+                        join sa.trail t on id_trail = id_0
+                        group by id_trail, t.name
+                        order by score desc, id_trail asc limit 3""")
+    rides = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return jsonify(rides)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
