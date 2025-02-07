@@ -2,6 +2,7 @@ import geopandas
 from sqlalchemy import create_engine, Column, Integer, String, Double, BigInteger
 from sqlalchemy.orm import sessionmaker, declarative_base
 from geoalchemy2 import Geometry
+import os
 
 USERNAME = 'postgres'
 PASSWORD = 'postgres'
@@ -33,7 +34,8 @@ class Trail(Base):
     
 
 # Read the shapefile with the Trails data
-df = geopandas.read_file("data/appended/lisbon_trails_appended.shp")
+filename = os.path.join("etl","data","appended","lisbon_trails_appended.shp")
+df = geopandas.read_file(filename)
 
 # Iterate over the dataframe to add objects to the db
 for row in df.itertuples():
