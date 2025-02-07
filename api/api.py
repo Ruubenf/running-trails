@@ -63,6 +63,32 @@ def get_best_trails():
     conn.close()
     return jsonify(rides)
 
+# Get difficult trails
+@app.route('/trails/difficulty/<string:difficulty>', methods=['GET'])
+def get_difficulty_trails(difficulty):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    if difficulty == "easy":
+        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+                from sa.trail t
+                where t.slope_max between 0 and 2
+                order by t.slope_max asc, id_0 asc;""")
+    elif difficulty == "medium":
+        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+                from sa.trail t
+                where t.slope_max between 3 and 4
+                order by t.slope_max asc, id_0 asc;""")
+    elif difficulty == "hard":
+        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+                from sa.trail t
+                where t.slope_max between 5 and 8
+                order by t.slope_max desc, id_0 asc;""")
+    rides = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return jsonify(rides)
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
