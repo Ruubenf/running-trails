@@ -38,6 +38,17 @@ def get_rides():
     conn.close()
     return jsonify(rides)
 
+# GET all data for a scepcific trail
+@app.route('/trail/<int:id>', methods=['GET'])
+def get_trail_data(id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(f"""SELECT * FROM sa.trail WHERE id_0 = {id}""")
+    rides = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return jsonify(rides)
+
 # GET comments for a specific trail
 @app.route('/trail/<int:id_trail>/comments', methods=['GET'])
 def get_comments(id_trail):
@@ -63,26 +74,23 @@ def get_best_trails():
     conn.close()
     return jsonify(rides)
 
-# Get difficult trails
-@app.route('/trails/difficulty/<string:difficulty>', methods=['GET'])
+# Get trails by difficulty
+@app.route('/ntrails/difficulty/<string:difficulty>', methods=['GET'])
 def get_difficulty_trails(difficulty):
     conn = get_db_connection()
     cursor = conn.cursor()
     if difficulty == "easy":
-        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+        cursor.execute(f"""select count(*)
                 from sa.trail t
-                where t.slope_max between 0 and 2
-                order by t.slope_max asc, id_0 asc;""")
+                where t.slope_max between 0 and 2;""")
     elif difficulty == "medium":
-        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+        cursor.execute(f"""select count(*)
                 from sa.trail t
-                where t.slope_max between 3 and 4
-                order by t.slope_max asc, id_0 asc;""")
+                where t.slope_max between 3 and 4""")
     elif difficulty == "hard":
-        cursor.execute(f"""select t.id_0, t.name, t.slope_max, t.slope_mean
+        cursor.execute(f"""select count(*)
                 from sa.trail t
-                where t.slope_max between 5 and 8
-                order by t.slope_max desc, id_0 asc;""")
+                where t.slope_max between 5 and 8;""")
     rides = cursor.fetchall()
     cursor.close()
     conn.close()
