@@ -1,4 +1,4 @@
-from os.path import join, dirname, abspath
+from os.path import join, dirname, abspath, splitext, basename
 from os import listdir, makedirs
 import geopandas as gpd
 import pandas as pd
@@ -46,7 +46,8 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
         gdf = gpd.read_file(shp_path)
 
         # Add the name of the file in the attribute 'Name'
-        gdf["Name"] = file  
+        file_name = splitext(basename(file))[0]
+        gdf["Name"] = file_name  
         gdfs.append(gdf)
 
     # Join the shapefiles in one
@@ -59,11 +60,11 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
     makedirs(output_folder, exist_ok=True)
     output_shp_path = join(output_folder, output_shp)
 
-    print(f"Saving the final shapefile at: {output_shp_path}")
+    print(f"✅Saving the final shapefile at: {output_shp_path}")
 
     # Save the final shapefile
     merged_gdf.to_file(output_shp_path, driver="ESRI Shapefile")
-    print(f"Merged and projected shapefile saved at: {output_shp_path}")
+    print(f"✅Merged and projected shapefile saved at: {output_shp_path}")
 
 
 def init_converter():

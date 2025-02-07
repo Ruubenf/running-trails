@@ -1,10 +1,14 @@
+from os.path import join, dirname, abspath
 import geopandas as gpd
 import pandas as pd
 import numpy as np
-from sqlalchemy import create_engine
+import random
+from rasterio.sample import sample_gen
+from shapely.geometry import LineString
 
+PATH = join(dirname(abspath(__file__)), "data")  # Get the path of the current file
 # Load the shapefile
-shapefile_path = "etl\data\processed\lisbon_trails.shp"
+shapefile_path = join(PATH,"processed\lisbon_trails.shp")
 gdf = gpd.read_file(shapefile_path)
 
 # List of columns to drop if they exist
@@ -33,7 +37,7 @@ for col, default in missing_columns.items():
     if col not in gdf.columns:
         gdf[col] = default
 
-print("Updated Columns:", gdf.columns)
+print("✅Updated Columns:", gdf.columns)
 
 # Define custom textvalues for the 'descript' and 'type_terra columns
 descriptions = [
@@ -60,27 +64,52 @@ terrain = [
 gdf["descript"] = np.random.choice(descriptions, size = len(gdf))
 gdf["type_terra"] = np.random.choice(terrain, size = len(gdf))
 
-# Ensure correct Coordinate Reference System (CRS) - Convert to EPSG:3763 if needed
-target_crs = 3763
-if gdf.crs is None or gdf.crs.to_epsg() != target_crs:
-    print(f"Converting CRS to EPSG:{target_crs}...")
-    gdf = gdf.to_crs(epsg=target_crs)
-
 # Compute the length of each trail in meters
 gdf["distance_m"] = gdf.length
 
 # Assign random values to columns
 gdf["descript"] = np.random.choice(descriptions, size = len(gdf))
 gdf["type_terra"] = np.random.choice(terrain, size = len(gdf))
-gdf["slope_mean"] = 4.56
-gdf["slope_max"] = 8.00
 
-print("Final Data Preview:\n", gdf[["name", "descript", "type_terra", "distance_m"]].head())
+# Function to compute slopes
+def compute_slopes(gdf):
+    slopes = []
+    slopes_max =[]
+    for line in gdf.geometry:
+        if not isinstance(line, LineString):  
+            slopes.append(None) 
+            slopes_max.append(None)
+            continue
+        total_slopes = 0
+        total_lengths = 0
+        coords = list (line.coords)
+
+        for i in range(len(coords) - 1):
+            x1, y1, z1 = coords[i]
+            x2, y2, z2 = coords[i + 1]
+
+            horizontal_distance= np.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+            line_length = np.sqrt(horizontal_distance ** 2 + (z2 - z1) ** 2)
+
+            if horizontal_distance > 0:
+                line_slope = (z2 - z1) / horizontal_distance
+                total_slopes += line_slope * line_length
+                total_lengths += line_length
+
+        mean_slopes = total_slopes / total_lengths if total_lengths > 0 else 0
+        max_slopes = random.uniform(mean_slopes, 10) if mean_slopes <10 else 10
+        slopes.append(mean_slopes)
+        slopes_max.append(max_slopes)
+    return slopes, slopes_max
+
+gdf["slope_mean"], gdf["slope_max"] = compute_slopes(gdf)
+
+print(f"✅Mean and max slope calculated")
 
 # Save the cleaned shapefile
 output_shapefile = "etl/data/processed/lisbon_trails_appended.shp"
 gdf.to_file(output_shapefile)
-print(f"Appended shapefile saved to: {output_shapefile}")
+print(f"✅Updated shapefile saved as: {output_shapefile}")
 
 # Upload to PostgreSQL (PostGIS)
 # db_connection = "postgresql://postgres:postgres@localhost:5432/running-trails"
