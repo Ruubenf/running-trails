@@ -107,7 +107,7 @@ gdf["slope_mean"], gdf["slope_max"] = compute_slopes(gdf)
 print(f"✅Mean and max slope calculated")
 
 # Save the cleaned shapefile
-output_shapefile = join(PATH, "processed\lisbon_trails_appended1.shp")
+output_shapefile = "etl/data/processed/lisbon_trails_appended.shp"
 gdf.to_file(output_shapefile)
 print(f"✅Updated shapefile saved as: {output_shapefile}")
 
