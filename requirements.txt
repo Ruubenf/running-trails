@@ -8,3 +8,4 @@ selenium
 bs4
 shapely
 fiona
+flask-cors

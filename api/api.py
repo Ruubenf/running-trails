@@ -1,9 +1,10 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
-from flask_cors import CORS
+import requests
 
-# Database configuration
+
 DB_CONFIG = {
     "database": "running-trails",
     "user": "postgres",
@@ -63,21 +64,29 @@ def get_comments(id_trail):
     conn.close()
     return jsonify(comments)
 
-# Get best 3 trails (based on average score given on the comment table)
+# Get best 3 trails
 @app.route('/best_trails', methods=['GET'])
 def get_best_trails():
     conn = get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("""select id_trail, t.name, cast(avg(score) as numeric(10,2)) as score from sa.comment
-                        join sa.trail t on id_trail = id_0
-                        group by id_trail, t.name
-                        order by score desc, id_trail asc limit 3""")
+    cursor.execute("""
+        SELECT 
+            id_trail, 
+            name, 
+            CAST(AVG(score) AS numeric(10,2)) AS score,
+            ST_AsGeoJSON(ST_Transform(t.geom, 4326)) AS geometry
+        FROM sa.comment
+        JOIN sa.trail t ON id_trail = id_0
+        GROUP BY id_trail, t.name, geom
+        ORDER BY score DESC, id_trail ASC
+        LIMIT 3;
+    """)
     rides = cursor.fetchall()
     cursor.close()
     conn.close()
     return jsonify(rides)
 
-# Get trails by difficulty (actually, all the trails have a max slope of 8)
+# Get trails by difficulty
 @app.route('/ntrails/difficulty/<string:difficulty>', methods=['GET'])
 def get_difficulty_trails(difficulty):
     conn = get_db_connection()
@@ -100,7 +109,7 @@ def get_difficulty_trails(difficulty):
     return jsonify(rides)
 
 
-# Get trails by location (location is given by the web browser in the get request by frontend js)
+# Get trails by location
 @app.route('/trails/location', methods=['GET'])
 def get_location_trails():
 
@@ -114,12 +123,29 @@ def get_location_trails():
     if epsg not in ["4326", "3763"]:
         return jsonify({"error": "Invalid EPSG"})
     
-    # Project if needed
+
     point = ""
     if epsg == "4326":
         point = f"ST_TRANSFORM(ST_GEOMFROMTEXT('POINT({long} {lat})', 4326), 3763"
     elif epsg == "3763":
         point = f"ST_GEOMFROMTEXT('POINT({long} {lat})', 3763)"
+
+
+    """
+
+    # Get desired location coords with https://nominatim.openstreetmap.org/search?q=valencia&format=json&countrycodes=pt
+    loc = requests.get(f"https://nominatim.openstreetmap.org/search?q={location}&format=json&countrycodes=pt")
+    print(loc.content)
+
+    loc = loc.content.json()[0]
+
+    lon = loc["lon"] #"-9.1646135"
+    lat = loc["lat"] #"38.727895"
+    """
+    # select st_x(st_transform(ST_GEOMFROMTEXT('POINT(38.72 -9.16)', 4326), 3763))
+
+    """select st_x(st_centroid(st_transform(geom, 3763))), st_y(st_centroid(st_transform(geom, 3763)))
+    from sa.trail"""
 
     conn = get_db_connection()
     cursor = conn.cursor()
