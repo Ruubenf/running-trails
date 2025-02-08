@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, request
 import psycopg2
 from psycopg2.extras import RealDictCursor
-import requests
+from flask_cors import CORS
 
-
+# Database configuration
 DB_CONFIG = {
     "database": "running-trails",
     "user": "postgres",
@@ -15,6 +15,8 @@ DB_CONFIG = {
 
 app = Flask(__name__)
 
+# Enable CORS to send API requests
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Database connection function
 def get_db_connection():
@@ -61,7 +63,7 @@ def get_comments(id_trail):
     conn.close()
     return jsonify(comments)
 
-# Get best 3 trails
+# Get best 3 trails (based on average score given on the comment table)
 @app.route('/best_trails', methods=['GET'])
 def get_best_trails():
     conn = get_db_connection()
@@ -75,7 +77,7 @@ def get_best_trails():
     conn.close()
     return jsonify(rides)
 
-# Get trails by difficulty
+# Get trails by difficulty (actually, all the trails have a max slope of 8)
 @app.route('/ntrails/difficulty/<string:difficulty>', methods=['GET'])
 def get_difficulty_trails(difficulty):
     conn = get_db_connection()
@@ -98,7 +100,7 @@ def get_difficulty_trails(difficulty):
     return jsonify(rides)
 
 
-# Get trails by location
+# Get trails by location (location is given by the web browser in the get request by frontend js)
 @app.route('/trails/location', methods=['GET'])
 def get_location_trails():
 
@@ -112,29 +114,12 @@ def get_location_trails():
     if epsg not in ["4326", "3763"]:
         return jsonify({"error": "Invalid EPSG"})
     
-
+    # Project if needed
     point = ""
     if epsg == "4326":
         point = f"ST_TRANSFORM(ST_GEOMFROMTEXT('POINT({long} {lat})', 4326), 3763"
     elif epsg == "3763":
         point = f"ST_GEOMFROMTEXT('POINT({long} {lat})', 3763)"
-
-
-    """
-
-    # Get desired location coords with https://nominatim.openstreetmap.org/search?q=valencia&format=json&countrycodes=pt
-    loc = requests.get(f"https://nominatim.openstreetmap.org/search?q={location}&format=json&countrycodes=pt")
-    print(loc.content)
-
-    loc = loc.content.json()[0]
-
-    lon = loc["lon"] #"-9.1646135"
-    lat = loc["lat"] #"38.727895"
-    """
-    # select st_x(st_transform(ST_GEOMFROMTEXT('POINT(38.72 -9.16)', 4326), 3763))
-
-    """select st_x(st_centroid(st_transform(geom, 3763))), st_y(st_centroid(st_transform(geom, 3763)))
-    from sa.trail"""
 
     conn = get_db_connection()
     cursor = conn.cursor()
