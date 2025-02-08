@@ -15,9 +15,12 @@ def get_top_trails():
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        SELECT name, distance_m 
+        SELECT 
+            name,
+            distance_m,
+            ST_AsGeoJSON(ST_Transform(geom,4326)) AS geometry
         FROM sa.trail 
-        ORDER BY distance_m DESC 
+        ORDER BY distance_m 
         LIMIT 3;
     """)
     top_trails = cursor.fetchall()

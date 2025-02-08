@@ -4,3 +4,15 @@ body {
 html, body, #leaflet {
 	height: 100%
 }
+
+/* Make trail names look like clickable links */
+.clickable {
+    color: blue; /* Set text color to blue */
+    text-decoration: underline; /* Add underline to look like a link */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Add hover effect for better user experience */
+.clickable:hover {
+    color: darkblue; /* Slightly darker color on hover */
+}

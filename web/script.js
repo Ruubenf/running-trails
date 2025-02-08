@@ -1,3 +1,5 @@
+// Initialize leaflet map
+
 var map = new L.Map('leaflet', {
 	layers: [
 		new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -8,38 +10,65 @@ var map = new L.Map('leaflet', {
 	zoom: 14
 });
 
-
+// Initialize sidebar
 var sidebar = L.control.sidebar('sidebar', {position: 'left'});
 map.addControl(sidebar);
 
 sidebar.show();
 
+let trailLayers = {};  // Store trail geometry as leaflet layers
+
 // Fetch top 3 longest trails from API
 fetch('http://localhost:5000/top_trails')
-    .then(response => response.json())
+    .then(response => response.json())  // Convert API response to JSON
     .then(data => {
-        console.log("API Response:", data);  // Debugging: Check API response in devtools console
+        console.log("API Response:", data);  // Prints data in the devtools console
 
-        // Ensure there are at least 3 trails
-        if (data[0]) {
+        // Update trail names and distances in the frontend
+        if (data.length >= 3) {
             document.getElementById("trail1Name").textContent = data[0].name;
             document.getElementById("trail1Distance").textContent = data[0].distance_m.toFixed(2);
-        }
-        if (data[1]) {
             document.getElementById("trail2Name").textContent = data[1].name;
             document.getElementById("trail2Distance").textContent = data[1].distance_m.toFixed(2);
-        }
-        if (data[2]) {
             document.getElementById("trail3Name").textContent = data[2].name;
             document.getElementById("trail3Distance").textContent = data[2].distance_m.toFixed(2);
         }
+
+        // Make trails clickable
+        document.getElementById("trail1Name").addEventListener("click", function () {
+            showTrailOnMap(data[0], "red");
+        });
+        document.getElementById("trail2Name").addEventListener("click", function () {
+            showTrailOnMap(data[1], "red");
+        });
+        document.getElementById("trail3Name").addEventListener("click", function () {
+            showTrailOnMap(data[2], "red");
+        });
     })
     .catch(error => {
         console.error("Error fetching top trails:", error);
-        document.getElementById("trail1Name").textContent = "Unavailable";
-        document.getElementById("trail1Distance").textContent = "N/A";
-        document.getElementById("trail2Name").textContent = "Unavailable";
-        document.getElementById("trail2Distance").textContent = "N/A";
-        document.getElementById("trail3Name").textContent = "Unavailable";
-        document.getElementById("trail3Distance").textContent = "N/A";
     });
+
+// Function to Show a Trail on the Map
+function showTrailOnMap(trail, color) {
+    if (!trail.geometry) {
+        console.error("No geometry available for this trail.");
+        return;
+    }
+
+    // Convert geometry from text to a GeoJSON object
+    let trailLayer = L.geoJSON(JSON.parse(trail.geometry), {
+        style: { color: color, weight: 4 }
+    });
+
+    // Remove previous layers
+    map.eachLayer(layer => {
+        if (layer instanceof L.GeoJSON) {
+            map.removeLayer(layer);
+        }
+    });
+
+    // Add the new trail and zoom to it
+    trailLayer.addTo(map);
+    map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
+}
