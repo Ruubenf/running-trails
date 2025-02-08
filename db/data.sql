@@ -1,139 +1,35 @@
---
--- PostgreSQL database dump
---
+INSERT INTO sa.runner (username)
+VALUES 
+    ('johndoe'),
+    ('janedoe'),
+    ('trailblazer99'),
+    ('mountainlover'),
+    ('cityrunner'),
+    ('naturefanatic'),
+    ('adventureguy'),
+    ('hikerchick'),
+    ('wildtrailrunner'),
+    ('forestwanderer');
 
--- Dumped from database version 17.2
--- Dumped by pg_dump version 17.2
-
--- Started on 2025-01-30 18:23:32
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET transaction_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
---
--- TOC entry 5757 (class 0 OID 35096)
--- Dependencies: 226
--- Data for Name: trail; Type: TABLE DATA; Schema: sa; Owner: postgres
---
-
-COPY sa.trail (id_0, geom, id, name, descript, location, pt_start_x, pt_start_y, pt_end_x, pt_end_y, type_terra, slope_mean, slope_max, distance_m) FROM stdin;
-1	0105000020B30E000001000000010200000017000000D95C0A80DD99F5C01AF74B78256AF9C06EA89708AD9AF5C0CF29C2A9C468F9C0D95C0A80DD99F5C02FCC0FE20968F9C0C54EFFCE7BADF5C06285EAE9724AF9C09BA477FBB2B1F5C0CDD7698A874DF9C0C4D6CC2AEB9DF5C0BA54FE3FE06AF9C01905024D29A1F5C0DAD9F311946CF9C07A455CAE52A4F5C0CF7848BEB66AF9C00F91E93622A5F5C07A4A139C7867F9C00F91E93622A5F5C07A4A139C7867F9C00FE06F4B14A7F5C00F96A0244868F9C0107E7C74F8AAF5C03A8FAE0C0366F9C0056C57350DABF5C0A30708326B5DF9C0C54EFFCE7BADF5C0437827BC4F58F9C0B0793B6597AFF5C08D581E4DDA53F9C0313F8B9874B4F5C0C3015E9D6455F9C0313F8B9874B4F5C0C3015E9D6455F9C07B1F8229FFAFF5C083821260B75BF9C026DEDF4497B2F5C0242F4B3C645EF9C01A411B9FF1A8F5C05AB2B0079B6BF9C03A8AF71EDDA2F5C065135C5B786DF9C024791A63309DF5C05AB2B0079B6BF9C024791A63309DF5C05AB2B0079B6BF9C0	2	Edward VII Park	Trail in the Edward VII Park in the city center	Marques do Pombal	-88479.8	-104096.5	-88529.7	-104122.2	path	7	10	2568.29
-2	0105000020B30E00000100000001020000000A0000004C3EB6AF9C7CF5C0FA31E67E66F2F9C0C8287AE5DD84F5C0129B893A18F2F9C02F872DEB3597F5C08847B92068F1F9C0B7338B800BA5F5C02B652EBAF2F0F9C089C245CDD0A4F5C0CD21A28F54F1F9C07AAFFB62D77CF5C028A32B32A1F2F9C07AAFFB62D77CF5C028A32B32A1F2F9C017CD884E997CF5C0404B9AF4AEF2F9C0001C4148877CF5C0404B9AF4AEF2F9C0001C4148877CF5C0404B9AF4AEF2F9C0	3	Cycling trail	Trail near Cais do Sodre and the port	Cais do Sodre	-88007.3	-106279.3	-88014.8	-106285.5	road	8	10	1299.38
-3	0105000020B30E000001000000010200000015000000CE06AD8D942DF6C09C6656DBB901F9C0E8AFAEE9D33DF6C00777D35DD906F9C0E8AFAEE9D33DF6C00777D35DD906F9C0C3C524895D42F6C09A0FC60B180BF9C0FF11554A0C41F6C099B8353C7614F9C033CB1DA6C741F6C0F840CFBE5721F9C0046E9688931BF6C076BE7607652FF9C068423C756119F6C052D4ECA6EE33F9C08BD53506361EF6C0DDD977EF393AF9C02B9F7BE41024F6C01DC4937B913CF9C02A48EB146F2DF6C0391BB676143AF9C09C943F2DE039F6C014312C169E3EF9C0E411C31E2B3AF6C00C9EC4B0AA40F9C0DE2C7C587B29F6C0CEA37350B854F9C018DBC04E8124F6C0E9A3057C995BF9C0DDE5205D741CF6C014CA6672615EF9C0DDE5205D741CF6C014CA6672615EF9C0D9473592CB18F6C0A8625920A062F9C001D0AABDEA17F6C0AB0045EB4866F9C039275FE44E1CF6C0BE6D6FB1366FF9C0E66853EECC30F6C07E2CC3553D76F9C0	1	Monsanto trail	Trail in Monsanto with good views	Monsanto	-90839	-102427	-90898	-104297	soil	15	18	3434.56
-\.
-
-
---
--- TOC entry 5763 (class 0 OID 0)
--- Dependencies: 225
--- Name: trail_id_0_seq; Type: SEQUENCE SET; Schema: sa; Owner: postgres
---
-
-SELECT pg_catalog.setval('sa.trail_id_0_seq', 3, true);
-
-
--- Completed on 2025-01-30 18:23:32
-
---
--- PostgreSQL database dump complete
---
-
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 17.2
--- Dumped by pg_dump version 17.2
-
--- Started on 2025-01-30 18:55:31
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET transaction_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
-SET default_tablespace = '';
-
-SET default_table_access_method = heap;
-
---
--- TOC entry 227 (class 1259 OID 35112)
--- Name: comment; Type: TABLE; Schema: sa; Owner: postgres
---
-
-DROP TABLE sa.comment IF EXISTS;
-CREATE TABLE sa.comment (
-    id_trail integer NOT NULL,
-    score smallint NOT NULL,
-    text text,
-    id integer NOT NULL,
-    CONSTRAINT ck_comment_score CHECK (((score >= 1) AND (score <= 5)))
-);
-
-
-ALTER TABLE sa.comment OWNER TO postgres;
-
---
--- TOC entry 228 (class 1259 OID 35117)
--- Name: comment_id_seq; Type: SEQUENCE; Schema: sa; Owner: postgres
---
-
-ALTER TABLE sa.comment ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY (
-    SEQUENCE NAME sa.comment_id_seq
-    START WITH 1
-    INCREMENT BY 1
-    NO MINVALUE
-    NO MAXVALUE
-    CACHE 1
-);
-
-
---
--- TOC entry 5760 (class 0 OID 35112)
--- Dependencies: 227
--- Data for Name: comment; Type: TABLE DATA; Schema: sa; Owner: postgres
---
-
-INSERT INTO sa.comment (id_trail, score, text, id) OVERRIDING SYSTEM VALUE VALUES (1, 5, 'The best trail in my entire life.', 1);
-
-
---
--- TOC entry 5767 (class 0 OID 0)
--- Dependencies: 228
--- Name: comment_id_seq; Type: SEQUENCE SET; Schema: sa; Owner: postgres
---
-
-SELECT pg_catalog.setval('sa.comment_id_seq', 1, true);
-
-
---
--- TOC entry 5609 (class 2606 OID 35124)
--- Name: comment comment_pkey; Type: CONSTRAINT; Schema: sa; Owner: postgres
---
-
-ALTER TABLE ONLY sa.comment
-    ADD CONSTRAINT comment_pkey PRIMARY KEY (id);
-
-
--- Completed on 2025-01-30 18:55:31
-
---
--- PostgreSQL database dump complete
---
-
+INSERT INTO sa.comment (id_trail, score, text, runner)
+VALUES 
+    (6, 5, 'Amazing trail! Perfect views and well-maintained.', 'johndoe'),
+    (2, 4, 'A bit steep, but totally worth the effort.', 'janedoe'),
+    (3, 3, 'Average experience, could use some maintenance.', 'trailblazer99'),
+    (6, 5, 'Absolutely loved it! Would come again.', 'mountainlover'),
+    (2, 2, 'Too crowded and not as scenic as expected.', 'cityrunner'),
+    (3, 4, 'Great trail, but parking was limited.', 'naturefanatic'),
+    (4, 5, 'Best trail I have ever visited! Highly recommended.', 'adventureguy'),
+    (6, 3, 'Not bad, but a bit too rocky for my taste.', 'hikerchick'),
+    (2, 5, 'Fantastic views, well worth the trip!', 'wildtrailrunner'),
+    (5, 4, 'A peaceful and quiet escape into nature.', 'forestwanderer'),
+    (3, 2, 'Trail was okay but needs better signage.', 'johndoe'),
+    (4, 4, 'Really enjoyed the challenge of this trail.', 'janedoe'),
+    (5, 1, 'Horrible experience, trail was closed without notice.', 'trailblazer99'),
+    (2, 3, 'Decent hike, but not very memorable.', 'naturefanatic'),
+    (6, 5, 'Loved the sunrise from this trail. A must-visit!', 'adventureguy'),
+    (3, 4, 'Good trail for a quick hike, not too difficult.', 'hikerchick'),
+    (4, 5, 'Beautiful scenery and plenty of shade!', 'wildtrailrunner'),
+    (5, 4, 'Challenging but very rewarding hike.', 'forestwanderer'),
+    (6, 2, 'Not my favorite, too crowded on weekends.', 'cityrunner'),
+    (2, 5, 'Perfect for an afternoon run. Great upkeep!', 'mountainlover');
