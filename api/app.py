@@ -6,21 +6,26 @@ from api import get_db_connection
 
 app = Flask(__name__)
 
-# Explicitly Allow CORS for All Domains
+# Enable CORS to send API requests
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-@app.route('/max_distance', methods=['GET'])
-def get_max_distance():
+# Get top 3 best trails (!! distances are used as placeholders for now)
+@app.route('/top_trails', methods=['GET'])
+def get_top_trails():
     conn = get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT MAX(distance_m) AS max_distance FROM sa.trail;")
-    max_distance = cursor.fetchone()
-
-    print("Database Query Result:", max_distance)  # Debugging output
-
+    cursor.execute("""
+        SELECT name, distance_m 
+        FROM sa.trail 
+        ORDER BY distance_m DESC 
+        LIMIT 3;
+    """)
+    top_trails = cursor.fetchall()
+    print("DB Query Result:", top_trails)  # Print results in the terminal
     cursor.close()
     conn.close()
-    return jsonify(max_distance)
+    
+    return jsonify(top_trails)  # Returns a list of top 3 trails
 
 if __name__ == '__main__':
     app.run(debug=True)

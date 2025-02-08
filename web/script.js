@@ -14,18 +14,32 @@ map.addControl(sidebar);
 
 sidebar.show();
 
-// Fetch max distance from API
-fetch('http://localhost:5000/max_distance')  // ✅ Ensure the correct API URL
+// Fetch top 3 longest trails from API
+fetch('http://localhost:5000/top_trails')
     .then(response => response.json())
     .then(data => {
-        console.log("API Response:", data);  // ✅ Debugging: Check API response in browser console
-        if (data.max_distance !== null && data.max_distance !== undefined) {
-            document.getElementById("maxDistance").textContent = data.max_distance.toFixed(2);
-        } else {
-            document.getElementById("maxDistance").textContent = "No data available";
+        console.log("API Response:", data);  // Debugging: Check API response in devtools console
+
+        // Ensure there are at least 3 trails
+        if (data[0]) {
+            document.getElementById("trail1Name").textContent = data[0].name;
+            document.getElementById("trail1Distance").textContent = data[0].distance_m.toFixed(2);
+        }
+        if (data[1]) {
+            document.getElementById("trail2Name").textContent = data[1].name;
+            document.getElementById("trail2Distance").textContent = data[1].distance_m.toFixed(2);
+        }
+        if (data[2]) {
+            document.getElementById("trail3Name").textContent = data[2].name;
+            document.getElementById("trail3Distance").textContent = data[2].distance_m.toFixed(2);
         }
     })
     .catch(error => {
-        console.error("Error fetching max distance:", error);
-        document.getElementById("maxDistance").textContent = "Unavailable";
-    })
+        console.error("Error fetching top trails:", error);
+        document.getElementById("trail1Name").textContent = "Unavailable";
+        document.getElementById("trail1Distance").textContent = "N/A";
+        document.getElementById("trail2Name").textContent = "Unavailable";
+        document.getElementById("trail2Distance").textContent = "N/A";
+        document.getElementById("trail3Name").textContent = "Unavailable";
+        document.getElementById("trail3Distance").textContent = "N/A";
+    });
