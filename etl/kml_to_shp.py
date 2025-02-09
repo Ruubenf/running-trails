@@ -62,7 +62,7 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
 
     print(f"✅Saving the final shapefile at: {output_shp_path}")
 
-    # Save the final shapefile
+    # Save the shapefile
     merged_gdf.to_file(output_shp_path, driver="ESRI Shapefile")
     print(f"✅Merged and projected shapefile saved at: {output_shp_path}")
 
