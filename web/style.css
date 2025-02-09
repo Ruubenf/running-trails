@@ -18,8 +18,11 @@ html, body, #leaflet {
     color: darkblue; /* Slightly darker color on hover */
 }
 
+#sidebar{
+    background-color:#ffffffD8;
+}
+
 #trailDescription{
-    background-color: #ffffffD0;
     padding: 20px;
     margin: 10px 0px;
     border: 1px solid #000000;

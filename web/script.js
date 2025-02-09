@@ -99,4 +99,34 @@ function showTrailOnMap(trail, color) {
     document.getElementById("closeButton").addEventListener("click", function () {
         sidebar.removeChild(trailDescription);
     });
+
+    // 4. Get comments from the API
+    fetch(`http://localhost:5000/trail/${trail.id_trail}/comments`)
+        .then(response => response.json())
+        .then(data => {
+            console.log("API Response:", data);
+
+            // 5. Add comments to the trail description
+            let commentPane = document.createElement("div");
+            trailDescription.appendChild(commentPane);
+            for (let comment of data) {
+                let commentElement = document.createElement("p");
+                commentElement.textContent = `${comment.text} - ${comment.score} / 5 ⭐`;
+                commentPane.appendChild(commentElement);
+            }
+            /*
+            // 5. Add comments to the trail description
+            let comments = document.createElement("div");
+            comments.innerHTML = `
+            <h4>Comments</h4>
+            <ul>
+            ${data.map(comment => `<li>${comment.comment} - ${comment.score} / 5 ⭐</li>`).join("")}
+            </ul>
+            `;
+            trailDescription.appendChild(comments);
+            */
+        })
+        .catch(error => {
+            console.error("Error fetching comments:", error);
+        });
 }
