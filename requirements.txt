@@ -9,3 +9,4 @@ bs4
 shapely
 fiona
 flask-cors
+psycopg2
