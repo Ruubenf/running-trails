@@ -151,6 +151,25 @@ def get_location_trails():
     conn.close()
     return jsonify(rides)
 
+# Search by name
+@app.route('/trails/search', methods=['GET'])
+def search_trails():
+    name = request.args.get('name')
+    if not name:
+        return jsonify({"error": "Missing arguments"})
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(f"""
+        SELECT id_0, name, descript, 
+        ST_AsGeoJSON(ST_Transform(geom, 4326)) AS geometry
+        FROM sa.trail
+        WHERE name ILIKE '%{name}%';
+    """)
+    rides = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return jsonify(rides)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

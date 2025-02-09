@@ -136,6 +136,44 @@ function showTrailOnMap(trail, color) {
     getComments(trail.id_trail);
 }
 
+// Search by name
+searchInput = document.getElementById("searchInput");
+searchInput.addEventListener("input", function () {
+
+    // Clear previous search results
+    let searchResults = document.getElementById("searchResults");
+    if (searchResults) {
+        searchResults.remove();
+    }
+
+    if (searchInput.value.length < 3) {
+        return;
+    }
+    fetch(`http://localhost:5000/trails/search?name=${searchInput.value}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log("API Response:", data);
+
+            // Update search results in the frontend
+            let searchResults = document.createElement("div");
+            searchResults.id = "searchResults";
+            for (let trail of data) {
+                let trailElement = document.createElement("p");
+                trailElement.textContent = trail.name;
+                trailElement.classList.add("clickable");
+                trailElement.addEventListener("click", function () {
+                    showTrailOnMap(trail, "red");
+                });
+                searchResults.appendChild(trailElement);
+            }
+            let sidebar = document.getElementById("sidebar");
+            sidebar.appendChild(searchResults);
+        })
+        .catch(error => {
+            console.error("Error fetching search results:", error);
+        });
+});
+
 // Get comments from the API
 function getComments(trailId) {
     fetch(`http://localhost:5000/trail/${trailId}/comments`)
