@@ -2,7 +2,8 @@ body {
 	margin: 0;
 }
 html, body, #leaflet {
-	height: 100%
+	height: 100%;
+    font-size: 16px;
 }
 
 /* Make trail names look like clickable links */
@@ -15,4 +16,11 @@ html, body, #leaflet {
 /* Add hover effect for better user experience */
 .clickable:hover {
     color: darkblue; /* Slightly darker color on hover */
+}
+
+#trailDescription{
+    background-color: #ffffffD0;
+    padding: 20px;
+    margin: 10px 0px;
+    border: 1px solid #000000;
 }

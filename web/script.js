@@ -68,6 +68,12 @@ function showTrailOnMap(trail, color) {
         }
     });
 
+    // Remove previous trail description
+    let closeButton = document.getElementById("closeButton")
+    if (closeButton) {
+        closeButton.click();
+    }
+
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
@@ -80,9 +86,10 @@ function showTrailOnMap(trail, color) {
     <h3>${trail.name}</h3>
     <p>${trail.descript}</p>
     <h4>Reviews</h4>
-    <p>${trail.score} / 5</p>
-    <span id="closeButton" style="cursor: pointer;">Close</span>
+    <p>${trail.score} / 5 ⭐</p>
+    <span id="closeButton" class="clickable">Close</span>
     `;
+    trailDescription.id = "trailDescription";
 
     // 2. Append trail description to the sidebar
     var sidebar = document.getElementById("sidebar");
