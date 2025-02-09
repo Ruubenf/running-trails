@@ -1,9 +1,9 @@
 from os.path import join, dirname, abspath
+from os import makedirs
 import geopandas as gpd
 import pandas as pd
 import numpy as np
 import random
-from rasterio.sample import sample_gen
 from shapely.geometry import LineString
 
 PATH = join(dirname(abspath(__file__)), "data")  # Get the path of the current file
@@ -97,7 +97,7 @@ def compute_slopes(gdf):
                 total_lengths += line_length
 
         mean_slopes = total_slopes / total_lengths if total_lengths > 0 else 0
-        max_slopes = random.uniform(mean_slopes, 10) if mean_slopes <10 else 10
+        max_slopes = random.uniform(mean_slopes,10) if mean_slopes <10 else 10
         slopes.append(mean_slopes)
         slopes_max.append(max_slopes)
     return slopes, slopes_max
@@ -106,10 +106,15 @@ gdf["slope_mean"], gdf["slope_max"] = compute_slopes(gdf)
 
 print(f"✅Mean and max slope calculated")
 
-# Save the cleaned shapefile
-output_shapefile = "etl/data/processed/lisbon_trails_appended.shp"
-gdf.to_file(output_shapefile)
-print(f"✅Updated shapefile saved as: {output_shapefile}")
+# Create a folder
+appended = join(PATH, "appended")
+makedirs(appended, exist_ok=True)
+output_appended_shp = join(PATH, "appended\lisbon_trails_appended.shp")
+
+# Save the modify shapefile
+gdf.to_file(output_appended_shp, driver="ESRI Shapefile")
+
+print(f"✅Updated shapefile saved as: {output_appended_shp}")
 
 # Upload to PostgreSQL (PostGIS)
 # db_connection = "postgresql://postgres:postgres@localhost:5432/running-trails"
