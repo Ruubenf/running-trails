@@ -49,6 +49,38 @@ fetch('http://localhost:5000/best_trails')
         console.error("Error fetching top trails:", error);
     });
 
+// Get closest trails from API
+// 1. Get user location
+navigator.geolocation.getCurrentPosition(position => {
+    fetch(`http://localhost:5000/trails/location?lat=${position.coords.latitude}&lon=${position.coords.longitude}&epsg=4326`)
+    .then(response => response.json())
+    .then(data => {
+        console.log("API Response:", data);
+
+        // Update trail names and distances in the frontend
+        if (data.length >= 3) {
+            document.getElementById("closestTrail1Name").textContent = data[0].name;
+            document.getElementById("closestTrail2Name").textContent = data[1].name;
+            document.getElementById("closestTrail3Name").textContent = data[2].name;
+        }
+
+        for (let i = 0; i < 3; i++) {
+            data[i]["id_trail"] = data[i].id_0;
+        }
+
+        // Make trails clickable
+        document.getElementById("closestTrail1Name").addEventListener("click", function () {
+            showTrailOnMap(data[0], "red");
+        });
+        document.getElementById("closestTrail2Name").addEventListener("click", function () {
+            showTrailOnMap(data[1], "red");
+        });
+        document.getElementById("closestTrail3Name").addEventListener("click", function () {
+            showTrailOnMap(data[2], "red");
+        });
+    })
+})
+
 // Show a trail on the map
 function showTrailOnMap(trail, color) {
     if (!trail.geometry) {
@@ -101,12 +133,20 @@ function showTrailOnMap(trail, color) {
     });
 
     // 4. Get comments from the API
-    fetch(`http://localhost:5000/trail/${trail.id_trail}/comments`)
+    getComments(trail.id_trail);
+}
+
+// Get comments from the API
+function getComments(trailId) {
+    fetch(`http://localhost:5000/trail/${trailId}/comments`)
         .then(response => response.json())
         .then(data => {
             console.log("API Response:", data);
 
             // 5. Add comments to the trail description
+            if (data.length === 0) {
+                return;
+            }
             let commentPane = document.createElement("div");
             trailDescription.appendChild(commentPane);
             for (let comment of data) {
@@ -114,17 +154,6 @@ function showTrailOnMap(trail, color) {
                 commentElement.textContent = `${comment.text} - ${comment.score} / 5 ⭐`;
                 commentPane.appendChild(commentElement);
             }
-            /*
-            // 5. Add comments to the trail description
-            let comments = document.createElement("div");
-            comments.innerHTML = `
-            <h4>Comments</h4>
-            <ul>
-            ${data.map(comment => `<li>${comment.comment} - ${comment.score} / 5 ⭐</li>`).join("")}
-            </ul>
-            `;
-            trailDescription.appendChild(comments);
-            */
         })
         .catch(error => {
             console.error("Error fetching comments:", error);

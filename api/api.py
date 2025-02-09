@@ -120,7 +120,7 @@ def get_difficulty_trails(difficulty):
 @app.route('/trails/location', methods=['GET'])
 def get_location_trails():
 
-    long = request.args.get('long')
+    long = request.args.get('lon')
     lat = request.args.get('lat')
     epsg = request.args.get('epsg')
 
@@ -133,7 +133,7 @@ def get_location_trails():
 
     point = ""
     if epsg == "4326":
-        point = f"ST_TRANSFORM(ST_GEOMFROMTEXT('POINT({long} {lat})', 4326), 3763"
+        point = f"ST_TRANSFORM(ST_GEOMFROMTEXT('POINT({long} {lat})', 4326), 3763)"
     elif epsg == "3763":
         point = f"ST_GEOMFROMTEXT('POINT({long} {lat})', 3763)"
 
@@ -141,7 +141,8 @@ def get_location_trails():
     cursor = conn.cursor()
     cursor.execute(f"""
         SELECT id_0, name, 
-        CAST(ST_DISTANCE({point}, ST_CENTROID(ST_TRANSFORM(geom, 3763))) AS numeric(10,2)) AS dist
+        CAST(ST_DISTANCE({point}, ST_CENTROID(ST_TRANSFORM(geom, 3763))) AS numeric(10,2)) AS dist,
+        ST_AsGeoJSON(ST_Transform(geom, 4326)) AS geometry
         FROM sa.trail
         ORDER BY dist ASC;
     """)
