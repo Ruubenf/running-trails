@@ -8,13 +8,13 @@ CREATE TABLE IF NOT EXISTS sa.trail
     descript character varying(255),
     location character varying(255),
     type_terra character varying(255),
-    slope_mean bigint,
-    slope_max bigint,
+    slope_mean double precision,
+    slope_max double precision,
     distance_m double precision
-)
+);
 
 -- Table: sa.user
-DROP TALBE IF EXISTS sa.runner;
+DROP TABLE IF EXISTS sa.runner;
 create table sa.runner(
 	username varchar(255) NOT NULL PRIMARY KEY
 );
@@ -31,4 +31,4 @@ CREATE TABLE IF NOT EXISTS sa.comment
     id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
     CONSTRAINT comment_pkey PRIMARY KEY (id),
     CONSTRAINT ck_comment_score CHECK (score >= 1 AND score <= 5)
-)
+);
