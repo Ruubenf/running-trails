@@ -28,8 +28,8 @@ class Trail(Base):
     descript = Column(String(255))
     location = Column(String(255))
     type_terra = Column(String(255))
-    slope_mean = Column(BigInteger)
-    slope_max = Column(BigInteger)
+    slope_mean = Column(Double)
+    slope_max = Column(Double)
     distance_m = Column(Double)
     
 
