@@ -72,12 +72,13 @@ def get_best_trails():
     cursor.execute("""
         SELECT 
             id_trail, 
-            name, 
+            name,
+            t.descript,
             CAST(AVG(score) AS numeric(10,2)) AS score,
             ST_AsGeoJSON(ST_Transform(t.geom, 4326)) AS geometry
         FROM sa.comment
         JOIN sa.trail t ON id_trail = id_0
-        GROUP BY id_trail, t.name, geom
+        GROUP BY id_trail, t.name, geom, t.descript
         ORDER BY score DESC, id_trail ASC
         LIMIT 3;
     """)
@@ -92,17 +93,23 @@ def get_difficulty_trails(difficulty):
     conn = get_db_connection()
     cursor = conn.cursor()
     if difficulty == "easy":
-        cursor.execute(f"""select count(*)
-                from sa.trail t
-                where t.slope_max between 0 and 2;""")
+        cursor.execute(f"""
+            SELECT count(*)
+            FROM sa.trail t
+            WHERE t.slope_max BETWEEN 0 and 2;
+            """)
     elif difficulty == "medium":
-        cursor.execute(f"""select count(*)
-                from sa.trail t
-                where t.slope_max between 3 and 4""")
+        cursor.execute(f"""
+            SELECT count(*)
+            FROM sa.trail t
+            WHERE t.slope_max BETWEEN 3 and 4;
+            """)
     elif difficulty == "hard":
-        cursor.execute(f"""select count(*)
-                from sa.trail t
-                where t.slope_max between 5 and 8;""")
+        cursor.execute(f"""
+            SELECT count(*)
+            FROM sa.trail t
+            WHERE t.slope_max BETWEEN 5 and 8;
+            """)
     rides = cursor.fetchall()
     cursor.close()
     conn.close()
@@ -130,30 +137,13 @@ def get_location_trails():
     elif epsg == "3763":
         point = f"ST_GEOMFROMTEXT('POINT({long} {lat})', 3763)"
 
-
-    """
-
-    # Get desired location coords with https://nominatim.openstreetmap.org/search?q=valencia&format=json&countrycodes=pt
-    loc = requests.get(f"https://nominatim.openstreetmap.org/search?q={location}&format=json&countrycodes=pt")
-    print(loc.content)
-
-    loc = loc.content.json()[0]
-
-    lon = loc["lon"] #"-9.1646135"
-    lat = loc["lat"] #"38.727895"
-    """
-    # select st_x(st_transform(ST_GEOMFROMTEXT('POINT(38.72 -9.16)', 4326), 3763))
-
-    """select st_x(st_centroid(st_transform(geom, 3763))), st_y(st_centroid(st_transform(geom, 3763)))
-    from sa.trail"""
-
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute(f"""
-    select id_0, name, 
-    cast(st_distance({point}, st_centroid(st_transform(geom, 3763))) as numeric(10,2)) as dist
-    from sa.trail
-    order by dist asc
+        SELECT id_0, name, 
+        CAST(ST_DISTANCE({point}, ST_CENTROID(ST_TRANSFORM(geom, 3763))) AS numeric(10,2)) AS dist
+        FROM sa.trail
+        ORDER BY dist ASC;
     """)
     rides = cursor.fetchall()
     cursor.close()

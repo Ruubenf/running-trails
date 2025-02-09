@@ -71,4 +71,25 @@ function showTrailOnMap(trail, color) {
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
+    
+    // Add trail description to the sidebar
+
+    // 1. Create trail description
+    let trailDescription = document.createElement("div");
+    trailDescription.innerHTML = `
+    <h3>${trail.name}</h3>
+    <p>${trail.descript}</p>
+    <h4>Reviews</h4>
+    <p>${trail.score} / 5</p>
+    <span id="closeButton" style="cursor: pointer;">Close</span>
+    `;
+
+    // 2. Append trail description to the sidebar
+    var sidebar = document.getElementById("sidebar");
+    sidebar.appendChild(trailDescription);
+
+    // 3. Add close button functionality
+    document.getElementById("closeButton").addEventListener("click", function () {
+        sidebar.removeChild(trailDescription);
+    });
 }
