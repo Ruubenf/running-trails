@@ -32,3 +32,11 @@ CREATE TABLE IF NOT EXISTS sa.comment
     CONSTRAINT comment_pkey PRIMARY KEY (id),
     CONSTRAINT ck_comment_score CHECK (score >= 1 AND score <= 5)
 );
+
+-- Table: sa.green_areas
+DROP TALBE IF EXISTS sa.green_areas;
+CREATE TABLE IF NOT EXISTS sa.green_areas
+(
+	id INTEGER PRIMARY KEY,
+	geom GEOMETRY(MULTIPOLYGON, 3763)
+)
