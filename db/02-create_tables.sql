@@ -3,14 +3,15 @@ DROP TABLE IF EXISTS sa.trail;
 CREATE TABLE IF NOT EXISTS sa.trail
 (
     id_0 SERIAL PRIMARY KEY,
-    geom geometry(LineStringZ,3763),
     name character varying(255),
     descript character varying(255),
     location character varying(255),
     type_terra character varying(255),
     slope_mean double precision,
     slope_max double precision,
-    distance_m double precision
+    distance_m double precision,
+    green_areas_50m double precision,
+    geom geometry(LineStringZ,3763)
 );
 
 -- Table: sa.user
@@ -33,9 +34,9 @@ CREATE TABLE IF NOT EXISTS sa.comment
     CONSTRAINT ck_comment_score CHECK (score >= 1 AND score <= 5)
 );
 
--- Table: sa.green_areas
-DROP TALBE IF EXISTS sa.green_areas;
-CREATE TABLE IF NOT EXISTS sa.green_areas
+-- Table: sa.green_area
+DROP TALBE IF EXISTS sa.green_area;
+CREATE TABLE IF NOT EXISTS sa.green_area
 (
 	id INTEGER PRIMARY KEY,
 	geom GEOMETRY(MULTIPOLYGON, 3763)
