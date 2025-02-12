@@ -1,0 +1,12 @@
+python
+pandas
+geopandas
+sqlalchemy
+geoalchemy2
+requests
+selenium
+bs4
+shapely
+fiona
+flask-cors
+psycopg2
