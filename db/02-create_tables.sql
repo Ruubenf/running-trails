@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS sa.comment
 );
 
 -- Table: sa.green_area
-DROP TALBE IF EXISTS sa.green_area;
+DROP TABLE IF EXISTS sa.green_area;
 CREATE TABLE IF NOT EXISTS sa.green_area
 (
 	id INTEGER PRIMARY KEY,
