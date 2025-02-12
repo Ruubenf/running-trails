@@ -1,66 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>RunLisboa</title>
 		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 		<link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet-sidebar@0.2.0/src/L.Control.Sidebar.css" />		
 		<link type="text/css" rel="stylesheet" href="style.css" />
+		<!--==CSS==-->
+		<link rel="stylesheet" href="style.css">
+		<!--==Boxicons CSS==-->
+		<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+		<title>Dashboard Sidebar Menu | Dark-Light Mode</title>
+	
 	</head>
 	<body>
-		<div id="leaflet"></div>
-		
-		<div id="sidebar">
-			<h1>RunLisboa</h1>
-			<p>Discover the best running trails in Lisbon. Find scenic, safe, and highly recommended routes for all levels of runners.</p>
-			
-			<h2>Best Trails</h2>
-			<table>
-				<tr>
-				  <td><strong>#1</strong></td>
-				  <td><span id="trail1Name" class="clickable">Loading...</span></td>
-				  <td><span id="trail1Score">...</span> / 5 ⭐</td>
-				</tr>
-				<tr>
-					<td><strong>#2</strong></td>
-					<td><span id="trail2Name" class="clickable">Loading...</span></td>
-					<td><span id="trail2Score">...</span> / 5 ⭐</td>
-				</tr>
-				<tr>
-					<td><strong>#3</strong></td>
-					<td><span id="trail3Name" class="clickable">Loading...</span></td>
-					<td><span id="trail3Score">...</span> / 5 ⭐</td>
-				</tr>
-			  </table>
-
-			<h2>Closest Trails</h2>
-			<table>
-				<tr>
-				  <td><strong>#1</strong></td>
-				  <td><span id="closestTrail1Name" class="clickable">Loading...</span></td>
-				</tr>
-				<tr>
-					<td><strong>#2</strong></td>
-					<td><span id="closestTrail2Name" class="clickable">Loading...</span></td>
-				</tr>
-				<tr>
-					<td><strong>#3</strong></td>
-					<td><span id="closestTrail3Name" class="clickable">Loading...</span></td>
-				</tr>
-			  </table>
-			
-			  <div class="topnav">
-				<input type="text" placeholder="Search trails..." id="searchInput">
-				<a class="active" href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#contact">Contact</a>
-			  </div>
+		<nav class="sidebar">
+			<header>
+				<div class="logo-text">
+					<h1><img src="logo.png" alt="logo" class="logo"></h1>
+					<div class="text header-text">
+						<h1><span class="name">RunLisboa</span></h1>
+						<p class="justify-text">Discover the best running trails in Lisbon. Find scenic, safe, and highly recommended routes for all levels of runners.</p>
+					</div>
+					<i class="bx bx-chevron-right toggle"></i>
+				</div>
+			</header>
+			<div class="menu-bar">
+				<div class="menu">
+					<li class="search-box">
+							<i class="bx bx-search icon"></i>
+							<input type="search" style="font-size: 22px" placeholder="Search...">
+					</li>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
+								<i class="bx bxs-star icon"></i>
+								<span class="text nav-text">Top Trails</span>
+								<i class="bx bx-chevron-down arrow" style ="margin-left: 30px;"></i>
+							</a>
+						</li>
+						<div class="sub-menu">
+							<li>
+								<a href="#">
+									<span id="trail1Name" class="clickable">Loading...</span>
+									<span id="trail1Score">...</span> /5 ⭐
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span id="trail2Name" class="clickable">Loading...</span>
+									<span id="trail2Score">...</span> /5 ⭐
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span id="trail3Name" class="clickable">Loading...</span>
+									<span id="trail3Score">...</span> /5 ⭐
+								</a>
+							</li>
+						</div>
+					</div>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
+								<i class="bx bx-current-location icon"></i>
+								<span class="text nav-text">Closest Trails</span>
+								<i class="bx bx-chevron-down arrow"></i>
+							</a>
+						</li>
+						<div class="sub-menu">
+							<li>
+								<a href="#">
+									<span id="closestTrail1Name" class="clickable">Loading...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span id="closestTrail2Name" class="clickable">Loading...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span id="closestTrail3Name" class="clickable">Loading...</span>
+								</a>
+							</li>
+						</div>
+					</div>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
+								<i class="bx bxs-add-to-queue icon"></i>
+								<span class="text nav-text">Add Trail</span>
+							</a>
+						</li>
+					</div>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
+								<i class="bx bx-home-alt icon"></i>
+								<span class="text nav-text">About us</span>
+							</a>
+						</li>
+					</div>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
+								<i class="bx bxs-envelope icon"></i>
+								<span class="text nav-text">Contact</span>
+							</a>
+						</li>
+					</div>
+					<div class="dark">
+						<li class="mode">
+							<div class="moon-sun">
+								<i class="bx bx-moon icon moon"></i>
+								<i class="bx bx-sun icon sun"></i>
+							</div>	
+							<span class="mode-text text">Dark Mode</span>
+							<div class="toggle-switch">
+								<span class="switch"></span>
+							</div>	
+						</li>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div id="reviewBox" class="review-box">
+			<h3 id="trailTitle">Trail Name</h3>
+			<textarea id="reviewInput" placeholder="Reviews..."></textarea>
+			<button onclick="submitComment()">Submit</button>
+			<button onclick="closeCommentBox()">Close</button>
 		</div>
-
+		<div id="leaflet"></div>
 		<script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
 		<script src="https://unpkg.com/leaflet-sidebar@0.2.0/src/L.Control.Sidebar.js"></script>
-		
 		<script src="script.js"></script>
 	</body>
 </html>

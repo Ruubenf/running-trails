@@ -1,29 +1,306 @@
+/* Colors Dark and Light Mode, Transitions, Text and Body */
+:root{
+    /* Colors Light Mode*/
+    --body-color: #e4f7e9;
+    --sidebar-color: #fefefeec;;
+    --primary-color: #0f5f04;
+    --primary-color-light: #e5efe6;
+    --toggle-color: #dddddd;
+    --text-color: #252323;
+    /* Transition */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
 body {
-	margin: 0;
+	height: 100vh;
+    background:  var(--body-color);
+    transition: var(--tran-04);
 }
-html, body, #leaflet {
-	height: 100%;
+
+body.dark{
+    /* Colors Dark Mode*/
+    --body-color: #191a18;
+    --sidebar-color: #242624;;
+    --primary-color: #bfe5c8;
+    --primary-color-light: #3a3c3b;
+    --toggle-color: #dddddd;
+    --text-color: #e7e7e7;
+}
+
+/* Map from OSM */
+#leaflet{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+ /* Sidebar */
+.sidebar{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: var(--sidebar-color);
+    transition: var(--tran-05);
+    z-index: 1;
+}
+
+.sidebar.close{
+    width: 65px;
+}
+
+/* Logo */
+
+.sidebar .logo-text img{
+    height: 60px;
+    width: 60px;
+}
+
+.sidebar.close .logo{
+    opacity: 1;
+}
+
+/* Resuable CSS */
+.sidebar .text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+
+.sidebar.close .text{
+    opacity: 0;
+    transition: var(--tran-02);
+}
+
+.sidebar header{
+    position: relative;
+    display: flex;
+}
+
+.sidebar .name{
+    white-space: nowrap;
+    transition: var(--tran-02);
+    font-size: 40px;
+}
+
+.sidebar .justify-text{
+    opacity: 1;
+    transition: var(--tran-02);
+}
+
+.sidebar.close .justify-text{
+    opacity: 0;
+    display:none;
+}
+
+.sidebar li{
+    height: 50px;
+    margin-top: 20px;
+    list-style: none;
+    display:flex;
+    align-items:center;  
+}
+
+.sidebar li .icon{
+    display:flex;
+    color: var(--primary-color);
+    align-items:center;
+    justify-content: center;
+    min-width: 60px;
+    font-size:22px;
+    transition: var(--tran-02);
+}
+
+.sidebar li .arrow{
+    display:flex;
+    color: var(--primary-color);
+    align-items:center;
+    justify-content: center;
+    min-width: 60px;
+    font-size:22px;
+    transition: var(--tran-02);
+}
+.sidebar li .text{
+    font-size: 22px;
+    color: var(--text-color);
+    transition: var(--tran-02);
+}
+
+.sidebar header .toggle{
+    position: absolute;
+    top: 35%;
+    right: -30px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 30px;
+    width: 30px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    border-radius:50%;
+    color: var(--sidebar-color);
+    font-size: 30px;
+}
+
+.sidebar.close header .toggle{
+    transform: translateY(-50%);
+}
+
+.sidebar .search-box{
+    border-radius: 6px;
+    background: var(--primary-color-light);
+}
+
+.search-box input{
+    height: 100%;
+    width: 100%;
+    outline:none;
+    border:none;
+    border-radius: 6px;
+    color: var(--text-color);
+    background: var(--primary-color-light);
+}
+
+.sidebar li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: var(--tran-04);
+}
+
+.sidebar li a:hover{
+    background: var(--primary-color);
+}
+
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+    color: var(--sidebar-color);
+}
+
+.sidebar li a:hover .arrow{
+    color: var(--sidebar-color);
+}
+.sidebar .menu-bar{
+    height: calc(100% - 40px);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-bar .mode{
+    position: relative;
+    background: var(--primary-color-light);
+    border-radius: 6px;
+}
+
+.menu-bar .mode .moon-sun{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar .mode i{
+    position: absolute;
+}
+
+.menu-bar .mode i.sun{
+    opacity:0;
+}
+
+body.dark .menu-bar .mode i.sun{
+    opacity: 1;
+}
+
+body.dark .menu-bar .mode i.moon{
+    opacity: 0;
+}
+
+.menu-bar .mode .toggle-switch{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+.toggle-switch .switch{
+    position: relative;
+    height: 22px;
+    width: 44px;
+    border-radius: 25px;
+    background: var(--toggle-color);
+}
+
+.switch::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    background: var(--sidebar-color);
+}
+
+body.dark .switch::before{
+    left: 24px;
+}
+
+/* Sub-menu */
+.sub-menu{
+    margin-left: 10px;
+    display: none;
+}
+
+.sub-menu a{
+    color: var(--text-color);
+    display: block;
     font-size: 16px;
+    padding: 5px 5px;
+    transition: var(--tran-03);
 }
 
-/* Make trail names look like clickable links */
-.clickable {
-    color: blue; /* Set text color to blue */
-    text-decoration: underline; /* Add underline to look like a link */
-    cursor: pointer; /* Show pointer cursor on hover */
+.sidebar .sub-menu a:hover{
+    background-color: var(--primary-color-light);
 }
 
-/* Add hover effect for better user experience */
-.clickable:hover {
-    color: darkblue; /* Slightly darker color on hover */
+.sidebar.close .arrow{
+    display: none;
 }
 
-#sidebar{
-    background-color:#ffffffD8;
+/*Review box*/
+.review-box{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    padding: 15px;
+    background: var(--sidebar-color);
 }
 
-#trailDescription{
-    padding: 20px;
-    margin: 10px 0px;
-    border: 1px solid #000000;
+textarea{
+    width: 100%;
+    height: 60px;
+    resize: none;
 }

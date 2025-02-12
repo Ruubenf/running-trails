@@ -9,22 +9,67 @@ var map = new L.Map('leaflet', {
 	center: [38.727897, -9.164737],
 	zoom: 14
 });
+map.zoomControl.setPosition("bottomright");
 
-// Initialize sidebar
-var sidebar = L.control.sidebar('sidebar', {position: 'left'});
-map.addControl(sidebar);
+let trailLayers = {};
 
-sidebar.show();
+//Initialize sidebar
+const body = document.querySelector("body"),
+    sidebar = body.querySelector(".sidebar"),
+    toggle = body.querySelector(".toggle"),
+    searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    modeText = body.querySelector(".mode-text");
 
-let trailLayers = {};  // Store trail geometry as leaflet layers
+    toggle.addEventListener("click", () =>{
+        sidebar.classList.toggle("close");
+    });
 
-// Fetch top 3 longest trails from API
+
+    modeSwitch.addEventListener("click", () =>{
+        body.classList.toggle("dark");
+
+        if(body.classList.contains("dark")){
+            modeText.innerText = "Light Mode"
+        }else{
+            modeText.innerText = "Dark Mode"
+        }
+    });
+//Sub-menu
+document.addEventListener("DOMContentLoaded", function() {
+    const arrows = document.querySelectorAll(".nav-link");
+
+    arrows.forEach(arrow => {
+        arrow.addEventListener("click", function() {
+            let menuLink = this.closest(".menu-links"); 
+            let subMenu = menuLink.querySelector(".sub-menu");
+
+            // Close previous sub-menus
+            document.querySelectorAll(".sub-menu").forEach(menu => {
+                if (menu !== subMenu) {
+                    menu.style.display = "none"; // Oculta otros submenús
+                    menu.parentElement.classList.remove("active");
+                }
+            });
+
+            if (subMenu.style.display === "block") {
+                subMenu.style.display = "none";
+                menuLink.classList.remove("active");
+            } else {
+                subMenu.style.display = "block";
+                menuLink.classList.add("active");
+            }
+        });
+    });
+});
+
+//Top Trails from API
 fetch('http://localhost:5000/best_trails')
     .then(response => response.json())  // Convert API response to JSON
     .then(data => {
         console.log("API Response:", data);  // Prints data in the devtools console
 
-        // Update trail names and distances in the frontend
+        // Update trail names and scores
         if (data.length >= 3) {
             document.getElementById("trail1Name").textContent = data[0].name;
             document.getElementById("trail1Score").textContent = data[0].score;
@@ -49,15 +94,15 @@ fetch('http://localhost:5000/best_trails')
         console.error("Error fetching top trails:", error);
     });
 
-// Get closest trails from API
-// 1. Get user location
+// Closest Trails from API
+// Get user location
 navigator.geolocation.getCurrentPosition(position => {
     fetch(`http://localhost:5000/trails/location?lat=${position.coords.latitude}&lon=${position.coords.longitude}&epsg=4326`)
     .then(response => response.json())
     .then(data => {
         console.log("API Response:", data);
 
-        // Update trail names and distances in the frontend
+        // Update trail names
         if (data.length >= 3) {
             document.getElementById("closestTrail1Name").textContent = data[0].name;
             document.getElementById("closestTrail2Name").textContent = data[1].name;
@@ -109,91 +154,33 @@ function showTrailOnMap(trail, color) {
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
-    
-    // Add trail description to the sidebar
+}
 
-    // 1. Create trail description
-    let trailDescription = document.createElement("div");
-    trailDescription.innerHTML = `
-    <h3>${trail.name}</h3>
-    <p>${trail.descript}</p>
-    <h4>Reviews</h4>
-    <p>${trail.score} / 5 ⭐</p>
-    <span id="closeButton" class="clickable">Close</span>
-    `;
-    trailDescription.id = "trailDescription";
-
-    // 2. Append trail description to the sidebar
-    var sidebar = document.getElementById("sidebar");
-    sidebar.appendChild(trailDescription);
-
-    // 3. Add close button functionality
-    document.getElementById("closeButton").addEventListener("click", function () {
-        sidebar.removeChild(trailDescription);
-    });
-
-    // 4. Get comments from the API
+//Show reviews on a box
+function showReviewBox(trail){
+    document.getElementById("trailTitle").innerText= trail.name;
+    document.getElementById("reviewBox").style.display = "block"; // Muestra la caja de reseñas
     getComments(trail.id_trail);
 }
 
-// Search by name
-searchInput = document.getElementById("searchInput");
-searchInput.addEventListener("input", function () {
-
-    // Clear previous search results
-    let searchResults = document.getElementById("searchResults");
-    if (searchResults) {
-        searchResults.remove();
-    }
-
-    if (searchInput.value.length < 3) {
-        return;
-    }
-    fetch(`http://localhost:5000/trails/search?name=${searchInput.value}`)
-        .then(response => response.json())
-        .then(data => {
-            console.log("API Response:", data);
-
-            // Update search results in the frontend
-            let searchResults = document.createElement("div");
-            searchResults.id = "searchResults";
-            for (let trail of data) {
-                let trailElement = document.createElement("p");
-                trailElement.textContent = trail.name;
-                trailElement.classList.add("clickable");
-                trailElement.addEventListener("click", function () {
-                    showTrailOnMap(trail, "red");
-                });
-                searchResults.appendChild(trailElement);
-            }
-            let sidebar = document.getElementById("sidebar");
-            sidebar.appendChild(searchResults);
-        })
-        .catch(error => {
-            console.error("Error fetching search results:", error);
-        });
-});
-
-// Get comments from the API
-function getComments(trailId) {
-    fetch(`http://localhost:5000/trail/${trailId}/comments`)
-        .then(response => response.json())
-        .then(data => {
-            console.log("API Response:", data);
-
-            // 5. Add comments to the trail description
-            if (data.length === 0) {
-                return;
-            }
-            let commentPane = document.createElement("div");
-            trailDescription.appendChild(commentPane);
-            for (let comment of data) {
-                let commentElement = document.createElement("p");
-                commentElement.textContent = `${comment.text} - ${comment.score} / 5 ⭐`;
-                commentPane.appendChild(commentElement);
-            }
-        })
-        .catch(error => {
-            console.error("Error fetching comments:", error);
-        });
+// Close the review box
+function closeCommentBox() {
+    document.getElementById("reviewBox").style.display = "none"; // Oculta la caja de reseñas
 }
+
+
+
+
+
+// Función para enviar la reseña (puedes modificarla para enviar datos a una API)
+//function submitComment() {
+    //let comment = document.getElementById("reviewInput").value;
+    //if (comment.trim() === "") {
+       // alert("Please write a review before submitting.");
+        //return;
+   // }
+    
+   // alert("Review submitted: " + comment);
+   // document.getElementById("reviewInput").value = ""; 
+    //closeCommentBox();}
+
