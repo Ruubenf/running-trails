@@ -169,7 +169,64 @@ function closeCommentBox() {
 }
 
 
+// Create trail
+let startingPoint,
+    endingPoint,
+    startingMarker = null,
+    endingMarker = null;
 
+let newStartingPoint = document.getElementById("newStartingPoint");
+newStartingPoint.addEventListener("click", function () {
+
+    startingPoint = null;
+
+    if (startingMarker){
+        map.removeLayer(startingMarker);
+        startingMarker = null;
+    }
+
+    map.on("click", function (event) {
+        if (!startingPoint){
+            startingMarker = L.marker(event.latlng).addTo(map);
+            newStartingPoint.value = `${event.latlng.lat}, ${event.latlng.lng}`;
+            startingPoint = event.latlng;
+        }        
+    });
+});
+
+let newEndingPoint = document.getElementById("newEndingPoint");
+newEndingPoint.addEventListener("click", function () {
+
+    endingPoint = null;
+
+    if (endingMarker){
+        map.removeLayer(endingMarker);
+        endingMarker = null;
+    }
+
+    map.on("click", function (event) {
+        if (!endingPoint){
+            endingMarker = L.marker(event.latlng).addTo(map);
+            newEndingPoint.value = `${event.latlng.lat}, ${event.latlng.lng}`;
+            endingPoint = event.latlng;
+        }        
+    });
+});
+
+let calculateBtn = document.getElementById("calculateTrail");
+calculateBtn.addEventListener("click", function(){
+    let greenPriority = document.getElementById("greenAreasPriority").value;
+    fetch(`http://localhost:5000/trail/create?starting=${newStartingPoint.value}&ending=${newEndingPoint.value}&green_priority=${greenPriority/10}`)
+    .then(response => response.json())
+    .then(trail =>{
+        //showTrailOnMap(trail, "red");
+        let trailLayer = L.geoJSON(trail.geometry, {
+            style: { color: "red", weight: 4 }
+        });
+
+        trailLayer.addTo(map);
+    });
+});
 
 
 // Función para enviar la reseña (puedes modificarla para enviar datos a una API)

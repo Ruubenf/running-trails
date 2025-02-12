@@ -3,7 +3,8 @@ from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import requests
-
+import openrouteservice as ors
+from key import KEY
 
 DB_CONFIG = {
     "database": "running-trails",
@@ -170,6 +171,41 @@ def search_trails():
     conn.close()
     return jsonify(rides)
 
+# Create trail with 2 given points
+@app.route('/trail/create', methods=['GET'])
+def create_trail():
+    starting = request.args.get('starting')
+    ending = request.args.get('ending')
+    green_priority = request.args.get('green_priority')
+
+    if not starting or not ending or not green_priority:
+        return jsonify({"error": f"Missing arguments {starting}, {ending}, {green_priority}"})
+
+    #coords = [list(starting), list(ending)]
+
+    starting_pt = [float(c) for c in starting.split(", ")]
+    ending_pt = [float(c) for c in ending.split(", ")]
+
+    coords = (starting_pt, ending_pt)
+
+    print(coords)
+
+    client = ors.Client(key=KEY)
+    groute_req = {
+    "coordinates": [list(reversed(point)) for point in coords],
+    "format": "geojson",
+    "profile": "foot-walking",
+    "options":{"profile_params":{"weightings":{"green":green_priority}}},
+    "language": "en",
+    }
+
+    directions = client.directions(**groute_req)["features"][0]
+
+    #directions = [list(reversed(coord)) for coord in directions['features'][0]['geometry']['coordinates']]
+    #directions = [list(reversed(coord)) for coord in directions['features'][0]['geometry']['coordinates']]
+    
+    print(directions)
+    return jsonify(directions)
 
 if __name__ == '__main__':
     app.run(debug=True)
