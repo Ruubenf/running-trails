@@ -11,8 +11,6 @@ var map = new L.Map('leaflet', {
 });
 map.zoomControl.setPosition("bottomright");
 
-let trailLayers = {};
-
 //Initialize sidebar
 const body = document.querySelector("body"),
     sidebar = body.querySelector(".sidebar"),
@@ -35,6 +33,7 @@ const body = document.querySelector("body"),
             modeText.innerText = "Dark Mode"
         }
     });
+
 //Sub-menu
 document.addEventListener("DOMContentLoaded", function() {
     const arrows = document.querySelectorAll(".nav-link");
@@ -47,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Close previous sub-menus
             document.querySelectorAll(".sub-menu").forEach(menu => {
                 if (menu !== subMenu) {
-                    menu.style.display = "none"; // Oculta otros submenús
+                    menu.style.display = "none";
                     menu.parentElement.classList.remove("active");
                 }
             });
@@ -156,19 +155,6 @@ function showTrailOnMap(trail, color) {
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
 }
 
-//Show reviews on a box
-function showReviewBox(trail){
-    document.getElementById("trailTitle").innerText= trail.name;
-    document.getElementById("reviewBox").style.display = "block"; // Muestra la caja de reseñas
-    getComments(trail.id_trail);
-}
-
-// Close the review box
-function closeCommentBox() {
-    document.getElementById("reviewBox").style.display = "none"; // Oculta la caja de reseñas
-}
-
-
 // Create trail
 let startingPoint,
     endingPoint,
@@ -227,17 +213,3 @@ calculateBtn.addEventListener("click", function(){
         trailLayer.addTo(map);
     });
 });
-
-
-// Función para enviar la reseña (puedes modificarla para enviar datos a una API)
-//function submitComment() {
-    //let comment = document.getElementById("reviewInput").value;
-    //if (comment.trim() === "") {
-       // alert("Please write a review before submitting.");
-        //return;
-   // }
-    
-   // alert("Review submitted: " + comment);
-   // document.getElementById("reviewInput").value = ""; 
-    //closeCommentBox();}
-
