@@ -35,6 +35,15 @@
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
+								<i class="bx bx-filter-alt icon"></i>
+								<span class="text nav-text">Filter by</span>
+								<i class="bx bx-chevron-down arrow" style ="margin-left: 43px;"></i>
+							</a>
+						</li>
+					</div>
+					<div class="menu-links">
+						<li class="nav-link">
+							<a href="#">
 								<i class="bx bxs-star icon"></i>
 								<span class="text nav-text">Top Trails</span>
 								<i class="bx bx-chevron-down arrow" style ="margin-left: 30px;"></i>
@@ -72,12 +81,12 @@
 						<div class="sub-menu">
 							<li>
 								<a href="#">
-									<span id="closestTrail1Name" class="clickable">Loading...</span>
+									<span id="closestTrail1Name" class="clickable">Loading...</span>	
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span id="closestTrail2Name" class="clickable">Loading...</span>
+									<span id="closestTrail2Name" class="clickable">Loading...</span>	
 								</a>
 							</li>
 							<li>
@@ -86,25 +95,37 @@
 								</a>
 							</li>
 						</div>
+						<div class="comments">
+							<h3 id="trailTitle">Trail</h3>
+							<p id="trailDescript">Description...</p>
+							<p><span id="trailDistance">Distance...</span></p>
+							<p><span id="trailSlopemax">Slopemax...</span></p>
+							<p><span id="trailSlope">Slope...</span></p>
+							<h3 id="reviewTitle">Reviews</h3>
+							<ul id="trailComments">Reviews...</ul>
+						</div>
 					</div>
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
 								<i class="bx bxs-add-to-queue icon"></i>
 								<span class="text nav-text">Add Trail</span>
+								<i class="bx bx-chevron-down arrow" style ="margin-left: 35px;"></i>
 							</a>
-							<div class="sub-menu">
-								<div id="createTrail">
-									<button id="newStartingPoint">Set Starting Point</button>
-									<button id="newEndingPoint">Set End Point</button>
-									<br>
-									<input type="range" id="greenAreasPriority" min="0" max="10" value="8" step="1">
-									<span id="greenAreasPriorityValue">Green Areas Priority: 5</span>
-									<br>
-									<button id="calculateTrail">Create trail</button>
-								  </div>
-							</div>
 						</li>
+						<div class="sub-menu">
+							<li>
+								<button id="newStartingPoint">Set Starting Point</button>
+								<button id="newEndingPoint">Set End Point</button>
+								<br>
+								<input type="range" id="greenAreasPriority" min="0" max="10" value="8" step="1">
+								<span id="greenAreasPriorityValue">Green Areas Priority: 5</span>
+								<br>
+							</li>
+							<li>
+								<button id="calculateTrail">Create trail</button>
+							</li>						
+						</div>
 					</div>
 					<div class="menu-links">
 						<li class="nav-link">

@@ -44,6 +44,16 @@ body.dark{
     z-index: 0;
 }
 
+/* Logo */
+.sidebar .logo-text img{
+    height: 60px;
+    width: 60px;
+}
+
+.sidebar.close .logo{
+    opacity: 1;
+}
+
  /* Sidebar */
 .sidebar{
     position: fixed;
@@ -73,16 +83,6 @@ body.dark{
 
 .sidebar::-webkit-scrollbar-track{
     background: transparent;
-}
-
-/* Logo */
-.sidebar .logo-text img{
-    height: 60px;
-    width: 60px;
-}
-
-.sidebar.close .logo{
-    opacity: 1;
 }
 
 /* Sidebar content*/
@@ -220,7 +220,6 @@ body.dark{
     height: calc(100% - 40px);
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .menu-bar .mode{
@@ -287,7 +286,7 @@ body.dark .switch::before{
     left: 24px;
 }
 
-/* Sub-menu */
+/* Sidebar Menu-bar Sub-menu */
 .sub-menu{
     margin-left: 10px;
     display: none;
@@ -307,6 +306,28 @@ body.dark .switch::before{
     white-space: nowrap;
 }
 
+#greenAreasPriorityValue{
+    color: var(--text-color);
+    text-align: center;
+}
+
 .sidebar .sub-menu a:hover{
     background-color: var(--primary-color-light);
+}
+
+/* Sidebar Menu-bar Comments */
+.comments {
+    color: var(--text-color);
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#trailTitle, #reviewTitle{
+    color: var(--primary-color);
 }

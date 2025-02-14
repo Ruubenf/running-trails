@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         arrow.addEventListener("click", function() {
             let menuLink = this.closest(".menu-links"); 
             let subMenu = menuLink.querySelector(".sub-menu");
-
+            
             // Close previous sub-menus
             document.querySelectorAll(".sub-menu").forEach(menu => {
                 if (menu !== subMenu) {
@@ -59,6 +59,85 @@ document.addEventListener("DOMContentLoaded", function() {
                 menuLink.classList.add("active");
             }
         });
+    });  
+});
+
+//Details of tre selected trail
+document.addEventListener("DOMContentLoaded", function () {
+    const reviewSection = document.querySelector(".comments"); 
+    const reviewText = document.getElementById("trailTitle");
+    const closestTrailItems = document.querySelectorAll(".sub-menu .clickable");
+    const menuLinks = document.querySelectorAll(".menu-links > li.nav-link > a");
+    
+    reviewSection.style.display = "none";
+
+    function handleTrailClick(event) {
+        const trailName = event.target.textContent;
+        reviewText.innerHTML = `<b>Details for ${trailName}</b>`;
+        reviewSection.style.display = "block";
+        
+        fetch("http://localhost:5000/trails")
+            .then(response => response.json())
+            .then(data => {
+                const trail = data.find(t => t.name === trailName);
+                if (trail) {
+                    document.getElementById("trailDescript").innerHTML = trail.descript;
+                    document.getElementById("trailDistance").innerHTML = `<b>Distance:</b> ${trail.distance_m} meters`;
+                    document.getElementById("trailSlopemax").innerHTML = `<b>Max Slope:</b> ${trail.slope_max}°`;
+                    document.getElementById("trailSlope").innerHTML = `<b>Average Slope:</b> ${trail.slope_mean}°`;
+
+                    fetchComments (trail.id_0);
+                } else {
+                    document.getElementById("trailDescript").textContent = "No description available.";
+                    document.getElementById("trailDistance").textContent = "No description available.";
+                    document.getElementById("trailSlopemax").textContent = "No description available.";
+                    document.getElementById("trailSlope").textContent = "No description available.";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching trails:", error);
+                document.getElementById("trailDescript").textContent = "Failed to load description.";
+                document.getElementById("trailDistance").textContent = "Failed to load description.";
+                    document.getElementById("trailSlopemax").textContent = "Failed to load description.";
+                    document.getElementById("trailSlope").textContent = "Failed to load description.";
+            }); 
+    }
+
+    function fetchComments(trailId) {
+        fetch(`http://localhost:5000/trail/${trailId}/comments`)
+            .then(response => response.json())
+            .then(comments => {
+                console.log("Received comments:", comments);
+                const commentsContainer = document.getElementById("trailComments"); 
+
+                if (comments.length > 0) {
+                    commentsContainer.innerHTML = "<ul>" + comments
+                        .map(comment => {
+                            let stars = "⭐".repeat(comment.score);
+                            return `
+                            <b>${comment.runner}</b> <span class="stars">${stars}</span> <p>${comment.text}</p>`;
+                        })
+                        .join("") + "</ul>";
+                } else {
+                    commentsContainer.innerHTML = "No reviews available.";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching comments:", error);
+                document.getElementById("trailComments").textContent = "Failed to load reviews.";
+            });
+    }
+
+    function hideReviewSection() {
+        reviewSection.style.display = "none";
+    }
+
+    closestTrailItems.forEach(item => {
+        item.addEventListener("click", handleTrailClick);
+    });
+    
+    menuLinks.forEach(link => {
+        link.addEventListener("click", hideReviewSection);
     });
 });
 
@@ -144,16 +223,98 @@ function showTrailOnMap(trail, color) {
         }
     });
 
-    // Remove previous trail description
-    let closeButton = document.getElementById("closeButton")
-    if (closeButton) {
-        closeButton.click();
-    }
-
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
+
 }
+
+// Search trail by Name
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".search-box input");
+
+    const searchBox = document.querySelector(".search-box");
+    searchBox.style.position = "relative";
+
+    searchInput.addEventListener("input", function () {
+        // Delete previous results
+        let searchResults = document.getElementById("searchResults");
+        if (searchResults) {
+            searchResults.remove();
+        }
+
+        const query = searchInput.value.trim();
+
+        fetch(`http://localhost:5000/trails/search?name=${encodeURIComponent(query)}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Error en la API");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("API Response:", data);
+
+                // Results box
+                searchResults = document.createElement("div");
+                searchResults.id = "searchResults";
+                searchResults.style.backgroundColor = "white";
+                searchResults.style.border = "1px solid #ccc";
+                searchResults.style.borderRadius = "6px";
+                searchResults.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.15)";
+                searchResults.style.padding = "10px";
+                searchResults.style.maxHeight = "300px";
+                searchResults.style.overflowY = "auto";
+                searchResults.style.position = "absolute";
+                searchResults.style.top = "100%";
+                searchResults.style.left = "0";
+                searchResults.style.width = "90%";
+                searchResults.style.zIndex = "1000";
+                searchResults.style.marginTop = "5px";
+
+                if (data.length === 0) {
+                    searchResults.innerHTML = "<p style='margin: 0; padding: 5px;'>No results found</p>";
+                } else {
+                    for (let trail of data) {
+                        let trailElement = document.createElement("p");
+                        trailElement.textContent = trail.name;
+                        trailElement.classList.add("clickable");
+                        trailElement.style.cursor = "pointer";
+                        trailElement.style.margin = "8px 0";
+                        trailElement.style.padding = "6px";
+                        trailElement.style.borderRadius = "5px";
+                        trailElement.style.transition = "background-color 0.3s, color 0.3s";
+
+                        trailElement.addEventListener("mouseover", function () {
+                            trailElement.style.backgroundColor = "#f4f4f4";
+                            trailElement.style.color = "#0f5f04";
+                        });
+                        trailElement.addEventListener("mouseout", function () {
+                            trailElement.style.backgroundColor = "";
+                            trailElement.style.color = "";
+                        });
+
+                        trailElement.addEventListener("click", function () {
+                            showTrailOnMap(trail, "red");
+                            searchResults.remove();
+                        });
+
+                        searchResults.appendChild(trailElement);
+                    }
+                }
+                searchBox.appendChild(searchResults);
+            })
+            .catch(error => {
+                console.error("Error fetching search results:", error);
+            });
+    });
+    document.addEventListener("click", function (event) {
+        let searchResults = document.getElementById("searchResults");
+        if (searchResults && !searchBox.contains(event.target)) {
+            searchResults.remove();
+        }
+    });
+});
 
 // Create trail
 let startingPoint,
