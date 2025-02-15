@@ -85,8 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     document.getElementById("trailDistance").innerHTML = `<b>Distance:</b> ${trail.distance_m} meters`;
                     document.getElementById("trailSlopemax").innerHTML = `<b>Max Slope:</b> ${trail.slope_max}°`;
                     document.getElementById("trailSlope").innerHTML = `<b>Average Slope:</b> ${trail.slope_mean}°`;
-
-                    fetchComments (trail.id_0);
+    
+                    fetchComments(trail.id_0);
                 } else {
                     document.getElementById("trailDescript").textContent = "No description available.";
                     document.getElementById("trailDistance").textContent = "No description available.";
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menuLinks.forEach(link => {
         link.addEventListener("click", hideReviewSection);
     });
-});
+})
 
 //Top Trails from API
 fetch('http://localhost:5000/best_trails')
@@ -157,15 +157,15 @@ fetch('http://localhost:5000/best_trails')
             document.getElementById("trail3Score").textContent = data[2].score;
         }
 
-        // Make trails clickable
+        // Make Top Trails clickable
         document.getElementById("trail1Name").addEventListener("click", function () {
-            showTrailOnMap(data[0], "red");
+            showTrailOnMap(data[0], "red", "top");
         });
         document.getElementById("trail2Name").addEventListener("click", function () {
-            showTrailOnMap(data[1], "red");
+            showTrailOnMap(data[1], "red", "top");
         });
         document.getElementById("trail3Name").addEventListener("click", function () {
-            showTrailOnMap(data[2], "red");
+            showTrailOnMap(data[2], "red", "top");
         });
     })
     .catch(error => {
@@ -191,21 +191,22 @@ navigator.geolocation.getCurrentPosition(position => {
             data[i]["id_trail"] = data[i].id_0;
         }
 
-        // Make trails clickable
+        // Make Closest Trails clickable
         document.getElementById("closestTrail1Name").addEventListener("click", function () {
-            showTrailOnMap(data[0], "red");
+            showTrailOnMap(data[0], "red", "closest");
         });
         document.getElementById("closestTrail2Name").addEventListener("click", function () {
-            showTrailOnMap(data[1], "red");
+            showTrailOnMap(data[1], "red", "closest");
         });
         document.getElementById("closestTrail3Name").addEventListener("click", function () {
-            showTrailOnMap(data[2], "red");
+            showTrailOnMap(data[2], "red", "closest");
         });
     })
 })
 
 // Show a trail on the map
-function showTrailOnMap(trail, color) {
+function showTrailOnMap(trail, color, section) {
+    
     if (!trail.geometry) {
         console.error("No geometry available for this trail.");
         return;
@@ -226,6 +227,8 @@ function showTrailOnMap(trail, color) {
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
+
+    currentTrailID = trail.id_trail;
 
 }
 
@@ -313,6 +316,64 @@ document.addEventListener("DOMContentLoaded", function () {
         if (searchResults && !searchBox.contains(event.target)) {
             searchResults.remove();
         }
+    });
+});
+
+function submitReview() {
+    // Get values from the review form
+    let runner = document.getElementById("reviewRunner").value;
+    let score = document.getElementById("reviewScore").value;
+    let text = document.getElementById("reviewText").value;
+
+    // Ensure required fields are not empty
+    if (!runner || !score || !text) {
+        alert("All fields are required.");
+        return;
+    }
+
+    let reviewData = {
+        id_trail: currentTrailID,  // The trail being reviewed
+        runner: runner,  // The name of the person submitting the review
+        score: parseInt(score),  // Convert score to integer
+        text: text  // The review text
+    };
+
+    console.log("Review Data to Send:", reviewData); // Debugging line
+
+    // Send data to the API
+    fetch("http://localhost:5000/submit_review", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(reviewData)  // Convert object to JSON
+    })
+    .then(response => response.json())  // Parse the API response
+    .then(data => {
+        console.log("Review submission response:", data);
+
+        // Clear the form after submission
+        document.getElementById("reviewForm").reset();
+
+    })
+    .catch(error => {
+        console.error("Error submitting review:", error);
+    });
+}
+
+// Handle score (stars) selection
+document.addEventListener("DOMContentLoaded", function () {
+    const stars = document.querySelectorAll(".star");
+    const scoreInput = document.getElementById("reviewScore");
+
+    stars.forEach(star => {
+        star.addEventListener("click", function () {
+            let rating = this.getAttribute("data-value");
+            scoreInput.value = rating;
+
+            // Update star colors
+            stars.forEach(s => {
+                s.classList.toggle("selected", s.getAttribute("data-value") <= rating);
+            });
+        });
     });
 });
 

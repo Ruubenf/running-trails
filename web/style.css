@@ -331,3 +331,97 @@ ul {
 #trailTitle, #reviewTitle{
     color: var(--primary-color);
 }
+
+#reviewForm {
+    background-color: var(--primary-color-light);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--text-color-light); /* Dynamic text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content inside the form */
+}
+
+/* 🔹 General Input Field Styling */
+#reviewForm input,
+#reviewForm textarea {
+    width: 90%; /* Adjusted width */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ensures text alignment */
+}
+
+/* 🔹 Same Font Style for Placeholders */
+#reviewForm input::placeholder,
+#reviewForm textarea::placeholder {
+    font-family: inherit; /* Matches the input field's font */
+    font-size: 14px;
+    color: #999;
+}
+
+/* 🔹 Style when user clicks on an input */
+#reviewForm input:focus,
+#reviewForm textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* 🔹 Center Align Form Elements */
+#reviewForm .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align elements */
+}
+
+/* 🔹 Styling for Submit Button */
+#reviewForm .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+    margin-top: 10px;
+}
+
+#reviewForm button {
+    background-color: #1a9154;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* 🔹 Hover Effect for Button */
+#reviewForm button:hover {
+    background-color: #06723c;
+}
+
+/* 🔹 Star Rating System */
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc; /* Default gray */
+    transition: color 0.3s;
+}
+
+.star.selected {
+    color: gold; /* Highlighted when selected */
+}

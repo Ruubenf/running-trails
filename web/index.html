@@ -15,7 +15,7 @@
 	
 	</head>
 	<body>
-		<nav class="sidebar">
+		<nav id = "sidebar" class = "sidebar">
 			<header>
 				<div class="logo-text">
 					<h1><img src="logo.png" alt="logo" class="logo"></h1>
@@ -101,8 +101,32 @@
 							<p><span id="trailDistance">Distance...</span></p>
 							<p><span id="trailSlopemax">Slopemax...</span></p>
 							<p><span id="trailSlope">Slope...</span></p>
-							<h3 id="reviewTitle">Reviews</h3>
+							
+							<h3 id="reviewTitle">Reviews</h3>							
 							<ul id="trailComments">Reviews...</ul>
+
+							<form id = "reviewForm">
+								<h3>Tell us about your run!</h3>
+								
+								<div class="star-rating">
+									<span class="star" data-value="1">&#9733;</span>
+									<span class="star" data-value="2">&#9733;</span>
+									<span class="star" data-value="3">&#9733;</span>
+									<span class="star" data-value="4">&#9733;</span>
+									<span class="star" data-value="5">&#9733;</span>
+								</div>
+								<input type="hidden" id="reviewScore" name="score" value="0">
+								<br>
+								
+								<input type = "text" id = "reviewRunner" placeholder="Your name..." required>
+								<br>
+
+								<textarea id = "reviewText" placeholder="Describe your trail adventure... " required></textarea>
+								<br>
+
+								<button type="button" onclick="submitReview()">Share Your Run!</button>
+							</form>
+							</div>
 						</div>
 					</div>
 					<div class="menu-links">
