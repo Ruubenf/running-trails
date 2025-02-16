@@ -314,6 +314,9 @@ body.dark .switch::before{
 .sidebar .sub-menu a:hover{
     background-color: var(--primary-color-light);
 }
+#distanceFilter, #terrainFilter{
+    color: var(--text-color);
+}
 
 /* Sidebar Menu-bar Comments */
 .comments {

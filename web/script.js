@@ -23,7 +23,7 @@ const body = document.querySelector("body"),
         sidebar.classList.toggle("close");
     });
 
-
+    //Switch to Dark Mode or Light Mode
     modeSwitch.addEventListener("click", () =>{
         body.classList.toggle("dark");
 
@@ -34,7 +34,7 @@ const body = document.querySelector("body"),
         }
     });
 
-//Sub-menu
+//Show Sub-menu
 document.addEventListener("DOMContentLoaded", function() {
     const arrows = document.querySelectorAll(".nav-link");
 
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let menuLink = this.closest(".menu-links"); 
             let subMenu = menuLink.querySelector(".sub-menu");
             
-            // Close previous sub-menus
+            // Close previous Sub-menus
             document.querySelectorAll(".sub-menu").forEach(menu => {
                 if (menu !== subMenu) {
                     menu.style.display = "none";
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });  
 });
 
-//Details of tre selected trail
+//Details of the selected trail
 document.addEventListener("DOMContentLoaded", function () {
     const reviewSection = document.querySelector(".comments"); 
     const reviewText = document.getElementById("trailTitle");
@@ -71,13 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
     
     reviewSection.style.display = "none";
 
+    //Show details of the selected trail
     function handleTrailClick(event) {
         const trailName = event.target.textContent;
         reviewText.innerHTML = `<b>Details for ${trailName}</b>`;
         reviewSection.style.display = "block";
         
         fetch("http://localhost:5000/trails")
-            .then(response => response.json())
+            .then(response => response.json()) // Convert API response to JSON
             .then(data => {
                 const trail = data.find(t => t.name === trailName);
                 if (trail) {
@@ -103,11 +104,12 @@ document.addEventListener("DOMContentLoaded", function () {
             }); 
     }
 
+    //Show reviews of the selected trail
     function fetchComments(trailId) {
         fetch(`http://localhost:5000/trail/${trailId}/comments`)
-            .then(response => response.json())
+            .then(response => response.json()) // Convert API response to JSON
             .then(comments => {
-                console.log("Received comments:", comments);
+                console.log("Received comments:", comments); // Prints comments in the devtools console
                 const commentsContainer = document.getElementById("trailComments"); 
 
                 if (comments.length > 0) {
@@ -298,7 +300,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             showTrailOnMap(trail, "red");
                             searchResults.remove();
                         });
-
                         searchResults.appendChild(trailElement);
                     }
                 }
@@ -314,6 +315,96 @@ document.addEventListener("DOMContentLoaded", function () {
             searchResults.remove();
         }
     });
+});
+
+// Search trail by filter (distance and terrain)
+document.getElementById("filterButton").addEventListener("click", function() {
+    let distance = document.getElementById("distanceFilter").value;
+    let terrain = document.getElementById("terrainFilter").value;
+
+    let url = "http://127.0.0.1:5000/trails?";
+    if (distance) url += `distance_m=${distance}&`;
+    if (terrain) url += `type_terra=${terrain}`;
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            console.log("Filtered Data from API:", data);
+            displayResults(data);
+        })
+        .catch(error => console.error("Error:", error));
+});
+
+function displayResults(trails) {
+    let resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "";
+
+    if (trails.length === 0) {
+        resultsDiv.innerHTML = "<p>No results found.</p>";
+        return;
+    }
+
+    // Create a single results div
+    resultsDiv = document.createElement("div");
+    resultsDiv.id = "filterResultsBox";
+    resultsDiv.style.backgroundColor = "white";
+    resultsDiv.style.border = "1px solid #ccc";
+    resultsDiv.style.borderRadius = "6px";
+    resultsDiv.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.15)";
+    resultsDiv.style.padding = "10px";
+    resultsDiv.style.maxHeight = "300px";
+    resultsDiv.style.overflowY = "auto";
+    resultsDiv.style.position = "relative";
+    resultsDiv.style.top = "100%";
+    resultsDiv.style.left = "0";
+    resultsDiv.style.width = "100%";
+    resultsDiv.style.zIndex = "1000";
+    resultsDiv.style.marginTop = "5px";
+
+    // Check if no trails found
+    if (trails.length === 0) {
+        resultsDiv.innerHTML = "<p style='margin: 0; padding: 5px;'>No trails found with these filters.</p>";
+    } else {
+        // Loop through trails and display them
+        for (let trail of trails) {
+            let trailElement = document.createElement("p");
+            trailElement.textContent = trail.name;
+            trailElement.classList.add("clickable");
+            trailElement.style.cursor = "pointer";
+            trailElement.style.margin = "8px 0";
+            trailElement.style.padding = "6px";
+            trailElement.style.borderRadius = "5px";
+            trailElement.style.transition = "background-color 0.3s, color 0.3s";
+
+            trailElement.addEventListener("mouseover", function () {
+                trailElement.style.backgroundColor = "#f4f4f4";
+                trailElement.style.color = "#0f5f04";
+            });
+            trailElement.addEventListener("mouseout", function () {
+                trailElement.style.backgroundColor = "";
+                trailElement.style.color = "";
+            });
+
+            trailElement.addEventListener("click", function (event) {
+                showTrailOnMap(trail, "red");
+                resultsDiv.remove();
+            });
+
+            resultsDiv.appendChild(trailElement);
+        }
+    }
+
+    // Append the resultsDiv to the container
+    document.getElementById("results").appendChild(resultsDiv);
+}
+
+// Close filter results when clicking outside
+document.addEventListener("click", function (event) {
+    let resultsDiv = document.getElementById("filterResultsBox");
+    if (resultsDiv && !document.getElementById("filterButton").contains(event.target)) {
+        handleTrailClick(event);
+        resultsDiv.remove();
+    }
 });
 
 // Create trail

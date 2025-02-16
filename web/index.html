@@ -35,11 +35,24 @@
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
-								<i class="bx bx-filter-alt icon"></i>
+								<i class="bx bxs-star icon"></i>
 								<span class="text nav-text">Filter by</span>
-								<i class="bx bx-chevron-down arrow" style ="margin-left: 43px;"></i>
+								<i class="bx bx-chevron-down arrow" style ="margin-left: 30px;"></i>
 							</a>
 						</li>
+						<div class="sub-menu">
+							<label for="distanceFilter" style="color: var(--text-color)">Distance (m):</label>
+							<input type="number" id="distanceFilter" min="0" placeholder="e.g. 5000">		
+							<label for="terrainFilter" style="color: var(--text-color)">Terrain Type:</label>
+							<select id="terrainFilter">
+								<option value="">All</option>
+								<option value="trail">Trail</option>
+								<option value="paved">Asphalt</option>
+								<option value="gravel">Grass</option>
+							</select>
+							<button id="filterButton" style="position: relative;">Filter</button>
+							<div id="results" class="clickable"></div>
+						</div>
 					</div>
 					<div class="menu-links">
 						<li class="nav-link">

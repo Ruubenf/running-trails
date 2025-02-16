@@ -3,7 +3,8 @@ from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import openrouteservice as ors
-from key import KEY
+import key as KEY
+
 
 DB_CONFIG = {
     "database": "running-trails",
@@ -30,17 +31,40 @@ def get_db_connection():
         cursor_factory=RealDictCursor
     )
 
-
 # GET all trail from sa.trail
 @app.route('/trails', methods=['GET'])
 def get_rides():
     conn = get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("""SELECT * FROM sa.trail""")
-    rides = cursor.fetchall()
+
+    #Obtain trails from request (filter)
+    distance_m= request.args.get('distance_m', type=int)
+    type_terra= request.args.get('type_terra', type=str)
+    terrain_mapping = {
+        "trail": ["boardwalk", "rubberized tracks"],
+        "paved": ["asphalt", "concrete", "cobblestone"],
+        "gravel": ["grass", "dirtroad"]
+    }
+    query= """
+        SELECT id_0, descript, name, location, slope_max, slope_mean, type_terra, 
+               distance_m, green_areas_50m, 
+               ST_AsGeoJSON(ST_Transform(geom, 4326)) AS geometry
+        FROM sa.trail
+        WHERE 1=1
+    """
+    params= []
+    if distance_m is not None:
+        query +=" AND distance_m <= %s"
+        params.append(distance_m)
+    if type_terra:
+        query += " AND type_terra IN %s"
+        params.append(tuple(terrain_mapping[type_terra]))
+
+    cursor.execute(query, tuple(params))
+    trails = cursor.fetchall()
     cursor.close()
     conn.close()
-    return jsonify(rides)
+    return jsonify(trails)
 
 # GET all data for a scepcific trail
 @app.route('/trail/<int:id>', methods=['GET'])
@@ -87,35 +111,6 @@ def get_best_trails():
     conn.close()
     return jsonify(rides)
 
-# Get trails by difficulty
-@app.route('/ntrails/difficulty/<string:difficulty>', methods=['GET'])
-def get_difficulty_trails(difficulty):
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    if difficulty == "easy":
-        cursor.execute(f"""
-            SELECT count(*)
-            FROM sa.trail t
-            WHERE t.slope_max BETWEEN 0 and 2;
-            """)
-    elif difficulty == "medium":
-        cursor.execute(f"""
-            SELECT count(*)
-            FROM sa.trail t
-            WHERE t.slope_max BETWEEN 3 and 4;
-            """)
-    elif difficulty == "hard":
-        cursor.execute(f"""
-            SELECT count(*)
-            FROM sa.trail t
-            WHERE t.slope_max BETWEEN 5 and 8;
-            """)
-    rides = cursor.fetchall()
-    cursor.close()
-    conn.close()
-    return jsonify(rides)
-
-
 # Get trails by location
 @app.route('/trails/location', methods=['GET'])
 def get_location_trails():
@@ -160,7 +155,7 @@ def search_trails():
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute(f"""
-        SELECT id_0, name, descript, 
+        SELECT id_0, name, descript, slope_max, slope_mean, distance_m,
         ST_AsGeoJSON(ST_Transform(geom, 4326)) AS geometry
         FROM sa.trail
         WHERE name ILIKE '%{name}%';
