@@ -51,3 +51,12 @@ CREATE TABLE IF NOT EXISTS sa.footway
     osm_id character varying,
     CONSTRAINT footway_lines_pkey PRIMARY KEY (fid)
 )
+
+-- Table: sa.footway
+DROP TABLE IF EXISTS sa.footway;
+CREATE TABLE IF NOT EXISTS sa.footway
+(
+    id SERIAL NOT NULL,
+    geom geometry(LineString, 3763),
+    CONSTRAINT footway_lines_pkey PRIMARY KEY (id)
+)
