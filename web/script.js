@@ -526,3 +526,9 @@ calculateBtn.addEventListener("click", function(){
         trailLayer.addTo(map);
     });
 });
+
+let gaPriority = document.getElementById("greenAreasPriority");
+let gaPriorityValue = document.getElementById("greenAreasPriorityValue");
+gaPriority.addEventListener("input", function(){
+    gaPriorityValue.textContent = Green Areas Priority: ${gaPriority.value};
+})
