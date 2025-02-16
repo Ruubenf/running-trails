@@ -425,3 +425,26 @@ ul {
 .star.selected {
     color: gold; /* Highlighted when selected */
 }
+
+.contactIcons {
+    display: flex;
+    justify-content: center; /* Centers icons */
+    gap: 3px; /* Spacing between icons */
+    margin-top: 5px; /* Adds space between name and icons */
+}
+
+.contactIcons a {
+    font-size: 18px; /* Adjust icon size */
+    color: #555; /* Default icon color */
+    transition: color 0.3s ease-in-out;
+}
+
+.contactIcons a:hover {
+    color: var(--primary-color); /* Change color on hover (LinkedIn blue) */
+}
+
+#learnMore p {
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 14px;
+}
