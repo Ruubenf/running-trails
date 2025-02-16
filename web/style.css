@@ -346,7 +346,7 @@ ul {
     align-items: center; /* Center content inside the form */
 }
 
-/* 🔹 General Input Field Styling */
+/* General Input Field Styling */
 #reviewForm input,
 #reviewForm textarea {
     width: 90%; /* Adjusted width */
@@ -362,7 +362,7 @@ ul {
     text-align: left; /* Ensures text alignment */
 }
 
-/* 🔹 Same Font Style for Placeholders */
+/* Same Font Style for Placeholders */
 #reviewForm input::placeholder,
 #reviewForm textarea::placeholder {
     font-family: inherit; /* Matches the input field's font */
@@ -370,7 +370,7 @@ ul {
     color: #999;
 }
 
-/* 🔹 Style when user clicks on an input */
+/* Style when user clicks on an input */
 #reviewForm input:focus,
 #reviewForm textarea:focus {
     border-color: #007bff;
@@ -379,7 +379,7 @@ ul {
     outline: none;
 }
 
-/* 🔹 Center Align Form Elements */
+/* Center Align Form Elements */
 #reviewForm .form-group {
     width: 100%;
     display: flex;
@@ -387,7 +387,7 @@ ul {
     align-items: center; /* Center align elements */
 }
 
-/* 🔹 Styling for Submit Button */
+/* Styling for Submit Button */
 #reviewForm .button-container {
     width: 100%;
     display: flex;
@@ -406,12 +406,12 @@ ul {
     transition: background 0.3s ease-in-out;
 }
 
-/* 🔹 Hover Effect for Button */
+/* Hover Effect for Button */
 #reviewForm button:hover {
     background-color: #06723c;
 }
 
-/* 🔹 Star Rating System */
+/* Star Rating System */
 .star-rating {
     display: flex;
     justify-content: center;
@@ -438,8 +438,8 @@ ul {
 
 .contactIcons a {
     font-size: 18px; /* Adjust icon size */
-    color: #555; /* Default icon color */
-    transition: color 0.3s ease-in-out;
+    color: var(--primary-color);
+    transition: var(--tran-03);
 }
 
 .contactIcons a:hover {
