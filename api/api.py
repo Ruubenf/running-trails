@@ -201,5 +201,50 @@ def create_trail():
     print(directions)
     return jsonify(directions)
 
+@app.route('/submit_review', methods=['POST'])
+def submit_review():
+    try:
+        data = request.get_json()  # Get JSON data from frontend
+
+        id_trail = data.get('id_trail')
+        runner = data.get('runner')
+        score = data.get('score')
+        text = data.get('text')
+
+        # Ensure all required fields are present
+        if not all([id_trail, runner, score, text]):
+            return jsonify({"error": "Missing fields"}), 400
+
+        conn = get_db_connection()
+        cursor = conn.cursor()
+
+        # Check if the runner exists in sa.runner
+        cursor.execute("SELECT username FROM sa.runner WHERE username = %s;", (runner,))
+        existing_runner = cursor.fetchone()
+
+        # If the runner does not exist, insert them into sa.runner
+        if not existing_runner:
+            cursor.execute("INSERT INTO sa.runner (username) VALUES (%s);", (runner,))
+            conn.commit()
+            print(f"Added new runner: {runner}")  # Debugging
+
+        # Insert the review into sa.comment
+        cursor.execute(
+            """
+            INSERT INTO sa.comment (id_trail, runner, score, text)
+            VALUES (%s, %s, %s, %s);
+            """,
+            (id_trail, runner, score, text)
+        )
+
+        conn.commit()
+        cursor.close()
+        conn.close()
+
+        return jsonify({"message": "Review submitted successfully!"}), 201
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
     app.run(debug=True)
