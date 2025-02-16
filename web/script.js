@@ -530,5 +530,5 @@ calculateBtn.addEventListener("click", function(){
 let gaPriority = document.getElementById("greenAreasPriority");
 let gaPriorityValue = document.getElementById("greenAreasPriorityValue");
 gaPriority.addEventListener("input", function(){
-    gaPriorityValue.textContent = Green Areas Priority: ${gaPriority.value};
+    gaPriorityValue.textContent = `Green Areas Priority: ${gaPriority.value}`;
 })
