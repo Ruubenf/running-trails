@@ -9,6 +9,7 @@ var map = new L.Map('leaflet', {
 	center: [38.727897, -9.164737],
 	zoom: 14
 });
+//Adjust the zoom-in and zoom-out button to be visible
 map.zoomControl.setPosition("bottomright");
 
 //Initialize sidebar
@@ -19,6 +20,7 @@ const body = document.querySelector("body"),
     modeSwitch = body.querySelector(".toggle-switch"),
     modeText = body.querySelector(".mode-text");
 
+    //Close the Sidebar
     toggle.addEventListener("click", () =>{
         sidebar.classList.toggle("close");
     });
@@ -34,10 +36,11 @@ const body = document.querySelector("body"),
         }
     });
 
-//Show Sub-menu
+//Initialize sub-menu in the sidebar
 document.addEventListener("DOMContentLoaded", function() {
     const arrows = document.querySelectorAll(".nav-link");
 
+    //Show sub-menus when clicking in the arrow
     arrows.forEach(arrow => {
         arrow.addEventListener("click", function() {
             let menuLink = this.closest(".menu-links"); 
@@ -68,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const reviewText = document.getElementById("trailTitle");
     const closestTrailItems = document.querySelectorAll(".sub-menu .clickable");
     const menuLinks = document.querySelectorAll(".menu-links > li.nav-link > a");
-    
+    //Shows details only when needed
     reviewSection.style.display = "none";
 
     //Show details of the selected trail
@@ -86,7 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     document.getElementById("trailDistance").innerHTML = `<b>Distance:</b> ${trail.distance_m} meters`;
                     document.getElementById("trailSlopemax").innerHTML = `<b>Max Slope:</b> ${trail.slope_max}°`;
                     document.getElementById("trailSlope").innerHTML = `<b>Average Slope:</b> ${trail.slope_mean}°`;
-    
+                    
+                    //Call the function to show the reviews of the trail
                     fetchComments(trail.id_0);
                 } else {
                     document.getElementById("trailDescript").textContent = "No description available.";
@@ -95,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     document.getElementById("trailSlope").textContent = "No description available.";
                 }
             })
+            //Show error message when details not found
             .catch(error => {
                 console.error("Error fetching trails:", error);
                 document.getElementById("trailDescript").textContent = "Failed to load description.";
@@ -109,9 +114,8 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch(`http://localhost:5000/trail/${trailId}/comments`)
             .then(response => response.json()) // Convert API response to JSON
             .then(comments => {
-                console.log("Received comments:", comments); // Prints comments in the devtools console
                 const commentsContainer = document.getElementById("trailComments"); 
-
+                //Structure of the review with username, score and comment
                 if (comments.length > 0) {
                     commentsContainer.innerHTML = "<ul>" + comments
                         .map(comment => {
@@ -124,61 +128,67 @@ document.addEventListener("DOMContentLoaded", function () {
                     commentsContainer.innerHTML = "No reviews available.";
                 }
             })
+            //Show error message when reviews not found
             .catch(error => {
                 console.error("Error fetching comments:", error);
                 document.getElementById("trailComments").textContent = "Failed to load reviews.";
             });
     }
-
+    //Function to show reviews only when needed
     function hideReviewSection() {
         reviewSection.style.display = "none";
     }
-
+    //Make sub-menu clickable
     closestTrailItems.forEach(item => {
         item.addEventListener("click", handleTrailClick);
     });
-    
+    //Hide review section when clicking the menu
     menuLinks.forEach(link => {
         link.addEventListener("click", hideReviewSection);
     });
 })
 
 //Top Trails from API
-fetch('http://localhost:5000/best_trails')
-    .then(response => response.json())  // Convert API response to JSON
-    .then(data => {
-        console.log("API Response:", data);  // Prints data in the devtools console
+fetchTopTrails();
+function fetchTopTrails(){    
+    fetch('http://localhost:5000/best_trails')
+        .then(response => response.json())  // Convert API response to JSON
+        .then(data => {
+            console.log("API Response:", data);  // Prints data in the devtools console
 
-        // Update trail names and scores
-        if (data.length >= 3) {
-            document.getElementById("trail1Name").textContent = data[0].name;
-            document.getElementById("trail1Score").textContent = data[0].score;
-            document.getElementById("trail2Name").textContent = data[1].name;
-            document.getElementById("trail2Score").textContent = data[1].score;
-            document.getElementById("trail3Name").textContent = data[2].name;
-            document.getElementById("trail3Score").textContent = data[2].score;
+            // Update trail names and scores
+            if (data.length >= 3) {
+                document.getElementById("trail1Name").textContent = data[0].name;
+                document.getElementById("trail1Score").textContent = data[0].score;
+                document.getElementById("trail2Name").textContent = data[1].name;
+                document.getElementById("trail2Score").textContent = data[1].score;
+                document.getElementById("trail3Name").textContent = data[2].name;
+                document.getElementById("trail3Score").textContent = data[2].score;
+            }
+
+            // Make Top Trails clickable
+            document.getElementById("trail1Name").addEventListener("click", function () {
+                showTrailOnMap(data[0], "red", "top");
+            });
+            document.getElementById("trail2Name").addEventListener("click", function () {
+                showTrailOnMap(data[1], "red", "top");
+            });
+            document.getElementById("trail3Name").addEventListener("click", function () {
+                showTrailOnMap(data[2], "red", "top");
+            });
+        })
+        //Show error message when top trails not found
+        .catch(error => {
+            console.error("Error fetching top trails:", error);
         }
+    );
+}
 
-        // Make Top Trails clickable
-        document.getElementById("trail1Name").addEventListener("click", function () {
-            showTrailOnMap(data[0], "red", "top");
-        });
-        document.getElementById("trail2Name").addEventListener("click", function () {
-            showTrailOnMap(data[1], "red", "top");
-        });
-        document.getElementById("trail3Name").addEventListener("click", function () {
-            showTrailOnMap(data[2], "red", "top");
-        });
-    })
-    .catch(error => {
-        console.error("Error fetching top trails:", error);
-    });
-
-// Closest Trails from API
+// Closest trails from API
 // Get user location
 navigator.geolocation.getCurrentPosition(position => {
     fetch(`http://localhost:5000/trails/location?lat=${position.coords.latitude}&lon=${position.coords.longitude}&epsg=4326`)
-    .then(response => response.json())
+    .then(response => response.json()) // Convert API response to JSON
     .then(data => {
         console.log("API Response:", data);
 
@@ -193,7 +203,7 @@ navigator.geolocation.getCurrentPosition(position => {
             data[i]["id_trail"] = data[i].id_0;
         }
 
-        // Make Closest Trails clickable
+        // Make closest trails clickable and show trail on the map
         document.getElementById("closestTrail1Name").addEventListener("click", function () {
             showTrailOnMap(data[0], "red", "closest");
         });
@@ -208,7 +218,7 @@ navigator.geolocation.getCurrentPosition(position => {
 
 // Show a trail on the map
 function showTrailOnMap(trail, color, section) {
-    
+    //Show error message when geometry of the trail can't be shown
     if (!trail.geometry) {
         console.error("No geometry available for this trail.");
         return;
@@ -229,33 +239,28 @@ function showTrailOnMap(trail, color, section) {
     // Add the new trail and zoom to it
     trailLayer.addTo(map);
     map.fitBounds(trailLayer.getBounds(), { padding: [50, 50] });
-
     currentTrailID = trail.id_trail;
-
 }
 
 // Search trail by Name
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.querySelector(".search-box input");
-
     const searchBox = document.querySelector(".search-box");
     searchBox.style.position = "relative";
-
     searchInput.addEventListener("input", function () {
         // Delete previous results
         let searchResults = document.getElementById("searchResults");
         if (searchResults) {
             searchResults.remove();
         }
-
+        //Searching by name based on the input
         const query = searchInput.value.trim();
-
         fetch(`http://localhost:5000/trails/search?name=${encodeURIComponent(query)}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Error en la API");
                 }
-                return response.json();
+                return response.json(); // Convert API response to JSON
             })
             .then(data => {
                 console.log("API Response:", data);
@@ -277,9 +282,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 searchResults.style.zIndex = "1000";
                 searchResults.style.marginTop = "5px";
 
+                //Check if  no trails found by Name
                 if (data.length === 0) {
                     searchResults.innerHTML = "<p style='margin: 0; padding: 5px;'>No results found</p>";
                 } else {
+                    //Loop through trails and display them
                     for (let trail of data) {
                         let trailElement = document.createElement("p");
                         trailElement.textContent = trail.name;
@@ -289,7 +296,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         trailElement.style.padding = "6px";
                         trailElement.style.borderRadius = "5px";
                         trailElement.style.transition = "background-color 0.3s, color 0.3s";
-
+                        
+                        //Styling the results box
                         trailElement.addEventListener("mouseover", function () {
                             trailElement.style.backgroundColor = "#f4f4f4";
                             trailElement.style.color = "#0f5f04";
@@ -298,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             trailElement.style.backgroundColor = "";
                             trailElement.style.color = "";
                         });
-
+                        //Show trail on map when clicking
                         trailElement.addEventListener("click", function () {
                             showTrailOnMap(trail, "red");
                             searchResults.remove();
@@ -308,10 +316,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 searchBox.appendChild(searchResults);
             })
-            .catch(error => {
-                console.error("Error fetching search results:", error);
-            });
     });
+    //Remove the search box when clicking out
     document.addEventListener("click", function (event) {
         let searchResults = document.getElementById("searchResultsName");
         if (searchResults && !searchBox.contains(event.target)) {
@@ -321,7 +327,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Function to submit a new review from a new user
-function submitReview() {
+let submitReviewBtn = document.getElementById("submitReview");
+submitReviewBtn.addEventListener("click", function submitReview() {
     // Get values from the review form
     let runner = document.getElementById("reviewRunner").value;
     let score = document.getElementById("reviewScore").value;
@@ -355,11 +362,25 @@ function submitReview() {
         // Clear the form after submission
         document.getElementById("reviewForm").reset();
 
+        // Reset stars value
+        // Update star colors
+        const stars = document.querySelectorAll(".star");
+        stars.forEach(s => {
+            s.classList.remove("selected");
+        });
+        
+        // Show new comment on screen TODO:
+        let trailComments = document.getElementById("trailComments");
+        trailComments.childNodes[0].innerHTML += `
+        <b>${reviewData.runner}</b> <span class="stars">${"⭐".repeat(reviewData.score)}</span> <p>${reviewData.text}</p>`;
+        fetchTopTrails();
     })
+    //Show error message when review not found
     .catch(error => {
         console.error("Error submitting review:", error);
     });
-}
+
+});
 
 // Handle score (stars) selection
 document.addEventListener("DOMContentLoaded", function () {
@@ -383,20 +404,19 @@ document.addEventListener("DOMContentLoaded", function () {
 document.getElementById("filterButton").addEventListener("click", function() {
     let distance = document.getElementById("distanceFilter").value;
     let terrain = document.getElementById("terrainFilter").value;
-
+    //Structuring the url for the filter request
     let url = "http://127.0.0.1:5000/trails?";
     if (distance) url += `distance_m=${distance}&`;
     if (terrain) url += `type_terra=${terrain}`;
-
     fetch(url)
-        .then(response => response.json())
+        .then(response => response.json()) // Convert object to JSON
         .then(data => {
             console.log("Filtered Data from API:", data);
             displayResults(data);
         })
         .catch(error => console.error("Error:", error));
 });
-
+//Function to show results by filter 
 function displayResults(trails) {
     let resultsDiv = document.getElementById("results");
     resultsDiv.innerHTML = "";
@@ -437,7 +457,7 @@ function displayResults(trails) {
             trailElement.style.padding = "6px";
             trailElement.style.borderRadius = "5px";
             trailElement.style.transition = "background-color 0.3s, color 0.3s";
-
+            //Styling the results box
             trailElement.addEventListener("mouseover", function () {
                 trailElement.style.backgroundColor = "#f4f4f4";
                 trailElement.style.color = "#0f5f04";
@@ -446,8 +466,8 @@ function displayResults(trails) {
                 trailElement.style.backgroundColor = "";
                 trailElement.style.color = "";
             });
-
-            trailElement.addEventListener("click", function (event) {
+            //Show trail on map when clicking
+            trailElement.addEventListener("click", function () {
                 showTrailOnMap(trail, "red");
                 resultsDiv.remove();
             });
@@ -473,7 +493,7 @@ let startingPoint,
     endingPoint,
     startingMarker = null,
     endingMarker = null;
-
+// Define starting point
 let newStartingPoint = document.getElementById("newStartingPoint");
 newStartingPoint.addEventListener("click", function () {
 
@@ -483,7 +503,7 @@ newStartingPoint.addEventListener("click", function () {
         map.removeLayer(startingMarker);
         startingMarker = null;
     }
-
+    //Show a marker for the starting point
     map.on("click", function (event) {
         if (!startingPoint){
             startingMarker = L.marker(event.latlng).addTo(map);
@@ -492,7 +512,7 @@ newStartingPoint.addEventListener("click", function () {
         }        
     });
 });
-
+//Define ending point
 let newEndingPoint = document.getElementById("newEndingPoint");
 newEndingPoint.addEventListener("click", function () {
 
@@ -502,7 +522,7 @@ newEndingPoint.addEventListener("click", function () {
         map.removeLayer(endingMarker);
         endingMarker = null;
     }
-
+    //Show a marker for the ending point
     map.on("click", function (event) {
         if (!endingPoint){
             endingMarker = L.marker(event.latlng).addTo(map);
@@ -511,22 +531,21 @@ newEndingPoint.addEventListener("click", function () {
         }        
     });
 });
-
+//Calculate the trail with the input data from markers
 let calculateBtn = document.getElementById("calculateTrail");
 calculateBtn.addEventListener("click", function(){
     let greenPriority = document.getElementById("greenAreasPriority").value;
     fetch(`http://localhost:5000/trail/create?starting=${newStartingPoint.value}&ending=${newEndingPoint.value}&green_priority=${greenPriority/10}`)
     .then(response => response.json())
     .then(trail =>{
-        //showTrailOnMap(trail, "red");
+        //Show the trail on the map
         let trailLayer = L.geoJSON(trail.geometry, {
             style: { color: "red", weight: 4 }
         });
-
         trailLayer.addTo(map);
     });
 });
-
+//Prioritize green areas close to the trail
 let gaPriority = document.getElementById("greenAreasPriority");
 let gaPriorityValue = document.getElementById("greenAreasPriorityValue");
 gaPriority.addEventListener("input", function(){
