@@ -277,9 +277,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 searchResults.style.zIndex = "1000";
                 searchResults.style.marginTop = "5px";
 
+                //Check if  no trails found by Name
                 if (data.length === 0) {
                     searchResults.innerHTML = "<p style='margin: 0; padding: 5px;'>No results found</p>";
                 } else {
+                    //Loop through trails and display them
                     for (let trail of data) {
                         let trailElement = document.createElement("p");
                         trailElement.textContent = trail.name;
@@ -308,9 +310,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 searchBox.appendChild(searchResults);
             })
-            .catch(error => {
-                console.error("Error fetching search results:", error);
-            });
     });
     document.addEventListener("click", function (event) {
         let searchResults = document.getElementById("searchResultsName");
@@ -447,7 +446,7 @@ function displayResults(trails) {
                 trailElement.style.color = "";
             });
 
-            trailElement.addEventListener("click", function (event) {
+            trailElement.addEventListener("click", function () {
                 showTrailOnMap(trail, "red");
                 resultsDiv.remove();
             });
