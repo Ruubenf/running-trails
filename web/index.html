@@ -5,18 +5,26 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Leaflet CSS to render map -->
 		<link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />		
 		<link type="text/css" rel="stylesheet" href="style.css" />
+		
 		<!--==CSS==-->
 		<link rel="stylesheet" href="style.css">
-		<!--==Boxicons CSS==-->
+		
+		<!-- CSS Sidebar icons ==-->
 		<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
-		<title>Dashboard Sidebar Menu | Dark-Light Mode</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<title>Dashboard Sidebar Menu | Dark-Light Mode</title>
 	</head>
+	
 	<body>
+		<!-- Sidebar navigation -->
 		<nav id = "sidebar" class = "sidebar">
 			<header>
+				
+				<!-- Logo and title -->
 				<div class="logo-text">
 					<h1><img src="logo.png" alt="logo" class="logo"></h1>
 					<div class="text header-text">
@@ -26,12 +34,16 @@
 					<i class="bx bx-chevron-right toggle"></i>
 				</div>
 			</header>
+			
 			<div class="menu-bar">
 				<div class="menu">
+					<!-- Search box -->
 					<li class="search-box">
 							<i class="bx bx-search icon"></i>
 							<input type="search" style="font-size: 22px" placeholder="Search...">
 					</li>
+
+					<!-- Section: Filter by-->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -54,6 +66,8 @@
 							<div id="results" class="clickable"></div>
 						</div>
 					</div>
+					
+					<!-- Section: Top Trails -->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -83,6 +97,8 @@
 							</li>
 						</div>
 					</div>
+
+					<!-- Section: Closest Trails -->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -108,19 +124,20 @@
 								</a>
 							</li>
 						</div>
+
+						<!-- Sub-section: Trail details and review list-->
 						<div class="comments">
 							<h3 id="trailTitle">Trail</h3>
 							<p id="trailDescript">Description...</p>
 							<p><span id="trailDistance">Distance...</span></p>
 							<p><span id="trailSlopemax">Slopemax...</span></p>
 							<p><span id="trailSlope">Slope...</span></p>
-							
 							<h3 id="reviewTitle">Reviews</h3>							
 							<ul id="trailComments">Reviews...</ul>
 
+							<!-- Review submission form -->
 							<form id = "reviewForm">
 								<h3>Tell us about your run!</h3>
-								
 								<div class="star-rating">
 									<span class="star" data-value="1">&#9733;</span>
 									<span class="star" data-value="2">&#9733;</span>
@@ -128,20 +145,16 @@
 									<span class="star" data-value="4">&#9733;</span>
 									<span class="star" data-value="5">&#9733;</span>
 								</div>
-								<input type="hidden" id="reviewScore" name="score" value="0">
-								<br>
-								
-								<input type = "text" id = "reviewRunner" placeholder="Your name..." required>
-								<br>
-
-								<textarea id = "reviewText" placeholder="Describe your trail adventure... " required></textarea>
-								<br>
-
+								<input type="hidden" id="reviewScore" name="score" value="0"><br>
+								<input type = "text" id = "reviewRunner" placeholder="Your name..." required><br>
+								<textarea id = "reviewText" placeholder="Describe your trail adventure... " required></textarea><br>
 								<button type="button" id="submitReview">Share Your Run!</button>
 							</form>
 							</div>
 						</div>
 					</div>
+
+					<!-- Section: Add Trail -->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -150,6 +163,8 @@
 								<i class="bx bx-chevron-down arrow" style ="margin-left: 35px;"></i>
 							</a>
 						</li>
+
+						<!-- Sub-section: Add trail settings-->
 						<div class="sub-menu">
 							<br>
 							<button id="newStartingPoint">Place Starting Point</button>
@@ -163,6 +178,8 @@
 							<button id="calculateTrail">Create trail</button>						
 						</div>
 					</div>
+
+					<!-- Section: Learn More -->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -184,6 +201,8 @@
 						</div>
 
 					</div>
+
+					<!-- Section: Contact-->
 					<div class="menu-links">
 						<li class="nav-link">
 							<a href="#">
@@ -221,6 +240,8 @@
 							
 							</li>
 					</div>
+
+					<!-- Dark/Light Mode-->
 					<div class="dark">
 						<li class="mode">
 							<div class="moon-sun">
@@ -236,7 +257,11 @@
 				</div>
 			</div>
 		</nav>
+
+		<!-- Leafletmap container -->
 		<div id="leaflet"></div>
+
+		<!-- Javascript files -->
 		<script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
 		<script src="script.js"></script>
 	</body>
