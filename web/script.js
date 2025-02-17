@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Results box
                 searchResults = document.createElement("div");
-                searchResults.id = "searchResults";
+                searchResults.id = "searchResultsName";
                 searchResults.style.backgroundColor = "white";
                 searchResults.style.border = "1px solid #ccc";
                 searchResults.style.borderRadius = "6px";
@@ -313,13 +313,14 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     });
     document.addEventListener("click", function (event) {
-        let searchResults = document.getElementById("searchResults");
+        let searchResults = document.getElementById("searchResultsName");
         if (searchResults && !searchBox.contains(event.target)) {
             searchResults.remove();
         }
     });
 });
 
+//Function to submit a new review from a new user
 function submitReview() {
     // Get values from the review form
     let runner = document.getElementById("reviewRunner").value;
@@ -463,7 +464,6 @@ function displayResults(trails) {
 document.addEventListener("click", function (event) {
     let resultsDiv = document.getElementById("filterResultsBox");
     if (resultsDiv && !document.getElementById("filterButton").contains(event.target)) {
-        handleTrailClick(event);
         resultsDiv.remove();
     }
 });
