@@ -34,6 +34,28 @@ body.dark{
     --text-color: #e7e7e7;
 }
 
+button{
+    background-color: var(--primary-color-light);
+    height:30px;
+    margin: 10px 0;
+    font-size:16px;
+    width:100%;
+}
+
+button.dark{
+    color: var(--text-color);
+}
+
+button:hover{
+    background-color: var(--primary-color);
+    color:white;
+    transition: var(--tran-02);
+}
+
+button.dark:hover{
+    color: var(--text-color);
+}
+
 /* Map from OSM */
 #leaflet{
     height: 100vh;
@@ -450,4 +472,12 @@ ul {
     text-align: justify;
     color: var(--text-color);
     font-size: 14px;
+}
+
+#greenAreasPriority{
+    width: 100%;
+}
+
+#greenAreasPriorityValue{
+    font-size:20px;
 }
