@@ -148,36 +148,41 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 })
 
-//Top trails from API
-fetch('http://localhost:5000/best_trails')
-    .then(response => response.json())  // Convert API response to JSON
-    .then(data => {
+//Top Trails from API
+fetchTopTrails();
+function fetchTopTrails(){    
+    fetch('http://localhost:5000/best_trails')
+        .then(response => response.json())  // Convert API response to JSON
+        .then(data => {
+            console.log("API Response:", data);  // Prints data in the devtools console
 
-        // Update trail's names and scores
-        if (data.length >= 3) {
-            document.getElementById("trail1Name").textContent = data[0].name;
-            document.getElementById("trail1Score").textContent = data[0].score;
-            document.getElementById("trail2Name").textContent = data[1].name;
-            document.getElementById("trail2Score").textContent = data[1].score;
-            document.getElementById("trail3Name").textContent = data[2].name;
-            document.getElementById("trail3Score").textContent = data[2].score;
+            // Update trail names and scores
+            if (data.length >= 3) {
+                document.getElementById("trail1Name").textContent = data[0].name;
+                document.getElementById("trail1Score").textContent = data[0].score;
+                document.getElementById("trail2Name").textContent = data[1].name;
+                document.getElementById("trail2Score").textContent = data[1].score;
+                document.getElementById("trail3Name").textContent = data[2].name;
+                document.getElementById("trail3Score").textContent = data[2].score;
+            }
+
+            // Make Top Trails clickable
+            document.getElementById("trail1Name").addEventListener("click", function () {
+                showTrailOnMap(data[0], "red", "top");
+            });
+            document.getElementById("trail2Name").addEventListener("click", function () {
+                showTrailOnMap(data[1], "red", "top");
+            });
+            document.getElementById("trail3Name").addEventListener("click", function () {
+                showTrailOnMap(data[2], "red", "top");
+            });
+        })
+        //Show error message when top trails not found
+        .catch(error => {
+            console.error("Error fetching top trails:", error);
         }
-
-        // Make top trails clickable and show trail on the map
-        document.getElementById("trail1Name").addEventListener("click", function () {
-            showTrailOnMap(data[0], "red", "top");
-        });
-        document.getElementById("trail2Name").addEventListener("click", function () {
-            showTrailOnMap(data[1], "red", "top");
-        });
-        document.getElementById("trail3Name").addEventListener("click", function () {
-            showTrailOnMap(data[2], "red", "top");
-        });
-    })
-    //Show error message when best trails not found
-    .catch(error => {
-        console.error("Error fetching top trails:", error);
-    });
+    );
+}
 
 // Closest trails from API
 // Get user location
@@ -322,7 +327,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Function to submit a new review from a new user
-function submitReview() {
+let submitReviewBtn = document.getElementById("submitReview");
+submitReviewBtn.addEventListener("click", function submitReview() {
     // Get values from the review form
     let runner = document.getElementById("reviewRunner").value;
     let score = document.getElementById("reviewScore").value;
@@ -356,12 +362,25 @@ function submitReview() {
         // Clear the form after submission
         document.getElementById("reviewForm").reset();
 
+        // Reset stars value
+        // Update star colors
+        const stars = document.querySelectorAll(".star");
+        stars.forEach(s => {
+            s.classList.remove("selected");
+        });
+        
+        // Show new comment on screen TODO:
+        let trailComments = document.getElementById("trailComments");
+        trailComments.childNodes[0].innerHTML += `
+        <b>${reviewData.runner}</b> <span class="stars">${"⭐".repeat(reviewData.score)}</span> <p>${reviewData.text}</p>`;
+        fetchTopTrails();
     })
     //Show error message when review not found
     .catch(error => {
         console.error("Error submitting review:", error);
     });
-}
+
+});
 
 // Handle score (stars) selection
 document.addEventListener("DOMContentLoaded", function () {
