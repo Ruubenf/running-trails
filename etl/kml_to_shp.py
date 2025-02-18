@@ -7,7 +7,15 @@ import fiona  # To list layers into the KML file
 PATH = join(dirname(abspath(__file__)), "data")  # Get the path of the current file
 
 def convert_kml_to_shp(input_folder, output_folder):
-    
+    """ Converts KML files into shapefiles
+    Args:
+        input_folder : str
+            directory of KML files
+        output_folder : str
+            directory where the shapefiles are stored
+    Returns:
+        None
+    """
     # Create the output file
     makedirs(join(output_folder), exist_ok=True)
 
@@ -38,6 +46,19 @@ def convert_kml_to_shp(input_folder, output_folder):
 
 
 def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
+    """ Collates the shapefiles into a single shapefile then assigns a CRS
+    Args:
+        input_folder : str
+            directory of individual shapefiles
+        output_folder : str
+            directory where the merged shapefile will be stored
+        output_shp : str
+            name of the output merged Shapefile (e.g., "merged_trails.shp").
+        target_epsg : int
+            EPSG code for the intended CRS.
+    Returns:
+        None
+    """
     shapefiles = [f for f in listdir(input_folder) if f.endswith(".shp")]
     gdfs = []
     for file in shapefiles:
@@ -68,6 +89,12 @@ def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
 
 
 def init_converter():
+    """ Executes the conversion of multiple kml files to one shapefile
+    Args:
+        None
+    Returns:
+        None
+    """
     original = join(PATH, "original")
     preprocessed = join(PATH, "preprocessed")
     processed = join(PATH, "processed")

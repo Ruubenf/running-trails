@@ -11,8 +11,13 @@ DB_CONFIG = {
     "port": "5432",
     "encoding": "unicode"}
 
-# Database connection function
 def get_db_connection():
+    """ Function to connect ro database
+    Args:
+        None
+    Returns:
+        None
+    """
     return psycopg2.connect(
         database=DB_CONFIG["database"],
         user=DB_CONFIG["user"],
@@ -23,6 +28,12 @@ def get_db_connection():
     )
 
 def get_geoms(df):
+    """ Extracts and formats geometries from a DataFrame into a list of SQL ST_MAKEPOINT() expressions.
+    Args:
+        df (pandas.DataFrame): A DataFrame containing a "geometry" column with coordinate dictionaries.
+    Returns:
+        list: A list of strings, where each string is a concatenated series of ST_MAKEPOINT(lat, lon) expressions.
+    """
     result = []
     for i in range(df.size):
         geom = df["geometry"][i]
