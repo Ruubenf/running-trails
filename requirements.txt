@@ -11,3 +11,4 @@ fiona
 flask-cors
 psycopg2
 michaelsjp::openrouteservice
+shutil
