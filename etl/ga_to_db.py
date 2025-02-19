@@ -1,11 +1,9 @@
 import requests
-import geopandas as gpd
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import osm2geojson
 import json
 import os
-from osgeo import ogr
 
 DB_CONFIG = {
     "database": "running-trails",
@@ -17,25 +15,25 @@ DB_CONFIG = {
 
 # Database connection function
 def get_db_connection():
-    db_name =  "running-trails"
-    db_user = "postgres"
-    db_password = "postgres"
-    db_host = "localhost"
-    db_port =  "5432"
-
-    return f"PG:dbname={db_name} user={db_user} password={db_password} host={db_host} port={db_port}"
-
+    return psycopg2.connect(
+        database=DB_CONFIG["database"],
+        user=DB_CONFIG["user"],
+        password=DB_CONFIG["password"],
+        host=DB_CONFIG["host"],
+        port=DB_CONFIG["port"],
+        cursor_factory=RealDictCursor
+    )
 
 def get_osm_ga_query():
     """
     Returns osm_query in the style of:
-        way["landuse"="grass"](area.searchArea)(if:count_distinct_members() + 1 == count_members());
-        way["landuse"="paddy"](area.searchArea)(if:count_distinct_members() + 1 == count_members());
+        way["landuse"="grass"];
+        way["landuse"="paddy"];
 
-        way["leisure"="park"](area.searchArea)(if:count_distinct_members() + 1 == count_members());
-        way["leisure"="natural_reserve"](area.searchArea)(if:count_distinct_members() + 1 == count_members());
+        way["leisure"="park"](area.searchArea);
+        way["leisure"="natural_reserve"](area.searchArea);
 
-        way["natural"](area.searchArea)(if:count_distinct_members() + 1 == count_members());
+        way["natural"](area.searchArea);
 
         for each node, way and relation
     """
@@ -94,19 +92,27 @@ if response.status_code != 200:
 xml = response.text
 geojson = osm2geojson.xml2geojson(xml, filter_used_refs=False)
 
-ga_osm_path = os.path.join("etl", "data", "green_areas.osm")
+""" Uncomment it if you want to save the ga geojson file
+ga_osm_path = os.path.join("etl", "data", "green_areas.geojson")
 with open(ga_osm_path, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=4, ensure_ascii=False)
 
-os.system("osm2pgsql-bin/osm2pgsql.exe -a -d running-trails -U postgres -H localhost --password=postgres --schema sa --proj 3763 --prefix ga etl/data/green_areas.osm")
 
-ga_src = ogr.Open(ga_osm_path)
+ga_osm_path = os.path.join("data", "green_areas.geojson")
+with open(ga_osm_path, "r") as f:
+    geojson = json.load(f)
+"""
 
-# Get first layer
-source_layer = ga_src.GetLayer()
+conn = get_db_connection()
+cursor = conn.cursor()
 
-# Create db connection 
-ga_target = ogr.Open(get_db_connection(), 1) # 1 is write mode
 
-ogr.Layer.CopyLayer(source_layer, ga_target, "sa.ga")
+for id, feature in enumerate(geojson["features"]):
+    if feature["geometry"]["type"] == "MultiPolygon" or feature["geometry"]["type"] == "Polygon":
+        geometry = json.dumps(feature["geometry"])
+        query = f"""INSERT INTO sa.green_area VALUES ({id}, ST_MULTI(ST_TRANSFORM(ST_SetSRID(ST_GeomFromGeoJSON('{geometry}'), 4326), 3763)));"""
+        cursor.execute(query)
+        rides = conn.commit()
 
+cursor.close()
+conn.close()
