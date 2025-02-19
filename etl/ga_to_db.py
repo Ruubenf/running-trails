@@ -5,7 +5,7 @@ import osm2geojson
 import json
 import os
 
-def savega_to_db():
+def save_ga_to_db():
     DB_CONFIG = {
         "database": "running-trails",
         "user": "postgres",
