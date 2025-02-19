@@ -80,7 +80,7 @@ def savefootway_to_db():
             3763)
         );"""
         cursor.execute(query, (i))
-        rides = conn.commit()
+    conn.commit()
 
     cursor.close()
     conn.close()
