@@ -3,7 +3,6 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import osm2geojson
 import json
-import os
 
 def save_ga_to_db():
     DB_CONFIG = {
@@ -82,7 +81,7 @@ def save_ga_to_db():
     out skel qt;
     """
 
-    # 2. Make request to Overpass API
+    # Make request to Overpass API
     url = "http://overpass-api.de/api/interpreter"
     response = requests.get(url, params={"data": overpass_query})
 
@@ -107,13 +106,32 @@ def save_ga_to_db():
     conn = get_db_connection()
     cursor = conn.cursor()
 
-
+    #Insert green areas into sa.green_area table
     for id, feature in enumerate(geojson["features"]):
         if feature["geometry"]["type"] == "MultiPolygon" or feature["geometry"]["type"] == "Polygon":
             geometry = json.dumps(feature["geometry"])
             query = f"""INSERT INTO sa.green_area VALUES ({id}, ST_MULTI(ST_TRANSFORM(ST_SetSRID(ST_GeomFromGeoJSON('{geometry}'), 4326), 3763)));"""
             cursor.execute(query)
-            rides = conn.commit()
+    conn.commit()
+
+    #Execute a merge to update sa.trail db
+    merge_query = """
+    UPDATE sa.trail
+    SET green_areas_50m = green_areas.green_areas_50m_2
+    FROM (
+        SELECT 
+            SUM(ST_LENGTH(ST_INTERSECTION(t.geom, bga.geom))) AS green_areas_50m_2,
+            t.id_0 AS id
+        FROM 
+            sa.trail AS t, 
+            (SELECT ST_UNION(ST_BUFFER(ga.geom, 50)) AS geom FROM sa.green_area AS ga) AS bga
+        GROUP BY t.id_0 
+    ) AS green_areas
+    WHERE sa.trail.id_0 = green_areas.id;
+    """
+
+    cursor.execute(merge_query)
+    conn.commit()
 
     cursor.close()
     conn.close()
