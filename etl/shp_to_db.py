@@ -62,6 +62,7 @@ def saveshp_to_db():
     # Send all the inserted values to the db
     session.commit()
 
+# Delete unnecesary shapefiles from the preprocessing steps
 def del_folders():
     """ Deletes 'preprocessed', 'processed', and 'appended' folders if they exist to clear out unnecessary files.
     Args:
