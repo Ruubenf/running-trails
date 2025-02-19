@@ -5,7 +5,7 @@ from geoalchemy2 import Geometry
 import os
 import shutil
 
-def save_to_db():
+def saveshp_to_db():
     """ Save shapefile contents into the sa.trail table in the database
     Args:
         None
