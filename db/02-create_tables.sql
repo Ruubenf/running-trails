@@ -48,6 +48,5 @@ CREATE TABLE IF NOT EXISTS sa.footway
 (
     fid SERIAL NOT NULL,
     geom geometry(LineString,3763),
-    osm_id character varying,
     CONSTRAINT footway_lines_pkey PRIMARY KEY (fid)
 );
