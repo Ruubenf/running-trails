@@ -82,7 +82,7 @@ def save_ga_to_db():
     out skel qt;
     """
 
-    # 🔹 2. Hacer la petición a Overpass API
+    # 2. Make request to Overpass API
     url = "http://overpass-api.de/api/interpreter"
     response = requests.get(url, params={"data": overpass_query})
 
