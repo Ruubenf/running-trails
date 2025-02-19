@@ -79,6 +79,7 @@ def modify_columns():
     gdf["descript"] = np.random.choice(descriptions, size = len(gdf))
     gdf["type_terra"] = np.random.choice(terrain, size = len(gdf))
 
+    # Calculate the slopes from the linestrings
     def compute_slopes(gdf):
         """ Computes the average and maximum slope values per trail and appends the values to the shapefile.
         Args:
