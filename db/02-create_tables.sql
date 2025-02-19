@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS sa.green_area
 (
 	id INTEGER PRIMARY KEY,
 	geom GEOMETRY(MULTIPOLYGON, 3763)
-)
+);
 
 -- Table: sa.footway
 DROP TABLE IF EXISTS sa.footway;
@@ -50,13 +50,4 @@ CREATE TABLE IF NOT EXISTS sa.footway
     geom geometry(LineString,3763),
     osm_id character varying,
     CONSTRAINT footway_lines_pkey PRIMARY KEY (fid)
-)
-
--- Table: sa.footway
-DROP TABLE IF EXISTS sa.footway;
-CREATE TABLE IF NOT EXISTS sa.footway
-(
-    id SERIAL NOT NULL,
-    geom geometry(LineString, 3763),
-    CONSTRAINT footway_lines_pkey PRIMARY KEY (id)
-)
+);
