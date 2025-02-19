@@ -1,6 +1,5 @@
 -- Database: running-trails
 
-DROP DATABASE IF EXISTS "running-trails";
 CREATE DATABASE "running-trails"
     WITH
     OWNER = postgres
