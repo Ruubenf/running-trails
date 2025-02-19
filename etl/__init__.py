@@ -11,10 +11,10 @@ init_converter()
 
 modify_columns()
 
-saveshp_to_db()
-
 savefootway_to_db()
 
 save_ga_to_db()
+
+saveshp_to_db()
 
 del_folders()
