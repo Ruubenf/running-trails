@@ -43,8 +43,6 @@ def convert_kml_to_shp(input_folder, output_folder):
             print(e)
 
 
-
-
 def merge_shapefiles(input_folder, output_folder, output_shp, target_epsg):
     """ Collates the shapefiles into a single shapefile then assigns a CRS
     Args:
