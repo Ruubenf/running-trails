@@ -58,20 +58,9 @@ def modify_columns():
         "Coastal trail with ocean breeze"
     ]
 
-    terrain = [
-        "asphalt",
-        "dirtroad",
-        "grass",
-        "cobblestone",
-        "boardwalk",
-        "concrete",
-        "rubberized tracks"
-    ]
-
-    # Assign random descriptions to the 'descript' and 'type_terra" columns
+    # Assign random descriptions to the 'descript' column
     gdf["descript"] = np.random.choice(descriptions, size = len(gdf))
-    gdf["type_terra"] = np.random.choice(terrain, size = len(gdf))
-
+    
     # Compute the length of each trail in meters
     gdf["distance_m"] = gdf.length
 
