@@ -2,6 +2,13 @@ import requests
 import os
 
 def get_trails():
+    """ Download trail routes from API
+    Args:
+        None
+    Returns:
+        None
+    """
+    # Create the output file
     # API base url
     base_url = "https://trails.rfemenia.com/get_trails.php"
     download_url = "https://trails.rfemenia.com/trails_dir/"
