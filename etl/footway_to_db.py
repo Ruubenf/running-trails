@@ -44,7 +44,7 @@ def savefootway_to_db():
         result = []
         for i in range(df.size):
             geom = df["geometry"][i]
-            result.append(", ".join([f"ST_MAKEPOINT({g['lat']},{g['lon']})" for g in geom]))
+            result.append(", ".join([f"ST_MAKEPOINT({g['lon']},{g['lat']})" for g in geom]))
         
         return result
 
@@ -84,3 +84,6 @@ def savefootway_to_db():
 
     cursor.close()
     conn.close()
+
+if __name__ == "__main__":
+    savefootway_to_db()
