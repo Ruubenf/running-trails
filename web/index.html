@@ -40,9 +40,9 @@
 					<!-- Search box -->
 					<li class="search-box">
 							<i class="bx bx-search icon"></i>
-							<input type="search" style="font-size: 22px" placeholder="Search...">
+							<input type="search" id="searchInput" style="font-size: 22px" placeholder="Search...">
 					</li>
-
+					
 					<!-- Section: Filter by-->
 					<div class="menu-links">
 						<li class="nav-link">
@@ -58,9 +58,8 @@
 							<label for="terrainFilter" style="color: var(--text-color)">Terrain Type:</label>
 							<select id="terrainFilter">
 								<option value="">All</option>
-								<option value="trail">Trail</option>
-								<option value="paved">Asphalt</option>
-								<option value="gravel">Grass</option>
+								<option value="Non pavimented">Non pavimented</option>
+								<option value="Pavimented">Pavimented</option>
 							</select>
 							<button id="filterButton" style="position: relative;">Filter</button>
 							<div id="results" class="clickable"></div>
