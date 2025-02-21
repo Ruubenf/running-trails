@@ -1,3 +1,5 @@
+-- Adds pseudo reviews
+
 INSERT INTO sa.runner (username)
 VALUES 
     ('johndoe'),
