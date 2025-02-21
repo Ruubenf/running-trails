@@ -116,10 +116,3 @@ def modify_columns():
     gdf.to_file(output_appended_shp, driver="ESRI Shapefile")
 
     print(f"✅Updated shapefile saved as: {output_appended_shp}")
-
-    # Upload to PostgreSQL (PostGIS)
-    # db_connection = "postgresql://postgres:postgres@localhost:5432/running-trails"
-    # engine = create_engine(db_connection)
-
-    # gdf.to_postgis(name="trail", con=engine, schema="sa", if_exists="append", index=False)
-    # print("Data successfully uploaded to PostgreSQL!"
