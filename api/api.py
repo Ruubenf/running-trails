@@ -42,7 +42,7 @@ def get_rides():
     type_terra= request.args.get('type_terra', type=str)
     terrain_mapping = {
         "Non pavimented": ["Dirt/Gravel/Unknown"],
-        "Pavimented": ["paved"]
+        "Pavimented": ["Pavimented"]
     }
     query= """
         SELECT id_0, descript, name, location, slope_max, slope_mean, type_terra, 
