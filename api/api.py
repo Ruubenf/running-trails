@@ -41,9 +41,8 @@ def get_rides():
     distance_m= request.args.get('distance_m', type=int)
     type_terra= request.args.get('type_terra', type=str)
     terrain_mapping = {
-        "trail": ["boardwalk", "rubberized tracks"],
-        "paved": ["asphalt", "concrete", "cobblestone"],
-        "gravel": ["grass", "dirtroad"]
+        "Non pavimented": ["Dirt/Gravel/Unknown"],
+        "Pavimented": ["paved"]
     }
     query= """
         SELECT id_0, descript, name, location, slope_max, slope_mean, type_terra, 
