@@ -27,12 +27,7 @@ def execute_sql_file(cursor, file_path):
         cursor.execute(sql_content)
 
 def create_db():
-    """Executes the sql files in the SQL_FILES list order
-    Args:
-        None
-    Returns:
-        None
-    """
+    """Executes the sql files in the SQL_FILES list order    """
     try:
         # Connect to the PostgreSQL database
         conn = psycopg2.connect(**DB_CONFIG)
