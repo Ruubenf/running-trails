@@ -3,7 +3,7 @@ from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import openrouteservice as ors
-import key as KEY
+from key import KEY
 
 
 DB_CONFIG = {
@@ -198,6 +198,56 @@ def create_trail():
     #directions = [list(reversed(coord)) for coord in directions['features'][0]['geometry']['coordinates']]
     
     print(directions)
+    return jsonify(directions)
+
+# Create trail with 2 given points
+@app.route('/trail/submit', methods=['GET'])
+def submit_trail():
+    starting = request.args.get('starting')
+    ending = request.args.get('ending')
+    green_priority = request.args.get('green_priority')
+    name = request.args.get('name')
+    description = request.args.get('description')
+
+    if not starting or not ending or not green_priority:
+        return jsonify({"error": f"Missing arguments {starting}, {ending}, {green_priority}"})
+
+    #coords = [list(starting), list(ending)]
+
+    starting_pt = [float(c) for c in starting.split(", ")]
+    ending_pt = [float(c) for c in ending.split(", ")]
+
+    coords = (starting_pt, ending_pt)
+
+    client = ors.Client(key=KEY)
+    groute_req = {
+    "coordinates": [list(reversed(point)) for point in coords],
+    "format": "geojson",
+    "profile": "foot-walking",
+    "options":{"profile_params":{"weightings":{"green":green_priority}}},
+    "language": "en",
+    }
+
+    directions = client.directions(**groute_req)["features"][0]
+    geom = [f"ST_MAKEPOINT({g[0]},{g[1]},0)" for g in directions["geometry"]["coordinates"]]
+    distance_m = directions["properties"]["summary"]["distance"]
+
+    print(distance_m)
+    print()
+
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        f"""
+        INSERT INTO sa.trail (name, descript, location, slope_mean, slope_max, distance_m, geom)
+        VALUES ('{name}', '{description}', 'Lisbon', 0, 0, {distance_m}, ST_TRANSFORM(ST_SetSRID(ST_MAKELINE(ARRAY[{", ".join(geom)}]), 4326), 3763));
+        """
+    )
+
+    conn.commit()
+    cursor.close()
+    conn.close()
+    
     return jsonify(directions)
 
 @app.route('/submit_review', methods=['POST'])
