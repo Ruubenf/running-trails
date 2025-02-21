@@ -45,6 +45,21 @@ button:hover{
     color:var(--primary-color-light); /* Dynamic background color transition */
     transition: var(--tran-02); /*Dynamic transition*/
 }
+
+input{
+    height:25px;
+    margin: 10px 0;
+    font-size:16px;
+    width: 97%;
+}
+
+textarea{
+    height:50px;
+    margin: 10px 0;
+    font-size:16px;
+    width: 97%;
+}
+
 /* Map from OSM */
 #leaflet{
     height: 100vh;

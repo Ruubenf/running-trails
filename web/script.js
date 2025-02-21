@@ -545,3 +545,24 @@ let gaPriorityValue = document.getElementById("greenAreasPriorityValue");
 gaPriority.addEventListener("input", function(){
     gaPriorityValue.textContent = `Green Areas Priority: ${gaPriority.value}`;
 })
+
+//Submit the trail with the input data from markers
+let submitTrailBtn = document.getElementById("submitTrail");
+submitTrailBtn.addEventListener("click", function(){
+    let greenPriority = document.getElementById("greenAreasPriority").value;
+    let newTrailName = document.getElementById("newTrailName").value;
+    let newTrailDescription = document.getElementById("newTrailDescription").value;
+    fetch(`http://localhost:5000/trail/submit?starting=${newStartingPoint.value}&ending=${newEndingPoint.value}&green_priority=${greenPriority/10}&name=${newTrailName}&description=${newTrailDescription}`)
+    .then(response => response.json())
+    .then(trail =>{
+        // Remove previous layers
+        map.eachLayer(layer => {
+            if (layer instanceof L.GeoJSON) {
+                map.removeLayer(layer);
+            }
+        });
+        document.getElementById("greenAreasPriority").value = 8;
+        document.getElementById("newTrailName").value = "";
+        document.getElementById("newTrailDescription").value = "";
+    });
+});
