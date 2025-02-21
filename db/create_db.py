@@ -16,12 +16,23 @@ SQL_DIR = "db/"  # Update with your folder path
 SQL_FILES = ["02-create_tables.sql", "03-create_indexes.sql", "04-create_triggers.sql", "data.sql"]
 
 def execute_sql_file(cursor, file_path):
-    """Executes an SQL file."""
+    """Executes an SQL file.
+    Args:
+        None
+    Returns:
+        None
+    """
     with open(file_path, "r", encoding="utf-8") as file:
         sql_content = file.read()
         cursor.execute(sql_content)
 
 def create_db():
+    """Executes the sql files in the SQL_FILES list order
+    Args:
+        None
+    Returns:
+        None
+    """
     try:
         # Connect to the PostgreSQL database
         conn = psycopg2.connect(**DB_CONFIG)
